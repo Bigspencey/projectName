@@ -1,0 +1,2 @@
+# projectName
+Optimizely Static Hosting

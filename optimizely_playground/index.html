@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://playground.optimizely.com/ -->
+<html lang="en" class="js csstransitions jPanelMenu"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="./Optimizely - Playground_files/2126681184.js"></script>
+<script src="//cdn.optimizely.com/js/1378913300.js"></script>
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Optimizely - Webinar</title>
+
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="http://playground.optimizely.com/css/style.css">
+<link rel="stylesheet" href="http://playground.optimizely.com/css/colors/optimizely.css" id="colors">
+ 
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="chrome-extension://dhpigdedofpjkgnnniadcdjaiecbnofn/js/injected.js"></script><meta property="opt_qa:optx_inactive" exp_id="2091650612" exp_name="Shipping Address" exp_var_num="2"><meta property="opt_qa:optx_inactive" exp_id="2121620703" exp_name="Promo Code Field" exp_var_num="2"><meta property="opt_qa:optx_inactive" exp_id="2124620122" exp_name="Remove Navigation" exp_var_num="2"><meta property="opt_qa:optx_inactive" exp_id="2134300074" exp_name="Checkout - Progress Bar" exp_var_num="2"><meta property="opt_qa:optx_inactive" exp_id="2178530101" exp_name="Testing" exp_var_num="2"><meta property="opt_qa:optx_inactive" exp_id="2186350303" exp_name="Test Playground" exp_var_num="2"><meta property="opt_qa:project_id" content="2126681184"><meta property="opt_qa:account_id" content="1434120272"></head>
+
+<body class="boxed" data-menu-position="closed"><div id="opt-toolbar" style="display:none;"><div id="qaSelectDropdownDiv">API Function: <select id="opt_qa_apiselect"><option value="0">Select API Function</option><option value="activate">activate</option><option value="addToAudience">addToAudience</option><option value="removeFromAudience">removeFromAudience</option><option value="removeFromAllAudiences">removeFromAllAudiences</option><option value="bucketVisitor">bucketVisitor</option><option value="customTag">customTag</option><option value="delayPageviewTracking">delayPageviewTracking</option><option value="setDimensionValue">setDimensionValue</option><option value="disable">disable</option><option value="log">log</option><option value="optOut">optOut</option><option value="optOutThirdPartyCookies">optOutThirdPartyCookies</option><option value="bindTrackElement">bindTrackElement</option><option value="trackEvent">trackEvent</option><option value="addToSegment">addToSegment</option><option value="removeFromSegment">removeFromSegment</option><option value="removeFromAllSegments">removeFromAllSegments</option></select></div><div id="qaToolBoxInputGroup"></div><div id="qaToolBoxSubmit"><input id="opt_qa_toolbox_submit" name="submit" type="submit" value="Run!"></div><div id="opt_qa_toolbox_helptxt"></div><a href="" id="opt_qa_toolbox_helplink" target="_blank">Learn More</a></div>
+<div class="jPanelMenu-panel" style="left: 0px; position: relative;"><div id="wrapper">
+
+
+<!-- Top Bar
+================================================== -->
+<div id="top-bar">
+	<div class="container">
+
+		<!-- Top Bar Menu -->
+		<div class="ten columns">
+			<ul class="top-bar-menu">
+				<li><i class="fa fa-phone"></i> (564) 123 4567</li>
+				<li><i class="fa fa-envelope"></i> <a href="http://playground.optimizely.com/#">support@optimizely.com</a></li>
+				<li>
+					<div class="top-bar-dropdown">
+						<span>English</span>
+						<ul class="options">
+							<li><div class="arrow"></div></li>
+							<li><a href="http://playground.optimizely.com/#">English</a></li>
+							<li><a href="http://playground.optimizely.com/#">Polish</a></li>
+							<li><a href="http://playground.optimizely.com/#">Deutsch</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="top-bar-dropdown">
+						<span>USD</span>
+						<ul class="options">
+							<li><div class="arrow"></div></li>
+							<li><a href="http://playground.optimizely.com/#">USD</a></li>
+							<li><a href="http://playground.optimizely.com/#">PLN</a></li>
+							<li><a href="http://playground.optimizely.com/#">EUR</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Social Icons -->
+		<div class="six columns">
+			<ul class="social-icons">
+				<li><a class="facebook" href="http://playground.optimizely.com/#"><i class="icon-facebook"></i></a></li>
+				<li><a class="twitter" href="http://playground.optimizely.com/#"><i class="icon-twitter"></i></a></li>
+				<li><a class="dribbble" href="http://playground.optimizely.com/#"><i class="icon-dribbble"></i></a></li>
+				<li><a class="gplus" href="http://playground.optimizely.com/#"><i class="icon-gplus"></i></a></li>
+				<li><a class="pinterest" href="http://playground.optimizely.com/#"><i class="icon-pinterest"></i></a></li>
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<!-- Header
+================================================== -->
+<div class="container">
+
+
+	<!-- Logo -->
+	<div class="four columns">
+		<div id="logo">
+			<h1><a href="./Optimizely - Playground_files/Optimizely - Playground.html"><img src="./Optimizely - Playground_files/logoblue_on_transparent.png" alt="Trizzy"></a></h1>
+		</div>
+	</div>
+
+
+	<!-- Additional Menu -->
+	<div class="twelve columns">
+		<div id="additional-menu">
+			<ul>
+				<li><a href="http://playground.optimizely.com/shopping-cart">Shopping Cart</a></li>
+				<li><a href="http://playground.optimizely.com/#">WishList <span>(2)</span></a></li>
+				<li><a href="http://playground.optimizely.com/checkout-billing-details">Checkout</a></li>
+				<li><a href="http://playground.optimizely.com/#">My Account</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- Shopping Cart -->
+	<div class="twelve columns">
+
+		<div id="cart">
+
+			<!-- Button -->
+			<div class="cart-btn">
+				<a href="http://playground.optimizely.com/#" class="button adc">$178.00</a>
+			</div>
+
+			<div class="cart-list">
+
+			<div class="arrow"></div>
+
+				<div class="cart-amount">
+					<span>2 items in the shopping cart</span>
+				</div>
+
+					<ul>
+						<li>
+							<a href="http://playground.optimizely.com/#"><img src="./Optimizely - Playground_files/small_product_list_08.jpg" alt=""></a>
+							<a href="http://playground.optimizely.com/#">Converse All Star Trainers</a>
+							<span>1 x $79.00</span>
+							<div class="clearfix"></div>
+						</li>
+
+						<li>
+							<a href="http://playground.optimizely.com/#"><img src="./Optimizely - Playground_files/small_product_list_09.jpg" alt=""></a>
+							<a href="http://playground.optimizely.com/#">Tommy Hilfiger <br> Shirt Beat</a>
+							<span>1 x $99.00</span>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+
+				<div class="cart-buttons button">
+					<a href="http://playground.optimizely.com/shopping-cart" class="view-cart"><span data-hover="View Cart"><span>View Cart</span></span></a>
+					<a href="http://playground.optimizely.com/checkout-billing-details" class="checkout"><span data-hover="Checkout">Checkout</span></a>
+				</div>
+				<div class="clearfix">
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Search -->
+		<nav class="top-search">
+			<form action="http://playground.optimizely.com/#" method="get">
+				<button><i class="fa fa-search"></i></button>
+				<input class="search-field" type="text" placeholder="Search" value="">
+			</form>
+		</nav>
+
+	</div>
+
+</div>
+
+
+<!-- Navigation
+================================================== -->
+<div class="container">
+	<div class="sixteen columns">
+		
+		<a href="http://playground.optimizely.com/#menu" class="menu-trigger"><i class="fa fa-bars"></i> Menu</a>
+
+		<nav id="navigation">
+			<ul class="menu js-enabled arrows" id="responsive">
+
+				<li><a href="./Optimizely - Playground_files/Optimizely - Playground.html" class="current homepage" id="current">Home</a></li>
+
+				<li class="dropdown">
+					<a href="http://playground.optimizely.com/#">Mens</a>
+					
+				</li>
+
+
+				<li>
+					<a href="http://playground.optimizely.com/#">Womens</a>
+					
+				</li>
+
+
+				<li class="dropdown">
+					<a href="http://playground.optimizely.com/#">Kids</a>
+					
+				</li>
+
+
+				<li class="dropdown">
+					<a href="http://playground.optimizely.com/#">Infants</a>
+					
+				</li>
+				
+
+				
+
+			</ul>
+		</nav>
+	</div>
+</div>
+
+
+
+<!-- Slider
+================================================== -->
+<div class="container fullwidth-element home-slider">
+
+	<div class="tp-banner-container" style="overflow: visible;">
+		<div class="tp-banner revslider-initialised tp-simpleresponsive hovered" id="revslider-648" style="height: 480px;">
+			<ul style="display: block; overflow: hidden; width: 100%; height: 100%; max-height: 480px;">
+				<!-- Slide 1  -->
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" style="width: 100%; height: 100%; overflow: hidden; opacity: 1; visibility: visible; left: 0px; top: 0px; position: absolute; z-index: 18;">
+					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="left top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="images/slider/slider.jpg" data-src="images/slider/slider.jpg" style="width: 100%; height: 100%; position: relative; opacity: 0; background-image: url(http://playground.optimizely.com/images/slider/slider.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 0% 0%; background-repeat: no-repeat;"></div></div>
+ 					<div class="caption sfb fadeout tp-caption start" data-x="145" data-y="170" data-speed="400" data-start="800" data-easing="Power4.easeOut" style="min-height: 0px; min-width: 0px; line-height: 18px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px; left: 145px; top: 170px; visibility: visible; opacity: 0; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); -webkit-transform: none;">
+						<h2>Dress Sharp</h2>
+						<h3>Learn from the classics</h3>
+						<a href="http://playground.optimizely.com/#" class="caption-btn">Shop The Collection</a>
+					</div>
+				</li>
+
+				<!-- Slide 2  -->
+				<li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; opacity: 1; position: absolute; z-index: 20;">
+ 					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="left top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="images/slider/slider2.jpg" data-src="images/slider/slider2.jpg" style="width: 100%; height: 100%; opacity: 1; background-image: url(http://playground.optimizely.com/images/slider/slider2.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 0% 0%; background-repeat: no-repeat;"></div></div>
+ 					<div class="caption dark sfb fadeout tp-caption start" data-x="750" data-y="170" data-speed="400" data-start="800" data-easing="Power4.easeOut" style="min-height: 0px; min-width: 0px; line-height: 18px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px; left: 750px; top: 170px; visibility: visible; opacity: 1; transition: all 0s ease 0s; -webkit-transition: all 0s ease 0s; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1); -webkit-transform: none;">
+						<h2>Urban Style</h2>
+						<h3>Every cut and colour</h3>
+						<a href="http://playground.optimizely.com/#" class="caption-btn">Shop The Collection</a>
+					</div>
+				</li>
+
+				<!-- Slide 3  -->
+				<li data-transition="fadetotopfadefrombottom" data-slotamount="7" data-masterspeed="1000" style="width: 100%; height: 100%; overflow: hidden; visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 0;">
+ 					<div class="slotholder" style="width:100%;height:100%;" data-duration="undefined" data-zoomstart="undefined" data-zoomend="undefined" data-rotationstart="undefined" data-rotationend="undefined" data-ease="undefined" data-bgpositionend="undefined" data-bgposition="left top" data-kenburns="undefined" data-easeme="undefined" data-bgfit="cover" data-bgfitend="undefined" data-owidth="undefined" data-oheight="undefined"><div class="tp-bgimg defaultimg" data-lazyload="undefined" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" data-lazydone="undefined" src="images/slider/slider3.jpg" data-src="images/slider/slider3.jpg" style="width: 100%; height: 100%; opacity: 0; background-image: url(http://playground.optimizely.com/images/slider/slider3.jpg); background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: 0% 0%; background-repeat: no-repeat;"></div></div>
+ 					<div class="caption dark sfb fadeout tp-caption start" data-x="850" data-y="170" data-speed="400" data-start="800" data-easing="Power4.easeOut">
+						<h2>New In</h2>
+						<h3>Pants and T-Shirts</h3>
+						<a href="http://playground.optimizely.com/#" class="caption-btn">Shop The Collection</a>
+					</div>
+				</li>
+
+			</ul>
+		<div class="tp-loader spinner0" style="visibility: hidden; opacity: 0;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-bannertimer" style="width: 58.2444444444444%; visibility: hidden;"></div></div>
+	<div style="position: absolute; margin-top: -25px; left: 0px; top: 240px;" class="tp-leftarrow tparrows default"></div><div style="position: absolute; margin-top: -25px; right: 0px; top: 240px;" class="tp-rightarrow tparrows default"></div></div>
+</div>
+
+
+<!-- Featured
+================================================== -->
+<div class="container">
+
+	<div class="one-third column">
+		<a href="http://playground.optimizely.com/#" class="img-caption">
+			<figure>
+				<img src="./Optimizely - Playground_files/featured_img_1.jpg" alt="">
+				<figcaption>
+					<h3>Men's Shirts</h3>
+					<span>25% Off Summer Styles</span>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+	<div class="one-third column">
+		<a href="http://playground.optimizely.com/#" class="img-caption">
+			<figure>
+				<img src="./Optimizely - Playground_files/featured_img_2.jpg" alt="">
+				<figcaption>
+					<h3>Running Shoes</h3>
+					<span>Sports Discount</span>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+	<div class="one-third column">
+		<a href="http://playground.optimizely.com/#" class="img-caption">
+			<figure>
+				<img src="./Optimizely - Playground_files/featured_img_3.jpg" alt="">
+				<figcaption>
+					<h3>Winter Jackets</h3>
+					<span>End-of Season Sales</span>
+				</figcaption>
+			</figure>
+		</a>
+	</div>
+
+</div>
+<div class="clearfix"></div>
+
+
+<!-- New Arrivals
+================================================== -->
+<div class="container">
+
+	<!-- Headline -->
+	<div class="sixteen columns">
+		<h3 class="headline">New Arrivals</h3>
+		<span class="line margin-bottom-0"></span>
+	</div>
+
+	<!-- Carousel -->
+	<div id="new-arrivals" class="showbiz-container sixteen columns" style="-webkit-user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); touch-action: none;">
+
+		<!-- Navigation -->
+		<div class="showbiz-navigation">
+			<div id="showbiz_left_1" class="sb-navigation-left notclickable"><i class="fa fa-angle-left"></i></div>
+			<div id="showbiz_right_1" class="sb-navigation-right"><i class="fa fa-angle-right"></i></div>
+		</div>
+		<div class="clearfix"></div>
+
+		<!-- Products -->
+		<div class="showbiz" data-left="#showbiz_left_1" data-right="#showbiz_right_1" data-play="#showbiz_play_1" id="sbiz4690">
+			<div class="overflowholder" style="height: 474px;">
+
+				<ul style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00333, 0, 0, 0, 1); height: 474px; width: 40000px;">
+
+					<!-- Product #1 -->
+					<li style="width: 280px;">
+						<figure class="product">
+							<div class="mediaholder">
+								<a href="http://playground.optimizely.com/#">
+									<img alt="" src="./Optimizely - Playground_files/shop_item_01.jpg">
+									<div class="cover">
+										<img alt="" src="./Optimizely - Playground_files/shop_item_01_hover.jpg">
+									</div>
+								</a>
+								<a href="http://playground.optimizely.com/#" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							</div>
+
+							<a href="http://playground.optimizely.com/#">
+								<section>
+									<span class="product-category">Skirts</span>
+									<h5>Brown Mini Skirt</h5>
+									<span class="product-price">$79.00</span>
+								</section>
+							</a>
+						</figure>
+					</li>
+
+
+					<!-- Product #2 -->
+					<li style="width: 280px;">
+						<figure class="product">
+							<div class="mediaholder">
+								<a href="http://playground.optimizely.com/#">
+									<img alt="" src="./Optimizely - Playground_files/shop_item_02.jpg">
+									<div class="cover">
+										<img alt="" src="./Optimizely - Playground_files/shop_item_02_hover.jpg">
+									</div>
+								</a>
+								<a href="http://playground.optimizely.com/#" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							</div>
+
+							<a href="http://playground.optimizely.com/#">
+								<section>
+									<span class="product-category">Shoes</span>
+									<h5>Glory High Shoes</h5>
+									<span class="product-price">$99.00</span>
+								</section>
+							</a>
+						</figure>
+					</li>
+
+
+					<!-- Product #3 -->
+					<li style="width: 280px;">
+						<figure class="product">
+							<div class="product-discount">SALE</div>
+							<div class="mediaholder">
+								<a href="http://playground.optimizely.com/single-product-page.html">
+									<img alt="" src="./Optimizely - Playground_files/shop_item_03.jpg">
+									<div class="cover">
+										<img alt="" src="./Optimizely - Playground_files/shop_item_03_hover.jpg">
+									</div>
+								</a>
+								<a href="http://playground.optimizely.com/#" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							</div>
+
+							<a href="http://playground.optimizely.com/single-product-page.html">
+								<section>
+									<span class="product-category">Suits</span>
+									<h5>Wool Two-Piece Suit</h5>
+									<span class="product-price-discount">$499.00<i>$399.00</i></span>
+								</section>
+							</a>
+						</figure>
+					</li>
+
+
+					<!-- Product #4 -->
+					<li style="width: 280px;">
+						<figure class="product">
+							<div class="mediaholder">
+								<a href="http://playground.optimizely.com/#">
+									<img alt="" src="./Optimizely - Playground_files/shop_item_04.jpg">
+									<div class="cover">
+										<img alt="" src="./Optimizely - Playground_files/shop_item_04_hover.jpg">
+									</div>
+								</a>
+								<a href="http://playground.optimizely.com/#" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							</div>
+
+							<a href="http://playground.optimizely.com/#">
+								<section>
+									<span class="product-category">Longsleeves</span>
+									<h5>Vintage Stripe Jumper</h5>
+									<span class="product-price">$49.00</span>
+								</section>
+							</a>
+						</figure>
+					</li>
+
+
+					<!-- Product #5 -->
+					<li style="width: 280px;">
+						<figure class="product">
+							<div class="mediaholder">
+								<a href="http://playground.optimizely.com/single-product-page.html">
+									<img alt="" src="./Optimizely - Playground_files/shop_item_05.jpg">
+									<div class="cover">
+										<img alt="" src="./Optimizely - Playground_files/shop_item_05_hover.jpg">
+									</div>
+								</a>
+								<a href="http://playground.optimizely.com/#" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							</div>
+
+							<a href="http://playground.optimizely.com/singlee-product-page.html">
+								<section>
+									<span class="product-category">Accessories</span>
+									<h5>Vintage Sunglasses</h5>
+									<span class="product-price">$29.00</span>
+								</section>
+							</a>
+						</figure>
+					</li>
+
+
+					<!-- Product #6 -->
+					<li style="width: 280px;">
+						<figure class="product">
+							<div class="mediaholder">
+								<a href="http://playground.optimizely.com/single-product-page.html">
+									<img alt="" src="./Optimizely - Playground_files/shop_item_06.jpg">
+									<div class="cover">
+										<img alt="" src="./Optimizely - Playground_files/shop_item_06_hover.jpg">
+									</div>
+								</a>
+								<a href="http://playground.optimizely.com/#" class="product-button"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							</div>
+
+							<a href="http://playground.optimizely.com/single-product-page.html">
+								<section>
+									<span class="product-category">Shirts</span>
+									<h5>Solid Blue Polo Shirt</h5>
+									<span class="product-price">$29.00</span>
+								</section>
+							</a>
+						</figure>
+					</li>
+
+				</ul>
+				<div class="clearfix"></div>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- Parallax Banner
+================================================== -->
+<div class="parallax-banner fullwidth-element" data-background="#000" data-opacity="0.45" data-height="200" style="-webkit-transform: translatey(0);transform: translatey(0);opacity: 1;-webkit-transition: -webkit-transform 0.66s ease-in-out 1s,  opacity 0.66s ease-in-out 1s;transition: transform 0.66s ease-in-out 1s, opacity 0.66s ease-in-out 1s;-webkit-perspective: 1000;-webkit-backface-visibility: hidden;">
+	<img src="./Optimizely - Playground_files/parallax.jpg" alt="" style="top: -680.856259659969px;">
+	<div class="parallax-overlay" style="opacity: 0.45; background-color: rgb(0, 0, 0);"></div>
+	<div class="parallax-title" style="top: 68.5px;">End of season sale <span>Up to 35% off Women’s Denim</span></div>
+</div>
+
+
+<!-- Product Lists
+================================================== -->
+<div class="container margin-bottom-25">
+
+	<!-- Best Sellers -->
+	<div class="one-third column">
+
+		<!-- Headline -->
+		<h3 class="headline">Best Sellers</h3>
+		<span class="line margin-bottom-0"></span>
+		<div class="clearfix"></div>
+
+
+		<ul class="product-list">
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_01.jpg" alt="">
+				<div class="product-list-desc">Canvas Backpack <i>$59.00</i></div>
+			</a></li>
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_02.jpg" alt="">
+				<div class="product-list-desc">Long Sleeve Shirt <i>$29.00</i></div>
+			</a></li>
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_03.jpg" alt="">
+				<div class="product-list-desc">Tommy Hilfiger Shirt Beat <i>$89.00</i></div>
+			</a></li>
+
+			<li><div class="clearfix"></div></li>
+
+		</ul>
+
+	</div>
+
+
+	<!-- Top Rated -->
+	<div class="one-third column">
+
+		<!-- Headline -->
+		<h3 class="headline">Top Rated</h3>
+		<span class="line margin-bottom-0"></span>
+		<div class="clearfix"></div>
+
+
+		<ul class="product-list top-rated">
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_04.jpg" alt="">
+				<div class="product-list-desc with-rating">Brogue Boots in Leather <i>$99.00</i>
+					<div class="rating five-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
+				</div>
+			</a></li>
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_05.jpg" alt="">
+				<div class="product-list-desc with-rating">Slim Jeans With Blue Tint <i>$79.00</i>
+					<div class="rating four-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
+				</div>
+			</a></li>
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_06.jpg" alt="">
+				<div class="product-list-desc with-rating">New Look Fairisle Scarf <i>$19.00</i>
+					<div class="rating three-stars">
+						<div class="star-rating"></div>
+						<div class="star-bg"></div>
+					</div>
+				</div>
+			</a></li>
+
+			<li><div class="clearfix"></div></li>
+
+		</ul>
+
+	</div>
+
+
+	<!-- Weekly Sales -->
+	<div class="one-third column">
+
+		<!-- Headline -->
+		<h3 class="headline">Weekly Sales</h3>
+		<span class="line margin-bottom-0"></span>
+		<div class="clearfix"></div>
+
+
+		<ul class="product-list discount">
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_07.jpg" alt="">
+				<div class="product-list-desc">Short Sleeve Polo Shirt <i>$29.00<b>$19.00</b></i></div>
+			</a></li>
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_08.jpg" alt="">
+				<div class="product-list-desc">Long Sleeve Shirt <i>$99.00<b>$79.00</b></i></div>
+			</a></li>
+
+			<li><a href="http://playground.optimizely.com/#">
+				<img src="./Optimizely - Playground_files/small_product_list_09.jpg" alt="">
+				<div class="product-list-desc">Tommy Hilfiger Shirt Beat <i>$499.00<b>$399.00</b></i></div>
+			</a></li>
+
+			<li><div class="clearfix"></div></li>
+
+		</ul>
+
+	</div>
+
+</div>
+<div class="clearfix"></div>
+
+
+<!-- Latest Articles
+================================================== -->
+<div class="container">
+
+	<!-- Headline -->
+	<div class="sixteen columns">
+		<h3 class="headline">Latest Articles</h3>
+		<span class="line margin-bottom-30"></span>
+	</div>
+
+	<!-- Post #1 -->
+	<div class="four columns">
+		<article class="from-the-blog">
+
+			<figure class="from-the-blog-image">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><img src="./Optimizely - Playground_files/from_the_blog_01.jpg" alt=""></a>
+				<div class="hover-icon"></div>
+			</figure>
+
+			<section class="from-the-blog-content">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><h5>Amazon Raises Threshold for Free Shipping</h5></a>
+				<i>By Vasterad on May 31, 2014</i>
+				<span>Pellentesque ultricies vehicula eleifend. Aenean eu nunc semper faucibus sapien viverra.</span>
+				<a href="http://playground.optimizely.com/blog-single-post.html" class="button gray">Read More</a>
+			</section>
+
+		</article>
+	</div>
+
+	<!-- Post #2 -->
+	<div class="four columns">
+		<article class="from-the-blog">
+
+			<figure class="from-the-blog-image">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><img src="./Optimizely - Playground_files/from_the_blog_02.jpg" alt=""></a>
+				<div class="hover-icon"></div>
+			</figure>
+
+			<section class="from-the-blog-content">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><h5>How To Read The Symbols on Your Clothing Tags</h5></a>
+				<i>By Vasterad on May 16, 2014</i>
+				<span>Morbi quis magna nec lacus nunc eratu pharetra lorem sed sapien velit adipiscing. </span>
+				<a href="http://playground.optimizely.com/blog-single-post.html" class="button gray">Read More</a>
+			</section>
+
+		</article>
+	</div>
+
+	<!-- Post #3 -->
+	<div class="four columns">
+		<article class="from-the-blog">
+
+			<figure class="from-the-blog-image">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><img src="./Optimizely - Playground_files/from_the_blog_03.jpg" alt=""></a>
+				<div class="hover-icon"></div>
+			</figure>
+
+			<section class="from-the-blog-content">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><h5>Online Shopping Hit New Highs on Mobile Sales</h5></a>
+				<i>By Vasterad on May 10, 2014</i>
+				<span>Donec non egestas nisl. Aliquam tincidunt sem sed nisl dictum. Fusce gravida arius gravida.</span>
+				<a href="http://playground.optimizely.com/blog-single-post.html" class="button gray">Read More</a>
+			</section>
+
+		</article>
+	</div>
+
+	<!-- Post #4 -->
+	<div class="four columns">
+		<article class="from-the-blog">
+
+			<figure class="from-the-blog-image">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><img src="./Optimizely - Playground_files/from_the_blog_04.jpg" alt=""></a>
+				<div class="hover-icon"></div>
+			</figure>
+
+			<section class="from-the-blog-content">
+				<a href="http://playground.optimizely.com/blog-single-post.html"><h5>How to Choose Size - Does Your Shirt Fit Properly?</h5></a>
+				<i>By Vasterad on April 20, 2014</i>
+				<span>Nullam eget ante cursus, dignissim velit sit amet, tempus massa bibendum venenatis.</span>
+				<a href="http://playground.optimizely.com/blog-single-post.html" class="button gray">Read More</a>
+			</section>
+
+		</article>
+	</div>
+
+</div>
+
+<div class="margin-top-50"></div>
+
+
+<!-- Footer
+================================================== -->
+<div id="footer">
+
+	<!-- Container -->
+	<div class="container">
+
+		<div class="four columns">
+			<img src="./Optimizely - Playground_files/logo-footer.png" alt="" class="margin-top-10">
+			<p class="margin-top-15">Nulla facilisis feugiat magna, ut molestie metus hendrerit vitae. Vivamus tristique lectus at varius rutrum. Integer lobortis mauris non consectetur eleifend.</p>
+		</div>
+
+		<div class="four columns">
+
+			<!-- Headline -->
+			<h3 class="headline footer">Customer Service</h3>
+			<span class="line"></span>
+			<div class="clearfix"></div>
+
+			<ul class="footer-links">
+				<li><a href="http://playground.optimizely.com/#">Order Status</a></li>
+				<li><a href="http://playground.optimizely.com/#">Payment Methods</a></li>
+				<li><a href="http://playground.optimizely.com/#">Delivery &amp; Returns</a></li>
+				<li><a href="http://playground.optimizely.com/#">Privacy Policy</a></li>
+				<li><a href="http://playground.optimizely.com/#">Terms &amp; Conditions</a></li>
+			</ul>
+
+		</div>
+
+		<div class="four columns">
+
+			<!-- Headline -->
+			<h3 class="headline footer">My Account</h3>
+			<span class="line"></span>
+			<div class="clearfix"></div>
+
+			<ul class="footer-links">
+				<li><a href="http://playground.optimizely.com/#">My Account</a></li>
+				<li><a href="http://playground.optimizely.com/#">Order History</a></li>
+				<li><a href="http://playground.optimizely.com/#">Wish List</a></li>
+			</ul>
+
+		</div>
+
+		<div class="four columns">
+
+			<!-- Headline -->
+			<h3 class="headline footer">Newsletter</h3>
+			<span class="line"></span>
+			<div class="clearfix"></div>
+			<p>Sign up to receive email updates on new product announcements, gift ideas, special promotions, sales and more.</p>
+
+			<form action="http://playground.optimizely.com/#" method="get">
+				<button class="newsletter-btn" type="submit">Join</button>
+				<input class="newsletter" type="text" placeholder="mail@example.com" value="">
+			</form>
+		</div>
+
+	</div>
+	<!-- Container / End -->
+
+</div>
+<!-- Footer / End -->
+
+<!-- Footer Bottom / Start -->
+<div id="footer-bottom">
+
+	<!-- Container -->
+	<div class="container">
+
+		<div class="eight columns">© Copyright 2014 by <a href="http://playground.optimizely.com/#">Optimizely</a>. All Rights Reserved.</div>
+		<div class="eight columns">
+			<ul class="payment-icons">
+				<li><img src="./Optimizely - Playground_files/visa.png" alt=""></li>
+				<li><img src="./Optimizely - Playground_files/mastercard.png" alt=""></li>
+				<li><img src="./Optimizely - Playground_files/skrill.png" alt=""></li>
+				<li><img src="./Optimizely - Playground_files/moneybookers.png" alt=""></li>
+				<li><img src="./Optimizely - Playground_files/paypal.png" alt=""></li>
+			</ul>
+		</div>
+
+	</div>
+	<!-- Container / End -->
+
+</div>
+<!-- Footer Bottom / End -->
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="http://playground.optimizely.com/#"></a></div>
+
+</div></div><ul class="js-enabled arrows" id="jPanelMenu-menu" style="width: 250px; z-index: -1; display: none;">
+
+				<li><a href="./Optimizely - Playground_files/Optimizely - Playground.html" class="current homepage" id="current">Home</a></li>
+
+				<li class="">
+					<a href="http://playground.optimizely.com/#">Mens</a>
+					
+				</li>
+
+
+				<li>
+					<a href="http://playground.optimizely.com/#">Womens</a>
+					
+				</li>
+
+
+				<li class="">
+					<a href="http://playground.optimizely.com/#">Kids</a>
+					
+				</li>
+
+
+				<li class="">
+					<a href="http://playground.optimizely.com/#">Infants</a>
+					
+				</li>
+				
+
+				
+
+			</ul>
+
+
+<!-- Java Script
+================================================== -->
+<script src="./Optimizely - Playground_files/jquery-1.11.0.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery-migrate-1.2.1.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.jpanelmenu.js"></script>
+<script src="./Optimizely - Playground_files/jquery.themepunch.plugins.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.themepunch.revolution.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.themepunch.showbizpro.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.magnific-popup.min.js"></script>
+<script src="./Optimizely - Playground_files/hoverIntent.js"></script>
+<script src="./Optimizely - Playground_files/superfish.js"></script>
+<script src="./Optimizely - Playground_files/jquery.pureparallax.js"></script>
+<script src="./Optimizely - Playground_files/jquery.pricefilter.js"></script>
+<script src="./Optimizely - Playground_files/jquery.selectric.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.royalslider.min.js"></script>
+<script src="./Optimizely - Playground_files/SelectBox.js"></script>
+<script src="./Optimizely - Playground_files/modernizr.custom.js"></script>
+<script src="./Optimizely - Playground_files/waypoints.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.flexslider-min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.counterup.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.tooltips.min.js"></script>
+<script src="./Optimizely - Playground_files/jquery.isotope.min.js"></script>
+<script src="./Optimizely - Playground_files/puregrid.js"></script>
+<script src="./Optimizely - Playground_files/stacktable.js"></script>
+<script src="./Optimizely - Playground_files/custom.js"></script>
+
+
+
+<style id="jPanelMenu-style-master">@media only screen and (max-width: 767px) { body{width:100%}.jPanelMenu,body{overflow-x:hidden}#jPanelMenu-menu{display:block;position:fixed;top:0;left:0;height:100%;z-index:-1;overflow-x:hidden;overflow-y:scroll;-webkit-overflow-scrolling:touch}.jPanelMenu-panel{position:static;left:0;top:0;z-index:2;width:100%;min-height:100%;background:rgb(233, 233, 233)}}</style><a style="display:none" id="#showbiz_play_1" class="sb-navigation-play"><i class="sb-icon-play sb-playbutton"></i><i class="sb-icon-pause sb-pausebutton"></i></a></body><div id="tiptip_holder" style="max-width:200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></html>

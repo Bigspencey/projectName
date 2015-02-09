@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-<script src="//cdn.optimizely.com/js/2450760347.js"></script>
+
     <title>GoT Official Store</title>
 
     <!-- Bootstrap Core CSS -->
@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/shop-homepage.css" rel="stylesheet">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -114,7 +115,7 @@
                             <img src="assets/dragon_eggs.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$1,000.00</h4>
-                                <h4><a href="#">Dragon Eggs</a>
+                                <h4><a href="item_pages/essos_items.html">Dragon Eggs</a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -174,51 +175,16 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="assets/drogo_sword.png" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$3,100.00</h4>
-                                <h4><a href="#">Drogo's Sword</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">6 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
+                    
+                    <!-- items initially hidden until user clicks "View More" -->                    
+                    <div id="hidden-initially"></div>
+                    
+                    
+                    <div class="col-sm-4 col-lg-4 col-md-4" id="view-more-link">
+                        <a href="#" onclick="viewMore()">View More Items</a>
                     </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="assets/tent.png" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Essos Style Tent</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">18 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <div id="placeholder" class="col-sm-4 col-lg-4 col-md-4"></div>
+                    
                    <div class="col-sm-4 col-lg-4 col-md-4">
                         <h4><a href="#">Game of Thrones Geek?</a>
                         </h4>
@@ -257,6 +223,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script>
+        function viewMore(){
+            document.getElementById("hidden-initially").innerHTML = "<div class=\"col-sm-4 col-lg-4 col-md-4\"><div class=\"thumbnail\"><img src=\"assets/drogo_sword.png\" alt=\"\"><div class=\"caption\"><h4 class=\"pull-right\">$3,100.00</h4><h4><a href=\"#\">Drogo's Sword</a></h4><p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div><div class=\"ratings\"><p class=\"pull-right\">6 reviews</p><p><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star-empty\"></span><span class=\"glyphicon glyphicon-star-empty\"></span></p></div></div></div><div class=\"col-sm-4 col-lg-4 col-md-4\"><div class=\"thumbnail\"><img src=\"assets/tent.png\" alt=\"\"><div class=\"caption\"><h4 class=\"pull-right\">$94.99</h4><h4><a href=\"#\">Essos Style Tent</a></h4><p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div><div class=\"ratings\"><p class=\"pull-right\">18 reviews</p><p><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star\"></span><span class=\"glyphicon glyphicon-star-empty\"></span></p></div></div></div>"
+            document.getElementById("view-more-link").style.display = "none";
+            document.getElementById("view-more-link").style.visibility = "hidden";
+        }
+    </script>
+    
 </body>
 
 </html>

@@ -1,0 +1,2 @@
+window.Adform.Tracking.TrackingPointId = 9650326;
+Adform.Tracking.CreateIframeElement("http://track.adform.net/serving/container/?pm=357051&lid=9650326&ctype=0&media=0&PageName=investors.com%7cregister&rnd=1833925934&cpref=http%3a%2f%2fwww.investors.com%2fproducts%2fofferselection.aspx%3fcmpn%3dLDB_ANNUAL%26src%3dAURLCR1&loc=http%3a%2f%2fwww.investors.com%2fregister%2fdefault.aspx%3fcmpn%3dLDB_ANNUAL%26src%3dAURLCR1%26promo%3d%26tags%3d%26RetUrl%3d%26UpSell%3d0%26tc%3d");

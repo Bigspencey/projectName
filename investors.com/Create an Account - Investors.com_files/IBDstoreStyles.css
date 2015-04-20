@@ -1,0 +1,8 @@
+﻿
+@import url("../../css/interfaces.css");
+@import url("../../css/global.css");
+@import url("../../css/forms.css");
+@import url("../../css/ibd-store.css");
+@import url("../../css/ibdStore.css");
+
+body { margin: 0; padding: 0; text-align: center; background: #375f8e url(../../images/bacMain.gif) repeat-y 50% 0; }

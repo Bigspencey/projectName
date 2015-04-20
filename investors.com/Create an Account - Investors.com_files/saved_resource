@@ -1,0 +1,81 @@
+window.Adform.Tracking.TrackingPointId = 9623803;
+try{
+adfname = location.hostname + location.pathname;
+adfname = adfname.replace("www.", "");
+adfname = adfname.replace(".aspx", "");
+adfname = adfname.replace(".asp", "");
+adfname = adfname.replace(".htm", "");
+adfname = adfname.replace(".php", "");
+adfname = adfname.replace(".html", "");
+adfname = adfname.toLowerCase().replace("default", "");
+adfname = adfname.toLowerCase().replace("index", "");
+adfname = adfname.replace(/\//g, "|")
+
+
+if (adfname.match(/\d/g)) {
+
+    match = adfname.match(/.*(\|.*\|)/);
+    adfname = match[0];
+}
+
+if (adfname == "investors.com|" || adfname == "investors.com") {
+    adfname = "investors.com|homepage";
+}
+
+
+if (adfname.toLowerCase().indexOf("quotes") != -1) {
+    adfname = adfname.toLowerCase().split("quotes")[0];
+    adfname = adfname + "quotes";
+}
+
+
+if (adfname.toLowerCase().indexOf("portfolio") != -1) {
+    adfname = adfname.toLowerCase().split("portfolio")[0];
+    adfname = adfname + "portfolio";
+}
+
+if (adfname.toLowerCase().indexOf("stock-checkup") != -1) {
+    adfname = adfname.toLowerCase().split("stock-checkup")[0];
+    adfname = adfname + "stock-checkup";
+}
+
+if (adfname.toLowerCase().indexOf("products") != -1) {
+    adfname = adfname.toLowerCase().split("products")[0];
+    adfname = adfname + "products";
+}
+
+if (adfname.toLowerCase().indexOf("financial-dictionary") != -1) {
+    adfname = adfname.toLowerCase().split("financial-dictionary")[0];
+    adfname = adfname + "financial-dictionary";
+}
+
+if (adfname.toLowerCase().indexOf("about-ibd") != -1) {
+    adfname = adfname.toLowerCase().split("about-ibd")[0];
+    adfname = adfname + "about-ibd";
+}
+
+if (adfname.toLowerCase().indexOf("about-ibd") != -1) {
+    adfname = adfname.toLowerCase().split("about-ibd")[0];
+    adfname = adfname + "about-ibd";
+}
+
+if (adfname.toLowerCase().indexOf("localhost") != -1) {
+    adfname = "localhost";
+}
+
+if (adfname.toLowerCase().indexOf("newsletter") != -1) {
+    adfname = adfname.toLowerCase().split("newsletter")[0];
+    adfname = adfname + "newsletter";
+}
+
+if (adfname.toLowerCase().indexOf("editorial") != -1) {
+    adfname = adfname.toLowerCase().split("editorial")[0];
+    adfname = adfname + "editorial";
+}
+
+
+adf.Params.PageName = encodeURIComponent(adfname);
+adf.Params.Divider = encodeURIComponent('|');
+
+adf.track(357051);
+}catch(e){}

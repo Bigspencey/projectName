@@ -1,0 +1,1 @@
+var template_switchToRedemptionLoggedIn={template:$('<h2 id="redmeptionLinkText" class="em">'+clientMessages["ALLP.text.lateLogin.REDEMPTION_LINK"]+'</h2><div id="redmeptionLinkButton" class="tr">'+'<span class="button">'+clientMessages["ALLP.text.UseMyPoints"]+"</span>"+"</div>")};

@@ -1,0 +1,4 @@
+.currentactive button{background-color:#dc291e;border-color:#b94b33;}
+.tab.active button span.triangle{background:url('/img/buttons/active-tab-triangle.png') top left;width:31px;height:15px;position:absolute;bottom:-15px;left:50%;margin-left:-15px;z-index:+99;}
+.outline{margin:5px 10px 5px 0!important;}
+div.triangle1{background:url('/img/buttons/active-tab-triangle.png');width:31px;height:15px;left:40%;top:-1.5px;position:relative;z-index:+99;}

@@ -1,0 +1,429 @@
+dt,dd{float:left;}
+dt,.label-form{font-weight:bold;line-height:16px;min-height:24px;padding-top:8px;}
+dd input[type="text"],dd input[type="password"],.input-field input[type="text"],.input-field input[type="password"]{width:237px;height:30px;min-height:30px;line-height:100%;padding-left:11px;font-family:Helvetica,sans-serif;color:#414142;font-size:14px;float:left;}
+dd input.form-short{width:64px;margin-right:18px;padding:0;text-align:center;}
+dd input.form-med{width:80px;padding:0;text-align:center;margin:0!important;}
+dd.phone-field input{margin:0 3px;}
+.requiered-note{font-style:italic;padding-bottom:5px;line-height:16px;font-size:12px;}
+.breadcrumb{padding-top:12px;}
+.bracket,.bracket-right,.hyphen{float:left;line-height:30px;min-height:30px;min-width:5px;}
+.hyphen{margin:0 3px 0 2px;}
+.bracket-right{margin-right:3px;}
+div.body-content>#sidebar:first-child{padding-top:15px!important;}
+.ghost{color:#D7D5D5!important;font-family:"ClarendonBt",Arial,serif!important;font-size:15px;}
+#sidebar{padding-top:7px;}
+.box{padding:0 0 66px;}
+.category-title{margin-top:7px;}
+.cutomize-checkbox div{display:inline-block;font-size:14px;margin-right:-4px;width:21px;}
+.cutomize-checkbox div.text{width:auto;padding:3px 0 0 8px;vertical-align:middle;max-width:935px;}
+.left-nav ul li a.on{font-weight:bold;}
+.position-relative{position:relative;}
+.password-tooltip-container-absolute{left:250px;position:absolute;}
+.full .footer-email-error{background-color:#FFF;}
+.subtitle{font-weight:bold;font-size:16px;line-height:18px;padding:12px 0 8px;}
+.login-container{width:980px;margin:0 auto;line-height:16px;padding-top:15px;}
+.login-container .required,.forgot-container .required{font-size:12px;font-style:italic;line-height:24px;padding-top:5px;}
+.login-container dt{width:170px;padding-right:10px;min-height:25px;padding-top:12px;font-weight:normal;float:none;}
+.login-container em{color:#DC291E;}
+.login-container .cat-subtitle{width:470px;}
+.login-container .button.ovallon{width:182px;height:47px;line-height:45px;margin:26px 0 0;}
+.login-container .signin-container{box-sizing:border-box;-moz-box-sizing:border-box;float:left;width:485px;background-color:#FFF;border:1px solid #D5D7D8;padding:28px 24px 43px 50px;min-height:357px;}
+.login-container .signin-container input[type="text"],.signin-container input[type="password"]{width:222px;height:35px;min-height:35px;line-height:100%;}
+.login-container .signin-container .signin-form{padding:4px 0 0;}
+.login-container .signin-container .signin-form div{margin-bottom:15px;}
+.login-container .signin-container .signin-form div.call-to-action{margin:3px 0 0 10px;}
+.login-container .signin-container .signin-form .call-to-action,.login-container .signin-container .signin-form .call-to-action a,.login-container .signin-container .signin-form .call-to-action span{line-height:15px;}
+.login-container .signin-container .signin-form .call-to-action span.bullet{height:15px;}
+.login-container .signin-container .signin-remember input[type="checkbox"]{margin-right:7px;}
+.login-container .signin-container .system-link{padding:0 0 16px;display:inline-block;}
+.login-container .register-container{box-sizing:border-box;-moz-box-sizing:border-box;float:right;width:485px;max-width:485px;background-color:#FFF;margin-left:10px;border:1px solid #D5D7D8;padding:10px 24px 39px 45px;min-height:357px;}
+.login-container .register-container p{padding:16px 0 5px;}
+.login-container .register-container ul{padding-top:8px;}
+.login-container .register-container ul li{background:url("/img/common/redcheckMarkoption.png") 5px 8px no-repeat transparent;padding:14px 0 14px 37px;}
+.login-container .register-container .button.ovallon{margin:40px 0 0;}
+.forgot-container{padding-top:12px;}
+.forgot-container .forgot-form{width:450px;padding-top:17px;}
+.forgot-container .forgot-form dt{font-size:16px;line-height:18px;padding:8px 10px 0 0;font-weight:bold;width:190px;min-height:24px;}
+.forgot-container .forgot-form em{color:#DC291E;}
+.forgot-container .forgot-form .error{padding-left:200px;}
+.forgot-container .forgot-form .button.ovallon{height:40px;line-height:38px;width:150px;float:left;margin-top:20px;font-size:15px;}
+.display-right-block{display:inline-block;float:left;padding:26px 0 0 35px!important;margin:0!important;text-align:right;}
+.forgot-container .display-right-block{padding-top:34px!important;}
+.map-container .map-store p{padding:3px 0 3px 25px;}
+.map-container .map-store .map-store-title{font-weight:bold;font-size:16px;line-height:18px;padding:10px 0 10px 0;}
+.register-account-container{padding-top:12px;line-height:21px;}
+.register-account-container .subtitle{font-size:22px;line-height:26px;font-weight:bold;padding:0 0 5px;}
+.register-account-container .second-subtitle{font-weight:bold;padding:15px 0 4px;}
+.register-account-container .cutomize-checkbox div.textvpp{max-width:935px;vertical-align:top;padding-top:1px;}
+.register-account-container .register-account-form{padding:12px 0 5px;}
+.register-account-container .register-account-form dt{width:150px;padding-right:10px;}
+.register-account-container .register-account-form .error,.register-account-container .register-account-form dt.error{width:250px;padding-left:160px;font-weight:normal;}
+.register-account-container .register-account-form dt.error{clear:both;float:none;padding:0 0 0 160px;min-height:16px;}
+.register-account-container .register-account-form dd{margin-bottom:20px;}
+.register-account-container .register-account-form select{width:250px;max-width:250px;}
+.signup-email-container{padding:10px 0;line-height:16px;}
+.signup-email-container .signup-policy{padding-top:34px;}
+.signup-email-container .signup-policy a{color:#535353;text-decoration:underline;}
+.signup-email-container .signup-option{padding:26px 9px 2px;}
+.signup-email-container .signup-option p{font-weight:bold;padding:5px 0 5px 28px;}
+.register-account-container .map-container{width:793px;margin-top:23px;}
+.register-account-container .map-container .zip-locator,.register-account-container .map-container .map-results{padding-top:10px;}
+.register-account-container .map-results .store-list .store .details dt{float:none;}
+.register-account-container .map-results .store-list .store .details dd{float:none;}
+.register-account-container .map-container .map-controllers button.go{width:107px;}
+.register-account-container .map-container .map-controllers .textfield-search{width:190px;}
+.register-account-container .btn-submit{width:118px!important;height:40px!important;line-height:38px;margin-top:37px;}
+.register-account-container .link-cancel{float:left;margin:37px 0 0 10px;display:inline-block;line-height:38px;}
+.register-account-personalization dt,.register-account-personalization dd{float:none;font-weight:normal;}
+.register-account-personalization dd{padding:3px 0;}
+.register-account-personalization dt{min-height:21px;line-height:21px;padding:7px 0 3px;}
+.register-account-personalization dt span{display:block;padding:9px 0 0;}
+.register-account-personalization input[type="radio"]{margin-right:10px;width:13px;height:13px;}
+.register-account-personalization .left-info{float:left;width:320px;margin:4px 0 0;}
+.register-account-personalization .right-info{float:right;width:650px;margin:4px 0 0 10px;}
+.register-account-personalization .cutomize-checkbox{padding:7px 0 3px;}
+.register-account-personalization .cutomize-checkbox div.text{max-width:625px;}
+.btn-save{height:40px!important;line-height:38px;width:150px!important;margin:14px 0 10px;}
+.register-account-container .bottom-register-account{padding-top:10px;line-height:21px;}
+.register-account-container .bottom-register-account .cat-subtitle{width:980px;max-width:980px;}
+.register-account-container .bottom-register-account div.left{width:300px;margin:9px 40px 0 0;}
+.register-account-container .bottom-register-account div.last{margin-right:0;}
+.register-account-container .bottom-register-account .title{font-size:18px;font-weight:bold;padding:10px 0 16px;}
+.register-account-container .bottom-register-account p{padding:18px 0 0;}
+.register-account-container .bottom-register-account p.call-to-action{padding:2px 0 0;}
+.coupon-container p{padding:6px 0;}
+.coupon-container .mobile-specification{padding:11px 0 0;line-height:21px;}
+.coupon-container .mobile-specification .subtitle{padding-top:17px;}
+.coupon-container .mobile-specification .mobile-img{width:170px;padding:5px 10px 28px 0;float:left;}
+.coupon-container .mobile-specification .mobile-info{width:580px;float:left;padding-bottom:28px;}
+.coupon-container .mobile-status{background-color:#E6E6E6;line-height:17px;padding:17px 10px 17px 60px;margin-top:12px;}
+.coupon-container .mobile-status-note{color:#057DC2;font-weight:bold;}
+.coupon-container .mobile-status.active-status{background:url('/img/account/greencheckMark.png') 15px center no-repeat #E6E6E6;}
+.coupon-container .mobile-status.in-progress-status{background:url('/img/account/check-yellow.png') 15px center no-repeat #E6E6E6;}
+.coupon-container .mobile-status.expired-status{background:url('/img/account/check-red.png') 15px center no-repeat #E6E6E6;}
+.coupon-container .mobile-status.alert-status{background:url('/img/account/alert-red.png') 15px center no-repeat #E6E6E6;}
+.coupon-container .coupon-form{padding:20px 0 0;}
+.coupon-container .coupon-form .error{padding-left:180px;width:250px;}
+.coupon-container .coupon-form dd{margin-bottom:17px;}
+.coupon-container .coupon-form dt{width:170px;padding-right:10px;}
+.coupon-container .coupon-form dd span{display:block;font-size:12px;line-height:14px;color:#8B8B8B;clear:both;padding-top:7px;}
+.coupon-container .cutomize-checkbox{padding-bottom:17px;}
+.coupon-container .cutomize-checkbox div{max-width:735px;vertical-align:top;padding-top:6px;}
+.coupon-container .cutomize-checkbox div.text{max-width:735px;vertical-align:top;margin-top:-4px;}
+.coupon-container .button.ovallon{width:150px;height:40px;line-height:38px;}
+.coupon-padding-alert{padding:9px 0 17px;}
+.points-club-rewards{padding-top:1px;}
+.points-club-rewards div.content{padding:11px 0 21px;line-height:16px;}
+.blue-banner{background-color:#057dc2;color:#fff;padding:14px 15px 15px;font-weight:bold;line-height:16px;margin-top:10px;}
+.blue-banner .expanded-bullet,.blue-banner .collapsed-bullet{background:url('/img/common/triangle-white-expanded.png') top left no-repeat transparent;width:11px;height:8px;margin:5px -4px 0 0;display:inline-block;}
+.blue-banner .collapsed-bullet{background-image:url('/img/common/triangle-white-collapsed.png');width:8px;height:11px;margin-top:2px;}
+.blue-banner .blue-banner-label{margin-left:6px;color:#fff;padding:14px 15px 15px;font-weight:bold;line-height:16px;}
+.address-book-container{padding-top:10px;}
+.address-book-container .left-block{float:left;width:430px;}
+.address-book-container .right-block{padding-left:30px;width:300px;float:left;}
+.addressbook .required{font-size:12px;font-style:italic;line-height:24px;}
+.addressbook .addressbook-subtitle{font-size:18px;line-height:20px;font-weight:bold;padding:2px 0 5px;}
+.addressbook em{color:#dc291e;}
+.addressbook .field.first{margin-top:0;}
+.addressbook .field,.addressbook .second-column{margin-top:15px;}
+.addressbook dt{width:165px;padding:8px 10px 0 0;}
+.addressbook select{min-width:250px;max-width:250px;}
+.addressbook div.error{padding-left:180px;width:250px;}
+.addressbook .step-controllers{margin-top:20px;width:214px;float:right;}
+.addressbook .step-controllers .button.ovallon,.addressbook .step-controllers .button.inactive{float:right;width:150px;height:40px;line-height:38px;}
+.addressbook .step-controllers .system-link{margin-right:20px;line-height:40px;float:left;font-size:14px;}
+.addressbook .address dd{float:none;padding-bottom:3px;}
+.addressbook .address dt{min-height:20px;float:none;}
+.addressbook .address .address-title{font-family:'ClarendonBT-Roman','times new roman',serif;font-size:17px;line-height:20px;}
+.addressbook .address .system-link{padding-top:5px;display:inline-block;}
+.addressbook .separator{background:url("/img/common/leftnavdots.png");height:3px;margin:9px 0 11px;}
+.addressbook .address-ctr{padding:11px 15px 9px;background-color:#FFF;border-left:1px solid #ECECEC;border-right:1px solid #ECECEC;border-bottom:1px solid #ECECEC;font-size:13px;line-height:16px;}
+.addressbook .account-container .account-title{text-align:center;}
+.addressbook .account-container .account-title span{width:268px;}
+.communication-container{line-height:16px;}
+.communication-container .cutomize-checkbox div.text{max-width:715px;vertical-align:top;padding-top:5px;}
+.communication-container .communication-option{padding:2px 9px 26px;}
+.communication-container .communication-option p{font-weight:bold;padding:5px 0 5px 28px;}
+.communication-container .coupon-padding-alert{padding:4px 0 3px;}
+.account-container{padding:5px 0 35px;}
+.account-container .account-title{background-color:#56A0D2;color:#FFF;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;font-size:22px;padding-bottom:5px;}
+.account-container .account-title span{background:url('/img/common/titleline.png') bottom left no-repeat transparent;display:inline-block;width:728px;padding:0 16px;line-height:45px;}
+.account-container .account-subtitle{font-size:18px;font-weight:bold;line-height:20px;padding:2px 0 4px;}
+.account-container .account-subcontainer{background-color:#FFF;border-left:1px solid #ECECEC;border-right:1px solid #ECECEC;border-bottom:1px solid #ECECEC;padding:15px 15px 16px;font-size:14px;line-height:16px;}
+.account-container .account-subcontainer ul li,.account-container .account-subcontainer p{padding-top:4px;}
+.account-container .account-subcontainer ul li{position:relative;list-style-position:outside;}
+.account-container .account-subcontainer ul li a.system-link{position:absolute;top:4px;right:0;}
+.account-container .account-subcontainer ul li.strong{padding-top:9px;}
+.account-container .account-subcontainer ul li.strong a.system-link{top:9px;}
+.account-container .account-subcontainer ul li .li-name{width:172px;max-width:175px;display:inline-block;padding-right:14px;word-wrap:break-word;}
+.account-container .account-subcontainer .left-container{float:left;width:478px;}
+.account-container .account-subcontainer .left-container div{width:219px;padding-right:20px;float:left;}
+.account-container .account-subcontainer .right-container{float:right;width:250px;background-color:#F1F1F1;padding:4px 0;margin-top:7px;}
+.account-container .account-subcontainer .right-container .call-to-action{padding:0 0 0 10px;letter-spacing:-0.2px;}
+.account-container .account-subcontainer .right-container .call-to-action,.account-container .account-subcontainer .right-container .call-to-action a,.account-container .account-subcontainer .right-container .call-to-action span{line-height:25px;}
+.account-container .account-subcontainer .right-container .call-to-action span.bullet{height:25px;}
+.account-container .account-subcontainer .line{background:url('/img/common/dotline.png') center center no-repeat transparent;margin:20px 0 14px;height:3px;}
+.profile-container .content{padding:17px 0 20px;}
+.profile-container ul{width:350px;padding-bottom:16px;}
+.profile-container ul li{padding-top:1px;}
+.profile-container ul li.strong{padding-top:3px;}
+.profile-container ul li .li-name{display:inline-block;max-width:350px;padding-right:14px;}
+.profile-container .btn-save{margin:9px 0 10px 280px;}
+.profile-container .left-container{float:left;width:364px;background-color:#FFF;border:1px solid #D5D7D8;padding:14px 0 14px 14px;line-height:16px;min-height:272px;}
+.profile-container .left-container p{padding-bottom:16px;}
+.profile-container .left-container div.left{width:168px;padding-right:14px;}
+.profile-container .right-container{float:right;width:366px;margin-left:12px;border:1px solid #D5D7D8;}
+.profile-container .register-account-personalization .right-info{width:430px;}
+.profile-container .register-account-personalization{padding-bottom:5px;}
+.profile-form dt{width:170px;padding:8px 10px 0 0;}
+.profile-form dd{margin-bottom:15px;}
+.profile-form dd span{width:250px;display:inline-block;line-height:21px;}
+.profile-form .error{padding-left:180px;width:250px;}
+.profile-form select{width:250px;max-width:250px;}
+.profile-form .css3 .UlSelectize{top:32px;}
+.profile-form .password-tooltip-container{width:329px;}
+.profile-form .pwd-inner-container{max-width:307px;}
+.profile-form .pwd-inner-container p{padding-top:0;}
+.rdcrcl-navigation{margin:22px 0 17px;}
+.rdcrcl-navigation .details{padding:0 40px 0 5px!important;}
+.tax-exemption-container input[type="checkbox"]{margin:0 10px 0 0;height:13px;width:13px;}
+.tax-exemption-container label{display:inline-block;vertical-align:top;width:223px;}
+.tax-exemption-container .btn-save{margin-left:307px;}
+.tax-exemption-container .tax-exemption-info{padding:0 0 14px;line-height:21px;}
+.tax-exemption-container .tax-exemption-info p{padding-bottom:17px;line-height:21px;}
+.tax-exemption-info ol li{list-style:decimal inside;}
+.tax-exemption-info ol li ol li{list-style:lower-alpha inside;}
+.tax-exemption-info ol li{padding-left:0;}
+.tax-exemption-info ol li ol li{padding-left:37px;}
+.tax-exemption-form dt{padding:8px 5px 0 0;width:202px;}
+.tax-exemption-form dd{margin-bottom:15px;}
+.tax-exemption-form dd p{width:250px;line-height:16px;}
+.tax-exemption-form .error{padding-left:207px;}
+.tax-exemption-form select{width:250px;max-width:250px;}
+.tax-exemption-form textarea{width:226px;resize:none;overflow:hidden;padding:11px;min-height:76px;color:#414142;font-family:"Helvetica",sans-serif;font-size:14px;}
+.tax-exemption-action .system-link{margin-top:0!important;padding:0 0 0 10px;float:left;line-height:40px;}
+.tax-exemption-action .btn-print{width:150px;height:40px;line-height:38px;float:left;}
+.map-results .store-list .store .details dd,.map-results .store-list .store .details dt{float:none;}
+.pdp-overlay-divider{height:5px;width:100%;margin:10px 0 25px 0;background-image:url('/img/common/dotredright.png');}
+#body.bodyPharmacy{width:100%;}
+.bodyPharmacy .breadcrumb{width:980px;margin:0 auto;}
+.bodyPharmacy .category-title{margin:7px auto 2px;width:980px;}
+.bodyPharmacy .content-block{background-color:#FFF;}
+.bodyPharmacy .content-block .wrapper{width:980px;padding:0 15px 15px;margin:0 auto;}
+.bodyPharmacy .content-block.full-width .top{padding-bottom:10px;}
+.bodyPharmacy .content-block .cutomize-checkbox{padding:14px 0 36px;}
+.bodyPharmacy .content-block .cutomize-checkbox div.text{max-width:955px;}
+ul.pharmacy-li li{background:url("/img/common/dotli.png") no-repeat left 15px transparent;padding:5px 0 19px 8px;line-height:24px;}
+.pharmacy-form{padding-top:16px;}
+.pharmacy-form dt{width:170px;padding:8px 10px 0 0;font-weight:normal;}
+.pharmacy-form dt.error{float:none;clear:both;padding:0 0 0 180px;min-height:16px;}
+.give-access-container{padding:0 0 42px;}
+.give-access-container .btn-submit{width:150px;height:40px!important;line-height:38px;float:left;margin:40px 15px 0 0;}
+.give-access-container .strong-padding{font-weight:bold;padding:10px 0 9px;}
+.give-access-container form .system-link{line-height:40px;padding:40px 0 0 0;display:inline-block;}
+.give-access-container .rdcrcl-footer-nav{padding:37px 0 40px;color:#057DC2;}
+.pharmacy-profile .addressbook .field{margin-top:10px;}
+.pharmacy-profile .first-block .add_member{float:left;}
+.pharmacy-profile .section-content{border:1px solid #D5D7D8;}
+.pharmacy-profile .section-content .section-subtitle{font-size:18px;line-height:20px;font-weight:bold;padding:6px 0 7px;}
+.pharmacy-profile .section-content .section-message{font-size:22px;font-family:'MarydaleRegular',Helvetica,sans-serif;line-height:29px;padding:2px 0 11px;}
+.pharmacy-profile .first-block .mng_prescrptions{float:right;}
+.pharmacy-profile .section-content{padding:15px 30px;background-color:#FFF;margin:0 0 15px;position:relative;}
+.pharmacy-profile .section-content.padding-section-content{padding:45px 30px 0;}
+.pharmacy-profile .section-subcontent{padding:14px 0 15px;}
+.pharmacy-profile .section-subcontent p{padding-bottom:5px;line-height:24px;}
+.pharmacy-profile .first-block .add_member{width:378px;}
+.pharmacy-profile .first-block .add_member ul li{padding:8px 0 8px 19px;background:url('/img/common/dotred.png') no-repeat 7px 14px transparent;line-height:16px;}
+.pharmacy-profile .first-block .mng_prescrptions{width:258px;padding-left:10px;padding-bottom:25px;border-bottom:none;position:relative;text-align:center;}
+.pharmacy-profile .first-block .mng_prescrptions .bottom{background:url('/img/account/small-border-bottom.png') no-repeat bottom left transparent;height:28px;width:298px;position:absolute;left:0;bottom:-9px;}
+.pharmacy-profile .first-block .profile_access{width:698px;padding-top:9px;}
+.pharmacy-profile .first-block .profile_access p{padding-top:8px;}
+.pharmacy-profile .first-block .profile_access p .system-link{padding-left:25px;}
+.pharmacy-profile .field-label{padding:10px 10px 0 0;width:170px;float:left;line-height:17px;}
+.pharmacy-profile .field-input{float:left;width:215px;}
+.pharmacy-profile .field-input input[type="text"],.pharmacy-profile .field-input input[type="password"]{width:202px;height:35px;line-height:100%;float:left;color:#414142;font-family:Helvetica,sans-serif;font-size:14px;padding-left:11px;}
+.pharmacy-profile .field-input input.form-short{margin-right:5px;padding:0;text-align:center;width:51px;}
+.pharmacy-profile .field-input input.form-med{padding:0;text-align:center;width:69px;}
+.pharmacy-profile .addressbook select{height:37px!important;min-width:77px;line-height:18px;padding:9px 28px 8px 6px;}
+.pharmacy-profile .section-subcontent .css3 .UlSelectize{top:37px;padding:0;}
+.pharmacy-profile .section-subcontent .css3 .UlSelectize li{border-bottom:none;line-height:16px;padding:0;width:auto;}
+.pharmacy-profile .step-controllers .button.ovallon{float:left;margin:0 20px 10px 0;width:100px;}
+.pharmacy-profile .section-subcontent ul{padding:8px 0 0;}
+.pharmacy-profile .section-subcontent ul li{width:340px;border-bottom:1px solid #D5D7D8;padding:12px 0 10px;line-height:16px;}
+.pharmacy-profile .section-subcontent ul li span{width:270px;max-width:270px;display:inline-block;line-height:17px;float:left;}
+.pharmacy-profile .section-subcontent ul li .remove-allergy{width:70px;height:17px;background:url('/img/common/close.png') no-repeat right center transparent;display:inline-block;float:left;}
+.pharmacy-profile .section-subcontent ul li .status-allergy{font-style:italic;font-size:15px;width:70px;max-width:70px;text-align:right;}
+.pharmacy-profile .addressbook .step-controllers{margin-top:60px;width:214px;float:none;}
+.pharmacy-profile .section-title{background-color:#c6e8fe;width:708px;padding:10px 25px;line-height:23px;position:absolute;top:0;left:0;}
+.pharmacy-profile .section-title .expanded-bullet,.pharmacy-profile .section-title .collapsed-bullet{display:inline-block;}
+.pharmacy-profile .section-title .collapsed-bullet{background:url('/img/common/arrowdropcollapsed.png') no-repeat left 0 transparent;height:18px;width:9px;}
+.pharmacy-profile .section-title .expanded-bullet{background:url('/img/common/awwordropdown.png') no-repeat left 7px transparent;height:18px;margin-top:2px;width:18px;}
+.pharmacy-profile .section-title .section-title-label{margin-left:6px;font-size:18px;font-weight:bold;}
+.pharmacy-profile .insurance-info{width:275px;margin:15px 35px 15px 20px;float:left;}
+.pharmacy-profile .insurance-note{width:325px;padding:0 0 40px 20px!important;}
+.pharmacy-profile .insurance-info .title{background-color:#9DCEFD;line-height:34px;padding:0 20px;-webkit-border-radius:3px;-moz-border-radius:3px;border-top-left-radius:3px;border-top-right-radius:3px;font-size:15px;text-transform:uppercase;}
+.pharmacy-profile .insurance-info .title span{width:165px;float:left;}
+.pharmacy-profile .insurance-info .title .status{text-transform:none;font-style:oblique;width:70px;text-align:right;float:right;}
+.pharmacy-profile .insurance-info .details{background-color:#F3F3F3;padding:30px 25px 12px;line-height:25px;-webkit-border-radius:3px;-moz-border-radius:3px;border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
+.pharmacy-profile .insurance-info .details p{line-height:16px;padding-bottom:9px;}
+.pharmacy-profile .insurance-info .shadow{background-color:#FFF;width:280px;height:14px;background-image:url('/img/account/shadow.png');}
+.pharmacy-profile .add-plan-left{width:400px;float:left;margin-right:20px;}
+.pharmacy-profile .add-plan-left em{color:#DC291E;}
+.pharmacy-profile .add-plan-left div.error{padding-left:180px;width:215px;}
+.pharmacy-profile .add-plan-left .required{font-size:12px;font-style:italic;line-height:24px;}
+.pharmacy-profile .add-plan-right{float:left;width:278px;}
+.pharmacy-profile .add-plan-right p{padding:0 25px;}
+.pharmacy-profile .add-plan-right .add-plan-link{text-align:right;padding:42px 8px 0 0;}
+.pharmacy-profile .add-plan-right .example-card{width:270px;height:190px;margin-bottom:30px;margin-top:20px;}
+.pharmacy-profile .add-plan-left select{height:37px!important;width:215px;max-width:215px;padding:9px 28px 8px 6px;line-height:17px;}
+.pharmacy-profile .add-plan-left .field{margin-top:10px;}
+.pharmacy-profile .add-plan-left .field-input input[type="text"]{width:202px;height:35px;line-height:100%;float:left;color:#414142;font-family:Helvetica,sans-serif;font-size:14px;padding-left:11px;}
+.pharmacy-profile .add-plan-left .step-controllers{margin-top:20px;width:214px;}
+.pharmacy-profile .add-plan-left .step-controllers .button.ovallon{float:left;width:100px;height:40px;line-height:38px;}
+.pharmacy-profile .add-plan-left .step-controllers .system-link{line-height:40px;float:left;}
+.pharmacy-profile .re-profile-container{margin:0 0 15px;}
+.pharmacy-profile .re-profile-container .re-profile-header{background-color:#057DC2;color:#C6E8FF;font-size:18px;font-weight:bold;line-height:44px;padding:14px 30px 12px;}
+.pharmacy-profile .re-profile-container .re-profile-header span{float:left;padding-right:15px;}
+.pharmacy-profile .re-profile-container .re-profile-header .re-name{color:#FFF;font-weight:normal;}
+.pharmacy-profile .re-profile-container .re-profile-header select{height:40px;line-height:18px;padding:10px 37px 10px 6px;max-width:394px;min-width:394px;}
+.pharmacy-profile .drug-allergies .search-allergies{margin:30px 0 20px;}
+.pharmacy-profile .drug-allergies .search-allergies .search-container input{margin:5px 25px 0 0;}
+.pharmacy-profile .drug-allergies .search-allergies .search-container input,.pharmacy-profile .drug-allergies .search-allergies button{float:left;}
+.pharmacy-profile .drug-allergies .search-allergies .search-container input{font:normal 12px/32px Helvetica,sans-serif;color:#414142;}
+.pharmacy-profile .re-profile-container .re-profile-header .css3 .UlSelectize{top:40px;}
+.pharmacy-profile .language-content .field{margin-top:10px;}
+.pharmacy-profile .language-content .field-label{width:190px;}
+.pharmacy-profile .language-content select{height:37px!important;line-height:17px;padding:9px 28px 8px 6px;min-width:195px;max-width:195px;}
+.pharmacy-profile .language-content .step-controllers{margin-top:20px;width:214px;}
+.pharmacy-profile .language-content .step-controllers .system-link{float:left;line-height:40px;}
+.pharmacy-profile .rdcrcl-footer-nav{padding:10px 0 0;}
+.pharmacy-profile .padding-section-content.discount-plans{padding-bottom:25px;}
+.pharmacy-profile .discount-plans .left-block{width:390px;float:left;padding-right:30px;margin-top:10px;}
+.pharmacy-profile .discount-plans .right-block{width:275px;float:left;padding-top:10px;margin-top:10px;}
+.pharmacy-profile .discount-plans .left-block .field{line-height:35px;margin-bottom:10px;}
+.pharmacy-profile .discount-plans .left-block .field-label{width:160px;}
+.pharmacy-profile .discount-plans .left-block .field-label em{color:#DC291E;}
+.pharmacy-profile .discount-plans .left-block .field .error{width:100%;padding-left:170px;}
+.pharmacy-profile .discount-plans .left-block .field-input{width:215px;}
+.pharmacy-profile .discount-plans .left-block .field-input select{width:215px;max-width:215px;height:37px!important;padding:9px 28px 8px 6px;line-height:17px;}
+.pharmacy-profile .discount-plans .left-block .step-controllers{margin-top:25px;}
+.pharmacy-profile .discount-plans .left-block .step-controllers a{line-height:40px;}
+.pharmacy-profile .discount-plans .right-block p{padding:25px 0 55px 25px;}
+.pharmacy-profile .discount-plans .right-block a{padding-left:25px;}
+.my-orders-cont{padding-top:5px;}
+.c-title-row{background-color:#8B8B8B;color:#FFF;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;font-size:21px;line-height:50px;padding-left:20px;}
+.cart-cont{background-color:#FFF;margin:0;padding-bottom:10px;line-height:21px;}
+.c-head-row{border-bottom:2px solid #8B8B8B;margin:0 19px;padding:9px 0 12px;}
+.c-head-row .ci-item-info{font-size:16px;line-height:24px;}
+.ci-item-info .ci-item-info-address{font-size:14px;line-height:16px;}
+.ci-item-info,.ci-item-info-title{float:left;width:345px;margin-right:24px;}
+.c-item-row{margin:0 19px;padding-top:12px;}
+.ci-item-name{font-weight:bold;padding-bottom:9px;}
+.item-image{float:left;height:66px;padding:0 23px 0 0!important;width:64px!important;}
+.ci-subtotal,.ci-subtotal-title{float:left;text-align:center;width:96px;}
+.ci-subtotal p.strong,.ci-total p.strong,.ci-discount p.strong,.ci-qty p.strong{padding-bottom:3px;}
+.ci-total,.ci-total-title{float:left;text-align:center;width:115px;}
+.c-item-message-row{border-bottom:2px dotted #8B8B8B;clear:both;padding:0 0 12px;}
+.c-item-message-row .message{margin-left:87px;width:auto;}
+.last .c-item-message-row{border-bottom:medium none;}
+.ci-discount,.ci-discount-title{width:109px;float:left;text-align:center;}
+.ci-discount .desc-discount{color:#DC291E;}
+.ci-discount .desc-discount span{display:block;padding-bottom:9px;}
+.ci-item-info div.left{width:254px;padding:0 4px 12px 0;}
+.ci-item-info .strike{text-decoration:line-through;}
+.order-cont{background-color:#FFF;padding:0 15px;margin-bottom:25px;border:1px solid #D5D7D8;}
+.oh-head-row{text-align:center;}
+.order-head,.order-info{padding:8px 10px;line-height:30px;min-height:30px;}
+.order-head a.order-link{background:url('/img/account/order-arrow.png') right center no-repeat transparent;color:#057DC2;text-decoration:none;padding-right:13px;}
+.order-cancel{text-align:left;padding:0 0 9px;line-height:21px;}
+.order-cancel .system-link{line-height:21px;display:inline-block;}
+.order-info{background-color:#F1F1F1;margin-bottom:15px;padding:4px 10px;}
+.order-info .order-info-details{background-color:#F1F1F1;}
+.oh-o-date,.oh-o-number,.oh-o-total,.oh-o-status,.oh-o-details{text-align:center;float:left;}
+.oh-o-date{width:90px;text-align:left;font-size:13px;}
+.oh-o-number{width:185px;font-size:13px;}
+.oh-o-total{width:160px;font-size:16px;}
+.oh-o-status{width:140px;font-size:13px;}
+.oh-o-details{width:122px;}
+.oh-o-details button{line-height:28px;cursor:pointer;background-color:transparent;}
+.cart-cont.total{margin-bottom:0;}
+.c-total{width:470px;max-width:470px;background-color:#F1F1F1;margin:10px 0 0;padding:10px 10px 10px 0;text-align:right;}
+.c-total .concept{display:inline-block;font-weight:bold;margin-left:10px;}
+.c-total .qty{display:inline-block;float:right;font-weight:bold;margin-left:5px;max-width:90px;width:90px;}
+.c-total .conditions{font-size:12px;line-height:21px;margin-left:125px;padding-top:6px;text-align:right;}
+.c-totals{margin:0 19px;padding:16px 0 10px;border-top:3px solid #414141;}
+.oh-o-totals .ci-item-info{width:335px;}
+.oh-o-totals .ci-qty,.oh-o-totals .ci-subtotal,.oh-o-totals .ci-discount,.oh-o-totals .ci-total{float:left;text-align:center;}
+.oh-o-totals .ci-qty{width:40px;}
+.oh-o-totals .ci-subtotal{width:90px;}
+.oh-o-totals .ci-discount{width:100px;}
+.oh-o-totals .ci-total{width:100px;}
+.c-item-message-row-gc{padding:0 0 12px;clear:both;border-bottom:solid #8B8B8B 2px;}
+.oh-o-payment-c{line-height:21px;max-width:210px;}
+.oh-o-payment-c div{padding-bottom:14px;}
+.oh-o-payment-c .payment-c-title{padding:7px 0 16px;font-size:18px;line-height:21px;}
+.order-status .container{float:left;width:100%;}
+.order-status .container .left-block,.order-status .container .right-block{float:left;width:50%;}
+.order-status .container .left-block .register-account-form dt{width:205px;}
+.order-status .container .left-block .register-account-form dt.order-number{padding-top:0;}
+.order-status .container .left-block .register-account-form .error{padding:0 0 0 215px;font-weight:normal;min-height:16px;width:250px;}
+.order-status .container .right-block img{margin:30px;}
+.order-status .container button.btn-submit{float:left;margin:0 25px 0 0;}
+.order-status .container .order-status-action .system-link{line-height:40px;}
+.order-container .order-header{padding:8px 0;}
+.order-container .order-header div{float:left;font-size:18px!important;font-weight:bold;padding-left:4px;}
+.order-container .order-header .oh-o-date{width:188px;text-align:left;}
+.order-container .order-header .oh-o-number{width:271px;}
+.order-container .order-header .oh-o-total{width:244px;}
+.order-container .order-header .oh-o-status{width:146px;}
+.order-container .order-info div{padding-left:4px;}
+.order-container .order-info .oh-o-date{width:182px;text-align:left;padding-left:0;}
+.order-container .order-info .oh-o-number{width:271px;}
+.order-container .order-info .oh-o-total{width:244px;}
+.order-container .order-info .oh-o-status{width:146px;}
+.email-register-cont .label-form{width:193px;padding-left:7px;float:left;}
+.email-register-cont .input-field{margin-bottom:11px;float:left;}
+.email-register-message{-webkit-background-clip:padding-box;-webkit-border-radius:10px;-moz-border-radius:10px;background-color:#e3fcd5;border-radius:10px;border:1px solid #6cb345;padding:0 25px 0 25px;font-size:16px;color:#000;width:700px;margin-bottom:30px;}
+.email-register-message .text{display:block;margin:23px 0;}
+.email-register-cont{background-color:#FFF;padding:30px 45px 30px 30px;border:1px solid #C5C5C5;}
+.email-register-cont .register-account-personalization .cutomize-checkbox div.text{max-width:455px;}
+.email-register-cont .subtitle{font-size:18px;}
+.email-register-cont .right-info{width:480px;margin:0 0 0 10px;}
+.email-register-first{padding:10px 0 30px 0;border-bottom:1px solid #C5C5C5;margin-bottom:30px;}
+.email-register-first .email-register-f-l{width:450px;}
+.email-register-f-l .error{padding-left:200px;}
+.email-register-cont .right ul li{background:url("/img/common/redcheckMarkoption.png") 5px 8px no-repeat transparent;padding:14px 0 14px 37px;}
+.email-register-cancel{padding:35px 15px;}
+.register-account-personalization .dt1{min-height:16px;padding:10px 0 5px;line-height:38px;}
+.register-account-personalization .dd1{padding:6px 0;line-height:38px;}
+.register-account-personalization .dd1 input[type="text"]{margin:6px 0 0 80px;height:30px;}
+.email-create-update-account-cont{padding:24px 0 0 15px;}
+.register-account-personalization.email-create-update-account-cont .cutomize-checkbox div.text{max-width:940px;width:940px;}
+.register-account-personalization.email-create-update-account-cont .cutomize-checkbox div.text span{display:block;}
+.dontShow{display:none;}
+.coupon-container a.button.ovallon.pcrLink{display:inline-block;height:39px;line-height:39px;margin-top:10px;text-align:center;width:120px;outline-style:solid;outline-width:1px;}
+.tax-exemption-container .system-link-right{margin-top:-35px;margin-right:230px;}
+.forgotPswd .display-right-block{text-align:right;padding:0;background-color:transparent;margin-top:32px;margin-left:18px;}
+.cancelStyle{float:left;position:relative;top:-25px;margin-left:150px;}
+.bracket,.bracket-right,.hyphen{float:left;line-height:30px;min-height:30px;min-width:5px;}
+.hyphen{margin:0 4px 0 2px;}
+.bracket-right{margin-right:3px;}
+#reg-taxPhoneField1{margin-right:0!important;}
+.bracketEnd{float:left;min-height:30px;line-height:30px;margin-right:8px;}
+.forgot-pwd-success-message{background:url("/img/common/passwordtip.png") no-repeat scroll 15px 1px #E9E9E9;margin-bottom:13px;padding:3px 15px 8px 62px;}
+.register-account-container .register-account-form dt.vpp{width:150px;padding-right:10px;padding-top:14px;}
+.register-account-container .cutomize-checkbox div.textvpp{max-width:935px;vertical-align:top;padding-top:1px;}
+.requiered-note-vpp{font-style:italic;padding-bottom:5px;line-height:16px;font-size:12px;margin-top:10px;}
+.box-vpp{padding:0;}
+.two-layout-account-container{padding:20px 0 42px;}
+.two-layout-account-container div.left{width:698px;}
+.two-layout-account-container div.right{width:222px;}
+.two-layout-account-container div.right p{padding:15px 35px 0 0;}
+.two-layout-account-container .verify-form dl{padding-bottom:15px;}
+.two-layout-account-container .verify-form dt{width:215px;}
+.two-layout-account-container .verify-form dt.error{padding:0 0 0 225px;}
+.two-layout-account-container .verify-form dd input.form-short{margin-right:8px;}
+.two-layout-account-container .verify-form dd input.form-med-large{margin:0 8px 0 0!important;padding:0;text-align:center;width:100px;}
+.two-layout-account-container .verify-form .help-icon{height:32px;}
+.two-layout-account-container .verify-form .button.ovallon{width:182px;margin-top:20px;}
+.two-layout-account-container .verify-form .system-link{line-height:42px;padding:20px 0 0 20px;}

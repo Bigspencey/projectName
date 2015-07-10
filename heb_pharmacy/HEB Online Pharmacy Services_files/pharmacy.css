@@ -1,0 +1,653 @@
+div#body{width:100%;}
+.pharmacy .footer-email-error{background-color:#FFF;}
+.category-title sup.sup2{margin-left:-10px;}
+.refill-rx.step-5 h2.header-three{text-align:center;}
+.requiered-note{padding:5px 0!important;}
+.content-block{width:980px;margin:0 auto;display:block;}
+.content-block.full-width{width:100%;}
+.content-block .wrapper{width:980px;margin:0 auto;padding:0 16px 15px;}
+.rdcrcl-footer-nav{padding:20px 15px;}
+.pharmacy .category-title{width:980px;margin-left:auto;margin-right:auto;}
+.pcy-theme .cutomize-checkbox input[type="checkbox"]+label{padding:0 0 0 21px;float:none;}
+.pcy-theme .cutomize-checkbox div.text{max-width:935px;}
+.form-block{margin-top:20px;}
+.form-block .left-block{width:500px;float:left;}
+.form-block .right-block{width:450px;float:right;}
+.rdcrcl-content{padding:0 15px 75px;}
+.rdcrcl-content .map-container .map{width:auto!important;}
+.registration .rdcrcl-content .map-container .map{width:330px!important;}
+.pcy-theme fieldset{border:0;margin-top:20px;}
+.pcy-theme fieldset legend{border:0;font-weight:bold;font-size:16px;}
+.pcy-theme .required{font-size:12px;font-style:italic;line-height:24px;}
+.pcy-theme em{color:#dc291e;}
+.pcy-theme .field.first{margin-top:0;}
+.pcy-theme.request-form-container .field .patient-name{display:block;float:left;line-height:35px;}
+.pcy-theme .field,.pcy-theme .second-column{margin-top:20px;}
+.pcy-theme label{width:224px;display:block;float:left;font-size:15px;line-height:35px;padding-right:40px;}
+.step-1 .pcy-theme label,.step-4 .pcy-theme label{line-height:21px;}
+.step-3 .pcy-theme label{width:224px;}
+.ghost{font-style:italic;}
+.pcy-theme span.error{float:left;margin:0 0 0 10px;font-size:15px;color:#dc291e;line-height:15px;padding:11px 0;}
+.pcy-theme .cc-fields select{min-width:102px;max-width:102px;margin-right:11px;float:left;}
+.pcy-theme .cc-fields .css3 .UlSelectize{top:37px;}
+.pcy-theme .cc-fields .css3 .UlSelectize{width:102px;}
+.pcy-theme div.error{width:215px;margin-left:265px!important;font-size:15px;color:#dc291e;line-height:15px;padding:5px 0 0;}
+.pcy-theme input[type=text],.pcy-theme input[type=password],.pcy-theme textarea{font-family:Helvetica,sans-serif;font-size:15px;color:#414142;}
+.pcy-theme input[type=text],.pcy-theme input[type=password]{height:35px;width:203px;float:left;padding-left:5px;padding-right:5px;line-height:100%;}
+.pcy-theme select{height:37px!important;line-height:18px;padding:9px 28px 9px 6px;min-width:215px;max-width:215px;}
+.pcy-theme select.small{height:37px!important;padding:9px 28px 9px 6px;line-height:18px;min-width:104px;max-width:104px;}
+.pcy-theme .fieldset-main{width:730px;}
+.pcy-theme .fieldset-main .label-container{padding-right:0;}
+.pcy-theme .fieldset-main .label-container input.text{width:85%;}
+.pcy-theme .fieldset-main .field{position:relative;}
+.pcy-theme .fieldset-main .label-container.s5{width:5%;position:absolute;bottom:21px;right:0;}
+.pcy-theme .fieldset-main .label-container.s20{width:20%;}
+.pcy-theme .fieldset-main .label-container.s25{width:25%;}
+.pcy-theme .fieldset-main .label-container.s30{width:30%;}
+.pcy-theme .fieldset-main .label-container.s40{width:40%;}
+.pcy-theme .fieldset-main .field{margin-top:0;}
+.pcy-theme .fieldset-main .field.first{margin-top:20px;}
+.pcy-theme .fieldset-main .field.first .rot{margin-bottom:10px;}
+.pcy-theme .fieldset-main .field.first input[type=text],.pcy-theme .fieldset-main .field.first .radio-container{margin-top:10px;}
+.pcy-theme .fieldset-main .field label{padding-top:0;}
+.pcy-theme .fieldset-main .field.first label{padding-bottom:11px;}
+.pcy-theme .icon.help{line-height:40px;margin-left:10px;float:left;color:#057DC2;font-weight:bold;text-indent:-9999px;}
+.pcy-theme .single-line{padding:11px 0;}
+.pcy-theme input[type="text"].expiration{width:93px;margin-right:5px;width:50px;text-align:center;float:left;}
+.pcy-theme input[type="text"].expiration.last{margin-right:0;}
+.pcy-theme .radio-container{padding:11px 0;float:left;}
+.pcy-theme div.field-container{width:50%;float:left;}
+.pcy-theme input.date{width:50px;margin-right:5px!important;text-align:center;float:left;}
+.pcy-theme input.date.day,.pcy-theme input.date.month{width:49px;line-height:100%;}
+.pcy-theme input.date.year{margin-right:0;width:70px;line-height:100%;}
+.pcy-theme input.phone-nr{width:49px;margin-right:5px!important;text-align:center;float:left;line-height:100%;}
+.pcy-theme input.phone-nr.phone-areacode,.pcy-theme input.phone-nr.phone-nr1{width:50px;}
+.pcy-theme input.phone-nr.phone-nr2{margin-right:0;width:69px;}
+.pcy-theme .step-controllers{margin-top:50px;}
+.pcy-theme .step-controllers .continue{width:180px;float:left;}
+.pcy-theme .step-controllers .cancel{margin-left:20px;line-height:43px;float:left;font-size:15px;}
+.pcy-theme .second-column{margin-left:265px;line-height:15px;}
+.pcy-theme .add-more-prescriptions{display:inline-block;height:23px;}
+.pcy-theme .add-more-prescriptions .icon{display:inline-block;background:url('/img/pharmacy/plus-icon.png') left top no-repeat;width:23px;height:23px;vertical-align:middle;}
+.pcy-theme .add-more-prescriptions .text{display:inline-block;padding:5px 0 4px 5px;font-size:14px;line-height:14px;vertical-align:sub;}
+.pcy-theme .prescription-review.cols-4 .col.col-c .prescription-icon{display:block;float:left;}
+.pcy-theme .prescription-review.cols-4 .col.last{text-align:right;}
+.pcy-theme .prescription-review.cols-3 .col{width:40%;}
+.pcy-theme .prescription-review.cols-4 .col{width:25%;}
+.pcy-theme .prescription-review.cols-4 .col-a{text-align:left;}
+.pcy-theme .prescription-review.cols-4 .col-d{text-align:right;}
+.pcy-theme .prescription-review .head{background-color:#eef5f9;}
+.pcy-theme .prescription-review .head .col{font-weight:bold;}
+.pcy-theme .prescription-review .head .col .icon{background:url('/img/pharmacy/triangle-expand-table-theme-1.png') no-repeat scroll top left;display:inline-block;width:11px;height:6px;}
+.pcy-theme .prescription-review.cols-3 .col.col-a{text-align:left;vertical-align:middle;}
+.pcy-theme .prescription-review.cols-3 .col.col-a strong{display:inline-block;font-weight:bold;max-width:238px;vertical-align:top;}
+.pcy-theme .prescription-review.cols-3 .head .col.col-b{text-align:center;}
+.pcy-theme .prescription-review.cols-3 .col.col-c{text-align:right;}
+.pcy-theme .prescription-review.cols-4 .col.col-c{text-align:center;}
+.pcy-theme .wcont{width:480px;line-height:21px;}
+.step-1 .pcy-theme .wcont{padding-to:15px;}
+.pcy-theme textarea.terms{width:470px;resize:none;line-height:21px;}
+.pcy-theme .prescription-note{margin:20px 0 0;font-style:italic;}
+.pcy-theme .store-pickup-time input.date{margin-right:7px;}
+.pcy-theme .last-digits label{padding-top:3px;padding-bottom:3px;}
+.pcy-theme .last-digits input[type=text]{width:100px;}
+.pharmacy .map-container .map-controllers{width:50%;}
+.pharmacy .map-results p{text-align:left;margin-bottom:10px;font-size:13px;}
+.pharmacy h2.header-three{font-size:18pt;}
+.pharmacy .map-results .show-more-stores{float:right;margin-top:5px;}
+.pharmacy .map-results .show-more-stores ul{float:left;margin-right:4px;font-size:0;letter-spacing:0;}
+.pharmacy .map-results .show-more-stores ul li{margin-top:7px;padding:0 5px;border-left:1px solid #CECECE;display:inline-block;vertical-align:middle;text-align:center;}
+.pharmacy .map-results .show-more-stores ul li.no-border{border:none;font-size:14px;padding:0 5px 0 0;}
+.pharmacy .map-results .show-more-stores button{float:left;}
+.pharmacy .map-results .show-more-stores ul li.last{padding:0;}
+.please-note-block .title{margin-left:22px;}
+.please-note-block .details{margin:8px 0 0 26px;width:215px;display:block;text-align:left;line-height:21px;}
+.please-note-block .prescription{background:url("/img/pharmacy/pharmacy-label-sprites.png") no-repeat 18px 0 transparent;min-height:309px;max-width:236px;margin-top:3px;margin-left:auto;margin-right:auto;color:transparent;}
+.pleasenote .prescription{background:url("/img/pharmacy/pharmacy-label-sprites.png") no-repeat -699px 0 transparent;min-height:309px;max-width:236px;margin-top:3px;color:transparent;}
+.right-block .please-note-block{margin:0 auto;}
+.prescription-review{-webkit-background-clip:padding-box;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:20px 0 0 0;border:1px solid #e6e5e5;}
+.prescription-review .col{padding:30px 20px;line-height:18px;vertical-align:top;border-bottom:1px solid #E6E5E5;}
+.prescription-review .col dl{line-height:16px;}
+.prescription-review .available-for-refill{background:url('/img/pharmacy/available-for-refill.png') left top no-repeat;padding-left:37px;min-width:40px;min-height:32px;display:inline-block;vertical-align:middle;}
+.prescription-review .delay-delivery{background:url('/img/pharmacy/circle-loading.png') left top no-repeat;padding-left:37px;min-width:40px;min-height:32px;display:inline-block;vertical-align:middle;}
+.prescription-review .ready-for-pickup{background:url('/img/pharmacy/info.png') left top no-repeat;padding-left:37px;min-width:40px;min-height:32px;display:inline-block;vertical-align:middle;}
+.prescription-review .expired-for-refill{background:url('/img/pharmacy/check-red.png') left top no-repeat;padding-left:37px;min-width:40px;min-height:32px;display:inline-block;vertical-align:middle;}
+.prescription-review .out-of-refill{background:url('/img/pharmacy/circle-loading.png') left top no-repeat;padding-left:37px;min-width:40px;min-height:32px;display:inline-block;vertical-align:middle;}
+.prescription-review .inactive-for-refill{background:url('/img/pharmacy/alert-red.png') left top no-repeat;padding-left:37px;min-width:40px;min-height:32px;display:inline-block;vertical-align:middle;}
+.prescription-review .refill img{vertical-align:top;display:inline-block;}
+.prescription-review .refill span{display:inline-block;max-width:390px;padding:5px 0 0 5px;}
+.prescription-review .col-b input{width:100px;text-align:center;}
+.pharmacy-prescription-details .col{width:50%;float:left;}
+.pharmacy-prescription-details.three-cols .col{width:28%;}
+.pharmacy-prescription-details .row{margin-bottom:10px;}
+.pharmacy-prescription-details .row dt{line-height:21px;}
+.pharmacy-prescription-details .row.last{margin-bottom:0;}
+.your-heb-pharmacy .rx-card{position:relative;}
+.your-heb-pharmacy .rx-card span{position:absolute;top:95px;left:5px;width:368px;text-align:center;display:inline-block;font-weight:bold;font-size:16px;}
+.refill-rx .step-3 .map-results .store-list .store{padding:15px;border:1px solid #C5C5C5;}
+.refill-rx .step-3 .left-block.pcy-theme{width:290px;}
+.refill-rx .step-3 .left-block .field label{width:50px;padding-right:5px;}
+.refill-rx .step-3 .left-block .field input[type=text]{width:110px;text-align:center;}
+.refill-rx .step-3 .left-block .field select{min-width:200px;max-width:200px;}
+.refill-rx .step-3 .left-block .field input[type=text].date{width:40px;}
+.refill-rx .step-3 .map-results .store-list .store .details dt{width:220px;}
+.refill-rx .step-3 .right-block{width:640px;padding-left:20px;}
+.refill-rx .step-3 .left-block.pcy-theme .change-store{margin-top:20px;text-align:right;}
+.refill-rx.step-4 .pcy-theme .step-controllers{margin-top:20px;}
+.your-heb-pharmacy .head{margin-bottom:10px;}
+.your-heb-pharmacy{margin-top:20px;}
+.rx-rewards-platinum.step-4 .print{margin:20px 0 0 0;text-align:center;}
+.rx-rewards-platinum.step-4 h3.header-three{padding-top:20px;}
+.transfer-rx .ff-nav{margin:45px 0 0 0;padding:0 15px 0;}
+.transfer-rx .form-block p{margin:10px 0;}
+.transfer-rx .form-block p.italic{font-style:italic;}
+.transfer-rx .refill-notification{border:1px solid #bbb;border-radius:3px;margin-top:20px;}
+.transfer-rx .refill-notification .rows .row{padding:20px 20px 20px 35px;border-bottom:1px solid #BBB;}
+.transfer-rx .refill-notification .rows .row.last{border-bottom:0;}
+.transfer-rx .refill-express table{width:100%;border:1px solid #bbb;border-radius:3px;margin-top:20px;}
+.transfer-rx .refill-express table thead{background-color:#eef5f9;}
+.transfer-rx .refill-express table td,.transfer-rx .refill-express table th{padding:10px 0 10px 20px;text-align:left;}
+.transfer-rx .refill-express table .left-cell{width:20%;border-right:1px solid #bbb;}
+.transfer-rx .refill-express table tbody .left-cell,.transfer-rx .refill-express table tbody .right-cell{border-top:1px solid #bbb!important;}
+.transfer-rx .refill-notification label{text-align:right;}
+.transfer-rx .refill-notification .notification{margin-left:230px;}
+.transfer-rx .step-4 .map-results .store-list .store{padding:15px;border:1px solid #C5C5C5;}
+.transfer-rx .step-4 .left-block.pcy-theme{width:290px;}
+.transfer-rx .step-4 .left-block .field label{width:50px;padding-right:5px;}
+.transfer-rx .step-4 .left-block .field input[type=text]{width:110px;text-align:center;}
+.transfer-rx .step-4 .left-block .field .css3 .selectyzeValue{width:113px;}
+.transfer-rx .step-4 .left-block .field input[type=text].date{width:25px;}
+.transfer-rx .step-4 .map-results .store-list .store .details dt{width:220px;}
+.transfer-rx .step-4 .right-block{width:640px;padding-left:20px;}
+.transfer-rx .step-4 .left-block.pcy-theme .change-store{margin-top:20px;text-align:right;}
+.step-5 .pcy-theme .step-controllers{margin-top:20px;}
+.step-5 .top-block{height:100px;margin-bottom:30px;}
+.step-5 .patient-info{margin-bottom:20px;}
+.step-5 .patient-info .col{float:left;width:50%;}
+.step-5 .patient-info .col dt{clear:left;float:left;}
+.step-5 .patient-info .col dd{font-weight:bold;float:left;margin-left:10px;}
+.step-5 .patient-info .prescription-review{margin-top:0;width:80%;}
+.step-5 .patient-info sup{vertical-align:text-top;}
+.step-5 .left-block .top-block ul.patient-info li span.info1{text-align:right;width:100px!important;}
+.step-5 .left-block .top-block ul.patient-info li span.info2{text-align:left;font-weight:bold;}
+.step-5 .left-block .pickupnote{width:330px;font-style:italic;}
+.step-5 .left-block .transferlines{float:left;min-height:170px;width:150px;text-align:center;padding-top:110px;}
+.step-5 .left-block .transferlines span{color:#BBB;font-size:35px;}
+.step-5 .right-block .top-block .pickuptime{margin:30px 0 0 0;}
+.step-5 .pcy-theme .pharmacy-info{float:left;border:1px solid #E6E5E5;border-radius:3px;min-height:280px;width:330px;}
+.step-5 .pcy-theme .pharmacy-info .title{font-weight:bold;border-bottom:1px solid #E6E5E5;padding:10px;background-color:#c6e8fe;line-height:18px;}
+.step-5 .pcy-theme .pharmacy-info .pharmacy-information{padding:0 10px;line-height:18px;}
+.loyalityNavWrapper{width:200px;border-top:4px solid #414142;border-bottom:4px solid #414142;margin:10px 0;}
+.activeNav{font-size:25px;font-family:Helvetica,sans-serif;color:#dc291e;margin:10px 0 10px 15px;font-weight:bold;}
+.activeNav H3{font-size:25px;}
+.loyalityNavLinks{line-height:250%;border-bottom:dotted 3px #8b8b8b;margin-left:15px;padding:3px 0;text-transform:capitalize;}
+.inline{display:inline-table;vertical-align:top;}
+.inline-block{display:inline-block;}
+.immunizationWrapper{width:200px;border-top:4px solid #414142;border-bottom:4px solid #414142;margin:10px 0;}
+.immunizationWrapper li{width:177px;}
+.loyalityNavLinks .sublinks{margin-left:37px;}
+.immunizationWrapper .activenavlink,.immunizationNav .activeImu,.immunizationWrapper .activenavlink a{color:#dc291e;}
+.immunizationMainWrapper{width:700px;margin-left:15px;}
+.immunizationTypeWrapper .immunizationNav{width:180px;margin-top:15px;}
+.immunizationTypeWrapper .immunizationDesc{width:400px;margin-left:15px;line-height:150%;}
+.immunizationNavigator{border-bottom:dotted 1px #8b8b8b;width:100%;text-align:right;line-height:200%;}
+.whiteContainer .legaltxt{font-style:italic;font-size:12px;}
+.whiteContainer .noaptnecess{margin:10px 0 10px 25px;}
+.whiteContainer .noaptnecess li{list-style-type:disc;color:#dc291e;clear:both;}
+.printemailicons .firsticon{margin-right:35px;}
+.immunizationDesc h3{margin-top:20px;}
+.lastElement{margin-bottom:30px;}
+.printemailicons img{margin-right:15px;}
+.whiteContainer p{line-height:200%;}
+.printemailicons{margin-bottom:5px;}
+.immunizationstopheader{margin:5px 0 15px;}
+.whiteContainerWrapper{background-color:#fff;border:1px solid #8b8b8b;width:700px;line-height:150%;font-size:15px;}
+.whiteContainer{margin:30px 40px;}
+.whiteContainer .required{padding:5px 0;}
+.immutitle{width:640px!important;}
+.floatright{float:right;}
+.bluelinks,.bluespace{font-size:14px;font-family:Helvetica,sans-serif;color:#057dc2!important;}
+.privacyStatement{margin:25px 0 87px;}
+.immunizationInputs div.error{padding-left:198px;width:217px;}
+.immunizationInputs .css3 .selectyzeValue.error{border:1px solid #DC291E!important;}
+.immunizationstxtinput{width:203px;padding-left:12px;height:36px;margin-bottom:8px!important;line-height:36px;}
+select.immunizationsselect{min-width:217px;max-width:217px;}
+.consenttitle{width:195px;vertical-align:top;padding-top:7px;}
+.consenttitle em{color:#DC291E;}
+.immunizationMainWrapper select{height:38px!important;padding:9px 30px 9px 6px;line-height:18px;margin-bottom:8px!important;}
+.immunizations-phone1,.immunizations-phone2{width:52px;height:35px;margin-bottom:8px;}
+.immunizations-phone3{width:71px;height:36px;margin-bottom:8px;}
+.redbutton{border-radius:3px;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;font-size:18px;color:#fff;border:1px solid #911a13;background-color:#dc291e;padding:5px 15px;cursor:pointer;}
+.loyalityNavLinks .sublink{margin-left:35px;}
+.immunizationSubmit{margin:32px 0 22px;}
+.whiteContainer .medicaretitle{margin-top:4px;}
+.whiteContainer .immunizationInputs:first-child{margin-top:10px;}
+.immunizationContainer{background-color:#fff;border:1px solid #e5e5e5;width:755px;line-height:150%;font-size:15px;margin-bottom:18px;}
+.immunizationContainer p{padding:33px 23px;}
+.firstSchedule{margin-top:38px;}
+.immunizationContainer .blueblock{color:#89cbde;background-color:#057dc2;font-size:22px;font-weight:bold;}
+.immunizationContainer .bluetxt{margin:22px 0 27px 27px;}
+.blueblock .blueselect{width:383px!important;position:relative;top:10px;left:30px;}
+.blueblock .blueselect select{min-width:395px!important;max-width:395px!important;padding-right:38px;}
+.grayblock{background-color:#e6e5e5;font-weight:bold;padding:5px 0 15px 30px;}
+.lightblueblock{background-color:#89cbde;padding:17px 0 17px 35px;}
+.lightblueblock::-moz-focus-inner{margin:-1px;padding:0;border-width:1px;}
+.immunizationtxt{padding:18px 0 18px 30px;border:1px solid #e5e5e5;border-top-style:none;border-right-style:none;border-left-style:none;}
+.immunizationPersonalData{font-size:22px;font-weight:bold;}
+.immunizationPersonalData .immunizationName{margin:15px 15px 15px 31px;}
+.immunizationPersonalData .immunizationAge{margin-right:15px;}
+.immunizationName{width:235px;}
+.immunizationDose{width:165px;}
+.immunizationAge{width:155px;}
+.immunizationLastDate{width:125px;}
+.immunizationLastDateHeader{position:relative;top:10px;width:135px;}
+.immunizationContainer .immunizationsName{margin-left:35px;width:265px;font-weight:bold;}
+.immunizationContainer .immunizationsDosing{width:225px;font-weight:bold;}
+.immunizationContainer .immunizationsRecommendAge{width:180px;font-weight:bold;}
+.immunizationContainer .immunziationType{margin-left:30px;width:275px;}
+.immunizationContainer .immunziationNumber{width:215px;}
+.immunizationContainer .immunziationRecAge{width:180px;}
+.downarrow{margin-right:24px;}
+.druginformation{height:391px;width:633px;border-radius:3px;}
+.druginfo .contentarea{background-color:#525252;color:#8b8b8b;width:450px;height:315px;margin:33px 90px;}
+.expressContainer{margin:0 auto;width:980px;display:block;padding-bottom:10px;}
+.expressContainer .express-title{font-size:30px;line-height:32px;text-align:center;padding-bottom:15px;font-weight:bold;}
+.expressContainer sup.required{position:relative;top:4px;margin:0 2px;color:#dc291e;font-size:15px;}
+.expressContainer .info-text sup.required{float:left;margin:0;top:0;}
+.prescriptionInfoWrapper .prescriptionInfo{width:160px;}
+.prescriptionInfoWrapper .expressInput,.stepTwoRefillWrapper .expressInput{width:222px;height:35px;margin:10px 0;padding-left:12px;line-height:35px;font-size:14px;}
+.prescriptionInfoWrapper .addPres{padding-left:5px;}
+.request-form-container .addPres{padding:9px 0 0 5px;}
+.prescriptionInfoWrapper .floatleft{border-right:1px solid #E6E5E5;width:465px;margin-top:25px;}
+.prescriptionInfoWrapper div.error{padding-left:163px;width:217px;}
+.prescriptionInfoWrapper .expressInputMonthDate{width:53px;height:35px;margin:10px 0;text-align:center;line-height:35px;font-size:14px;}
+.prescriptionInfoWrapper .expressInputYear{width:90px;height:35px;margin:10px 0;text-align:center;line-height:35px;font-size:14px;}
+.prescriptionInfoWrapper .requiredrTxt,.prescriptionInfoWrapper .requiredTxt{font-style:italic;font-size:12px;}
+.expressContainer .addPrescription{text-align:right;margin:10px 118px 25px 0;}
+.addPrescription img{margin-right:5px;position:relative;top:5px;}
+.refillheader span{font-weight:bold;margin:10px;}
+.refilltxt{width:720px;}
+.expressContainer .contentWrapper{margin:15px 90px 15px 15px;}
+.expressContainer .pleasenote{width:240px;height:35px;}
+.expressContainer p{line-height:21px;}
+.expressContainer .refillSelection{margin:33px 0;}
+.refillSelection .refilltxt{line-height:21px;margin-left:23px;}
+.pleaseNoteDesc,.pleaseNoteTxt{margin:0 0 10px 20px;}
+.prescriptionInfoWrapper .pleaseNoteTxt{font-family:"MaryDaleBold",Helvetica,sans-serif;color:#dc291e;font-size:30px;}
+.expressContainer .bold{font-weight:bold;}
+.expressContainer .refillContainer{margin:0 95px 0 45px;}
+.stepTwoRefillWrapper{border:1px solid #E6E5E5;padding:30px 20px;margin:35px 0;}
+.stepTwoBlock .prescription{width:390px;margin-bottom:50px;}
+.stepTwoBlock .greenCheck{position:relative;top:15px;margin-right:10px;}
+.stepTwoRefillWrapper .stepTwoBlock{border-bottom:1px solid #E6E5E5;}
+.stepTwoRefillWrapper .stepThreeBlock{border-bottom:1px solid #E6E5E5;margin-bottom:38px;padding-bottom:20px;}
+.expressContainer .redx{float:right;margin-right:23px;}
+.stepTwoBlockConfirm .confirmtxt{width:435px;margin:25px 0;}
+.expressContainer .cancelLink{margin-left:30px;}
+.stepTwoRefillWrapper .radioAnwser{margin:0 12px 0 37px;}
+.expressContainer .expressMsg{margin:30px 0;}
+.expressContainer .3phone{width:52px;height:35px;margin:10px 0;}
+.expressContainer .refillContactType{margin-left:73px;min-width:122px;}
+.expressContainer .refillStatusHeader{background-color:#EEF5F9;padding:18px 35px;border-bottom:1px solid #E6E5E5;font-size:16px;line-height:18px;}
+.expressContainer .statusContainer{border:1px solid #E6E5E5;}
+.expressContainer .statusItem{padding:32px 0 30px 30px;background-color:#fff;font-size:15px;line-height:17px;}
+.expressContainer .refillExpressAvail{margin:40px 0;font-size:12px;font-style:italic;}
+.expressContainer .refillExpressAvailAction button{width:182px;height:47px;line-height:45px;padding:0;cursor:pointer;}
+.stepThreeBlock .bold{margin-left:20px;}
+.stepThreeBlock .requiredTxt{line-height:200%;font-size:12px;font-style:italic;}
+.stepThreeBlock .phone3{width:52px;height:35px;margin:10px 10px 10px 0;line-height:35px;text-align:center;}
+.stepThreeBlock .phone4{width:98px;height:35px;margin:10px 10px 10px 0;line-height:35px;text-align:center;}
+.stepThreeBlock .contactHeader{width:196px;}
+.stepThreeBlock div.error{padding-left:199px;width:226px;}
+.expressContainer .lastBlock{border:none;margin-bottom:0;padding-bottom:0;}
+.expressContainer .refillContactType p{width:637px;padding-left:5px;float:left;}
+.expressContainer .refillContactType .phone3.error{margin:10px 10px 10px 0!important;}
+.expressContainer .redbutton{width:245px;}
+.info-text{margin-top:25px;}
+.info-text .inline-block.text{padding-left:10px;}
+.mobileCheckBox{vertical-align:top;position:relative;top:7px;}
+.stepThreeBlock .requiredContainer{margin:10px 10px 10px 35px;}
+.expressContainer .contactMethods{font-weight:bold;}
+.expressContainer .yourPharmacyLoc{width:320px;margin-right:75px;}
+.expressContainer .yourPharmacyLoc h3,.expressContainer .notifcationPref h3{font-size:18px;line-height:20px;}
+.expressContainer .notifcationPref{float:right;width:480px;word-wrap:break-word;padding-right:100px;}
+.expressContainer .notifcationPref div{padding-top:5px;}
+.expressContainer .pleaseVerify{margin:30px 0 40px;}
+.expressContainer .refillStatus h3{margin:43px 0 22px;font-size:18px;line-height:20px;}
+.refillStatusHeader .name{width:160px;}
+.refillStatusHeader .prescription{width:270px;}
+.refillStatusHeader .refill{width:210px;}
+.statusContainer .patientName{width:145px;}
+.statusContainer .prescriptionName{width:270px;margin-right:10px;}
+.statusContainer .refillable{width:120px;padding:0 100px 0 20px;line-height:22px;}
+.statusContainer .refillIcon{position:relative;top:10px;margin-right:10px;}
+.yourPharmacyLoc .pharmHours{margin:30px 0 10px 0;}
+.yourPharmacyLoc .refillDisclaim{position:relative;top:3px;}
+.expressContainer .cancelLink{margin-left:30px;}
+.manage-prescriptions .section-title span{background:url('/img/common/titleline.png') bottom left repeat-x transparent;display:inline-block;width:930px;padding:0 30px 0 20px;line-height:45px;}
+.manage-prescriptions .section-title span label{font-weight:400;}
+.manage-prescriptions .prescription-title,.manage-prescriptions .section-title{background-color:#56A0D2;margin:20px 0;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;color:#FFF;font-size:22px;display:inline-block;padding-bottom:5px;line-height:45px;}
+.manage-prescriptions .prescription-title{padding:5px 16px;width:948px;}
+.manage-prescriptions .prescription-title .name{font-family:"Gotham",Helvetica,sans-serif;}
+.manage-prescriptions .prescription-title a{color:#FFF;font-size:15px;}
+.manage-prescriptions .prescription-title span{margin-right:5px;}
+.manage-prescriptions .section{margin-bottom:40px;}
+.manage-prescriptions .section .dashboard-block{float:left;width:330px;margin-right:15px;}
+.manage-prescriptions .section .dashboard-block.last{width:287px;margin-right:0;}
+.manage-prescriptions .section .dashboard-block.last img{margin:25px 0 25px 20px;}
+.manage-prescriptions .section .dashboard-block.last dd{width:100%;text-align:center;}
+.manage-prescriptions .section .dashboard-block.last dd div.call-to-action{text-align:center;}
+.manage-prescriptions .section .dashboard-block .block-title{background-color:#C6E8FE;padding:10px;border:1px solid #C5C5C5;border-bottom:0;font-size:20px;line-height:35px;}
+.manage-prescriptions .section .dashboard-block.last{border-top:1px solid #C5C5C5;border-left:1px solid #C5C5C5;border-right:1px solid #C5C5C5;background-color:#FFF;position:relative;padding-bottom:15px;}
+.manage-prescriptions .section .dashboard-block.last .border-bottom{background:url('/img/pharmacy/border-bottom.png') no-repeat bottom center transparent;position:absolute;bottom:-27px;left:0;height:41px;}
+.manage-prescriptions .section .dashboard-block .block-content li{padding:10px 15px;line-height:32px;border:1px solid #C5C5C5;border-top:0;background-color:#FFF;}
+.manage-prescriptions .section .dashboard-block .block-content li img,.manage-prescriptions .section .dashboard-block .block-content li span{float:left;}
+.manage-prescriptions .section .dashboard-block .block-content li .upcoming-name{font-size:18px;line-height:32px;}
+.manage-prescriptions .section .dashboard-block .block-content li .dashboard-number{background:url('/img/pharmacy/red-dot.png') no-repeat top right transparent;width:20px;height:20px;text-align:center;font-weight:bold;line-height:20px;color:#FFF;padding-left:5px;}
+.manage-prescriptions .section .dashboard-block .block-content li img{margin-right:10px;}
+.manage-prescriptions .section .dashboard-block.refill-express .block-content img{margin:25px 0 20px 35px;}
+.manage-prescriptions .section .dashboard-block.refill-express .block-content span{text-align:center;padding:0 60px;}
+.manage-prescriptions .section .dashboard-block.refill-express .block-content button{width:210px;margin-top:20px;}
+.manage-prescriptions .section .dashboard-block .block-content .show-more{float:right;}
+.manage-prescriptions .prescription-summary .table{border-top:1px solid #D9DADC;border-left:1px solid #D9DADC;border-right:1px solid #D9DADC;}
+.manage-prescriptions .prescription-summary .table .header{font-weight:bold;background-color:#E6E4E5;padding:25px 0;text-align:center;float:left;border-right:1px solid #CFC5C5!important;display:inline-block;line-height:17px;}
+.manage-prescriptions .prescription-summary .table .header a{font-weight:bold;display:inline-block;}
+.manage-prescriptions .prescription-summary .table .row{float:left;min-height:135px;padding:10px 0 0 0;line-height:22px;display:inline-block;}
+.manage-prescriptions .prescription-summary .table.row{border-top:none;background-color:#FFF;border-bottom:1px solid #E5E5E5;}
+.manage-prescriptions .prescription-summary .table.row.out-refill{background-color:#fcf4f4;}
+.manage-prescriptions .prescription-summary .table .prescription-details{width:222px;border-right:1px solid #e5e5e5;}
+.manage-prescriptions .prescription-summary .table .last-filled{width:103px;border-right:1px solid #E5E5E5;text-align:center;}
+.manage-prescriptions .prescription-summary .table .header.last-filled{padding:17px 0 16px;}
+.manage-prescriptions .prescription-summary .table .refill-express{width:140px;border-right:1px solid #E5E5E5;}
+.manage-prescriptions .prescription-summary .table .store-location{width:179px;border-right:1px solid #E5E5E5;}
+.manage-prescriptions .prescription-summary .table .additional-info{width:170px;border-right:1px solid #E5E5E5;}
+.manage-prescriptions .prescription-summary .table .status{width:83px;border-right:1px solid #E5E5E5;text-align:center;}
+.manage-prescriptions .prescription-summary .table .select-for-refill{width:60px;text-align:center;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .patient-name{width:105px;border-right:1px solid #E5E5E5;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .prescription-details{width:173px;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .prescription-details span{padding:0 8px 0 9px!important;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .last-filled{width:94px;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .refill-express{width:120px;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .store-location{width:150px;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .additional-info{width:170px;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .status{width:84px;}
+.manage-prescriptions .prescription-summary.upcoming-all .table .select-for-refill{width:60px;padding:10px 6px 0 8px;}
+.manage-prescriptions .prescription-summary .table .header.select-for-refill{line-height:15px;padding:19px 6px 18px 8px;border-right:none!important;display:inline-block;text-align:left;}
+.manage-prescriptions .prescription-summary .table .row.patient-name span,.manage-prescriptions .prescription-summary .table .row.prescription-details span,.manage-prescriptions .prescription-summary .table .row.refill-express span,.manage-prescriptions .prescription-summary .table .row.refill-express a,.manage-prescriptions .prescription-summary .table .row.store-location span,.manage-prescriptions .prescription-summary .table .row.additional-info span{padding:0 12px;float:left;}
+.manage-prescriptions .manage-prescriptions-bottom{padding:20px 35px 0 0;}
+.manage-prescriptions .manage-prescriptions-bottom .print{float:left;width:50%;}
+.manage-prescriptions .manage-prescriptions-bottom .checkout{float:left;width:50%;}
+.manage-prescriptions .manage-prescriptions-bottom .checkout button{float:right;}
+.manage-prescriptions .loadmore{text-align:center;float:left;width:100%;padding-top:55px;}
+.manage-prescriptions .loadmore button{width:350px;margin-left:315px;font-weight:bold;}
+.manage-prescriptions .dashboard-block.refill-express{border:1px solid #C5C5C5;padding-bottom:20px;width:328px;background-color:#FFF;}
+.manage-prescriptions .upcoming{line-height:36px;}
+.manage-prescriptions .upcoming h3,.manage-prescriptions .upcoming img{float:left;padding-right:8px;}
+.manage-prescriptions .upcoming .block-content li dd.system-link{width:144px;text-align:center;}
+.layout-a{width:790px;}
+.layout-a-c{float:left;}
+.layout-a-c1{width:425px;}
+.layout-a-c2{width:265px;border-left:1px solid #C5C5C5;border-right:1px solid #C5C5C5;}
+fieldset.f-1{margin-bottom:35px;}
+fieldset.f-1.last{margin-bottom:0;}
+fieldset.f-1 .oops{margin-bottom:7px;}
+fieldset.f-1 fieldset,fieldset.f-1 legend{width:100%;display:block;}
+fieldset.f-1 legend{font-size:18px;color:#414142;line-height:24px;font-weight:bold;margin:0 0 20px;}
+fieldset.f-1 p.f-1{font-size:15px;line-height:24px;color:#b1b1b1;margin-bottom:25px;}
+fieldset.f-1 textarea{width:396px;height:123px;resize:none;padding:10px 5px;}
+fieldset.f-1 .required{font-size:12px;}
+fieldset.f-1 input.error{background-color:#f2dfde;}
+fieldset.f-1 a.error{background-color:#f2dfde;border:1px solid #DC291E!important;}
+fieldset.f-2{padding:0;margin:0;}
+fieldset.f-2 legend{margin-bottom:30px;}
+fieldset.f-2 label{margin:0;padding:10px 10px 10px 0;display:inline-block;width:auto;}
+fieldset.f-2 input[type=text]{width:100px;padding-right:40px;display:inline-block;}
+fieldset.f-2 .datetime{background:url('/img/common/calendar.png') center center no-repeat;display:inline-block;vertical-align:middle;width:30px;height:32px;cursor:pointer;position:absolute;right:5px;top:2px;}
+.heading.f-1{margin-bottom:18px;}
+.heading.f-2{font-size:25px;}
+.new-prescription-request.step-4 .patient-details,.transfer-rx.step-5 .patient-details{line-height:28px;}
+.new-prescription-request.step-4 .your-heb-pharmacy,.transfer-rx.step-5 .your-heb-pharmacy{margin-bottom:25px;}
+.new-prescription-request.step-4 .your-prescritions,.transfer-rx.step-5 .your-prescritions{font-style:italic;font-size:12px;}
+.new-prescription-request.step-4 .pharmacy-prescription-details,.transfer-rx.step-5 .pharmacy-prescription-details{line-height:25px;}
+.new-prescription-request.thank-you h2{margin-top:30px;}
+.layout-a-c1-c1,.layout-a-c1-c2{position:relative;float:left;margin-right:30px;}
+.layout-a-c1{width:440px;float:left;}
+.layout-a-c2{width:265px;float:right;}
+.new-prescription-request.step-3 .map-results .store-list .store.main-title{margin:0;padding:12px 20px;min-height:0;color:#414142;font-weight:bold;font-size:16px;}
+.new-prescription-request.step-3 .map-results .store-list .store{padding:18px 33px;}
+.new-prescription-request.step-3 .map-results .store-list .store .details{float:none;}
+.new-prescription-request.step-3 .map-results .store-list .store .details dt{width:100%;}
+.new-prescription-request.step-3 .map-results .store-list .store .details .pharmacy-hours{margin-top:20px;}
+.new-prescription-request.step-3 .map-results .store-list .store .details .hour-line{font-weight:normal;}
+.transfer-rx .re-auto-refills .refill-notification{line-height:16px;}
+.transfer-rx .re-auto-refills .refill-notification label{text-align:left;padding:8px 10px 8px 60px;line-height:21px;}
+.transfer-rx .re-auto-refills .refill-notification span{text-align:left;padding:9px 0 7px;display:inline-block;line-height:21px;}
+.transfer-rx .re-auto-refills .refill-notification .notification{margin-left:60px;}
+.transfer-rx .re-auto-refills .refill-notification .cutomize-checkbox label{padding:0 0 0 21px;}
+.rdcrcl-content.re-auto-refills{padding:0 15px 21px;}
+.rdcrcl-content p{line-height:21px;}
+.re-auto-refills .cutomize-checkbox div{display:inline-block;font-size:14px;margin-right:-4px;width:21px;}
+.re-auto-refills.pcy-theme div.error{clear:both;float:none;margin-left:294px!important;padding:0;width:285px;}
+.re-auto-refills .cutomize-checkbox div.text{padding:3px 0 0 8px;vertical-align:top;width:auto;max-width:805px;}
+.re-auto-refills .cutomize-checkbox div.text p{margin:0;line-height:25px;padding:0 0 10px;}
+.re-auto-refills .right-link{text-align:right;margin:0!important;padding:0;}
+.re-auto-refills .right-link a{font-size:18px;line-height:20px;}
+.re-auto-refills.pcy-theme .required{padding:5px 0 0 30px;line-height:16px;}
+.re-auto-refills p{line-height:22px;padding:12px 0 11px;}
+.re-auto-refills .form-block .header-three{font-size:30px;line-height:32px;}
+.transfer-rx .re-auto-refills .form-block p{margin:10px 0 0;padding:0;}
+.re-prescription-container{padding:2px 0 12px;}
+.re-prescription-container .re-prescription-title{background-color:#56A0D2;color:#FFF;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;font-size:22px;padding-bottom:5px;margin:12px 0 0;}
+.re-prescription-container .re-prescription-title.re-eligible{margin-top:35px;}
+.re-prescription-container .re-prescription-title span{background:url("/img/common/titleline.png") repeat-x left bottom transparent;display:inline-block;line-height:45px;padding:0 30px;width:890px;}
+.re-table{border-top:1px solid #E5E5E5;border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;margin:18px 0 12px;}
+.re-table .re-head{background-color:#E6E5E5;font-weight:bold;}
+.re-table .re-head div{float:left;line-height:20px;padding:18px 0 19px;text-align:center;border-right:1px solid #E6E5E5;}
+.re-table .re-row div{float:left;border-right:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;padding:4px 0 22px 0;text-align:center;line-height:16px;min-height:96px;}
+.re-table .re-row .cutomize-checkbox input[type="checkbox"]+label{padding:0 0 0 21px;margin:11px 20px 0 19px;}
+.re-table .re-row div p{padding:8px 0 0;line-height:16px;}
+.re-table .re-checkbox{width:60px;}
+.re-table .re-date{width:155px;}
+.re-table.re-eligible .re-date{width:150px;}
+.re-table .re-details{width:243px;}
+.re-table.re-eligible .re-details{width:280px;}
+.re-table .re-row .re-details{width:213px;padding:4px 5px 22px 25px;text-align:left;}
+.re-table.re-eligible .re-row .re-details{width:250px;}
+.re-table .re-last-date{width:166px;}
+.re-table .re-remaining{width:150px;}
+.re-table.re-eligible .re-remaining{width:184px;}
+.re-table .re-store{width:230px;border-right:none!important;}
+.re-table.re-eligible .re-store{width:270px;}
+.re-table .re-row .re-store{width:200px;padding:4px 5px 22px 25px;text-align:left;}
+.re-table.re-eligible .re-row .re-store{width:240px;}
+.re-profile-container{padding-top:8px;}
+.re-profile-container .re-profile-header{background-color:#057DC2;color:#C6E8FF;font-size:18px;line-height:44px;font-weight:bold;padding:14px 30px 13px;}
+.re-profile-container .re-profile-header span{float:left;padding-right:15px;font-size:22px;}
+.re-profile-container .re-profile-header span sup{font-size:12px;line-height:0;}
+.re-profile-container .re-profile-header .edit-link{color:#C6E8FF;font-size:14px;float:left;line-height:42px;padding-top:2px;}
+.re-profile-container .re-profile-header .re-name{font-weight:normal;color:#FFF;}
+.re-profile-container .re-profile-header .re-name.noselect{font-weight:normal;color:#000;background-color:#FFF;min-width:345px;padding-left:15px;font-family:"Helvetica",Arial,"MS Trebuchet",sans-serif;font-size:14px;}
+.re-profile-container .re-profile-header select{height:38px!important;max-width:395px;min-width:395px;padding:9px 38px 9px 6px;}
+.re-profile-container .re-profile-header .css3 .UlSelectize{top:40px;}
+.re-profile-container .re-profile-subcontainer{padding:3px 12px;line-height:23px;}
+.re-profile-container .re-profile-subcontainer p{padding:12px 0;}
+.re-profile-container .re-profile-subcontainer p span{display:block;padding-left:17px;}
+.re-print{padding:25px 15px 100px;line-height:16px;}
+.re-print p{padding:21px 0 0;}
+.re-print form label{font-weight:bold;padding-right:12px;float:left;padding-top:12px;}
+.re-print form img.ui-datepicker-trigger{float:left;padding:4px 0 0 14px;}
+.re-print .re-print-title{font-weight:bold;font-size:18px;line-height:20px;padding:11px 0;}
+.re-print input[type="text"]{width:165px;height:38px;line-height:100%;padding-left:13px;font-size:14px;float:left;}
+.re-print .field{float:left;padding:10px 70px 20px 0;}
+.re-print .btn-print{height:47px!important;width:147px;line-height:45px!important;margin:35px 0 14px;}
+.registration.step-4 .authentication-code-container{margin-top:40px;display:block;}
+.registration.step-4 .authentication-code-container label{width:auto;padding-right:0;margin-right:15px;font-size:14px;}
+.registration .category-title h1{font-size:35px;}
+.registration.step-1 .field.f-2{position:relative;}
+.registration.step-1 .field.f-2 .left-col{position:absolute;padding:3px 5px;}
+.registration.step-1 .field.f-2 .left-col input{width:18px;height:18px;}
+.registration.step-1 .field.f-2 .right-col{margin-left:30px;}
+.registration.step-2 .help-icon{float:left;margin:0 0 0 10px;height:37px;}
+.re-prescription-subcontainer{padding:20px 15px 35px;font-size:15px;line-height:18px;}
+.re-prescription-subcontainer .re-prescription-name{font-size:18px;line-height:20px;font-weight:bold;padding:13px 0 16px;}
+.re-prescription-subcontainer div{padding:6px 0;}
+.re-prescription-subcontainer div label{font-weight:bold;display:inline-block;float:left;width:120px;text-align:right;}
+.re-prescription-subcontainer div span{display:inline-block;float:left;padding-left:5px;width:805px;}
+.re-prescription-table{width:707px;line-height:17px;padding:0 15px;}
+.re-prescription-table .re-prescription-header{background-color:#E6E5E5;font-weight:bold;text-align:center;padding:20px 0;border-left:1px solid #D5D7D8;border-top:1px solid #D5D7D8;border-right:1px solid #D5D7D8;}
+.re-prescription-table .re-prescription-row{text-align:center;border-left:1px solid #D5D7D8;font-size:13px;}
+.re-prescription-table .re-prescription-row div{border-right:1px solid #D5D7D8;border-bottom:1px solid #D5D7D8;padding:15px 0 6px;min-height:34px;}
+.re-prescription-table .re-prescription-header .re-name{color:#414142;}
+.re-prescription-table .re-name{width:215px;float:left;font-size:14px;color:#057DC2;padding-right:5px!important;padding-left:30px!important;text-align:left;}
+.re-prescription-table .re-qty,.re-prescription-table .re-pay{width:146px;float:left;}
+.re-prescription-table .re-date{width:160px;float:left;}
+.re-prescription-link{padding:18px 15px 87px;}
+.content-block.full-width.landing-page.top{background:url("/img/texturebg.jpg") repeat left top transparent;}
+.landing-page .wrapper .block{margin:15px 0;}
+.cat-subtitle.full-width{width:980px;max-width:980px;}
+.landing-page .wrapper .block .left,.landing-page .wrapper .block .right,.landing-page .wrapper .block .tab{float:left;}
+.landing-page .wrapper .block .left{width:570px;margin-right:30px;}
+.landing-page .wrapper .block.third .left{width:568px;border:1px solid #D5D7D8;}
+.landing-page .wrapper .block .right{width:378px;}
+.landing-page .wrapper .block .tab a{padding:0 25px;line-height:43px;}
+.landing-page .wrapper .block .tabs .tab.middle{margin:0 15px;}
+.landing-page .wrapper .block .left .advice img{float:left;}
+.landing-page .wrapper .block .left .advice .text{width:270px;padding-left:24px;float:left;}
+.landing-page .wrapper .block .left .advice .text p{line-height:24px;}
+.manage-prescriptions .upcoming{line-height:36px;}
+.landing-page .upcoming h3,.landing-page .upcoming img{float:left;padding-right:10px;}
+.landing-page .upcoming .block-content li dd{width:33%;}
+.landing-page .upcoming .block-content li dd.dashboard-block-date{width:155px;font-weight:bold;line-height:24px;}
+.landing-page .upcoming .block-content li dd.dashboard-block-name{width:160px;line-height:24px;}
+.landing-page .upcoming .block-content li dd.dashboard-block-prescription{width:209px;line-height:24px;}
+.landing-page .dashboard-block .block-title{background-color:#c6e8fe;border-color:#D5D7D8;border-image:none;border-style:solid solid none;border-width:1px 1px 0;padding:10px 15px;line-height:36px;}
+.landing-page.hot .right .dashboard-block .block-title h3{font-size:20px!important;}
+.landing-page .dashboard-block .block-content li{padding:14px 15px;background-color:#FFF;border-bottom:1px solid #D5D7D8;}
+.landing-page .dashboard-block .block-content li.last{border-bottom:none;}
+.landing-page .second .dashboard-block .block-content li{padding:15px 15px;border:1px solid #D5D7D8;border-top:0;}
+.landing-page .dashboard-block .block-content li img,.landing-page .dashboard-block .block-content li span{float:left;}
+.landing-page .dashboard-block .block-content li.show-more dd{float:right;}
+.landing-page .dashboard-block .block-content li.show-more a{line-height:14px;margin:0;}
+.landing-page .dashboard-block .block-content li .dashboard-number{background:url('/img/pharmacy/red-dot.png') no-repeat top right transparent;width:20px;height:20px;text-align:center;font-weight:bold;line-height:20px;color:#FFF;padding-left:5px;}
+.landing-page .dashboard-block .block-content li img{margin-right:10px;}
+.landing-page .block-content.refill-express img{margin:0 0 20px 60px;}
+.landing-page .block-content.refill-express p,.landing-page .block-content.delivery p{text-align:center;padding:0 25px;line-height:24px;}
+.landing-page .block-content.delivery p.link{text-align:right;}
+.landing-page .block-content.delivery span{padding-bottom:10px;}
+.landing-page .block-content.delivery span.link{text-align:right;padding-bottom:0;}
+.landing-page .block-content.refill-express button{width:210px;margin:20px auto 0;}
+.landing-page.cold .dashboard-block{border:1px solid #D5D7D8;}
+.landing-page.cold .dashboard-block .white-line-title{font-size:20px;}
+.landing-page.cold .dashboard-block .white-line-title span{width:326px;}
+.white-line-title span{background:url('/img/common/titleline.png') bottom left repeat-x transparent;display:inline-block;width:518px;padding:0 25px;line-height:45px;}
+.white-line-title{background-color:#56A0D2;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;color:#FFF;font-size:22px;display:inline-block;padding-bottom:5px;line-height:45px;}
+.landing-page.hot .block.third .right{background-color:#FFF;padding:30px 0;border:1px solid #D5D7D8;}
+.landing-page .block.third .right.delivery{padding:25px 0 5px;}
+.landing-page .block.fourth{margin:10px 0 0 0;}
+.landing-page .block.fourth div.rdcrcl-footer-nav{padding:22px 0 0;}
+.landing-page .block.last .sections,.landing-page .block.last .sections .section{float:left;}
+.landing-page .block.last .section{width:30%;padding-right:30px;}
+.landing-page .block.last .sections .section p{line-height:24px;}
+.landing-page .block.last .sections .section div{font-size:18px;line-height:20px;font-weight:bold;}
+.landing-page .block.last .section.last{padding-right:0;}
+.landing-page .block.last .section img{padding:17px 0 25px 0;}
+.landing-page .block-content.no-activity{padding:15px 40px;background-color:#FFF;}
+.landing-page .block-content.no-activity ul{padding-left:40px;margin-bottom:15px;}
+.landing-page .block-content.no-activity ul li{line-height:25px;background:url('/img/common/dotred.png') no-repeat left 15px transparent;padding:10px 0 4px 10px;line-height:16px;}
+.landing-page .block-content.no-refill ul li span{line-height:32px;}
+.landing-page.cold .cat-subtitle{margin:30px 0 40px;}
+.landing-page.cold .dashboard-block .block-content{background-color:#FFF;padding:25px 30px 30px;}
+.landing-page.cold .dashboard-block .block-content dd{line-height:30px;width:100%;}
+.landing-page.cold .dashboard-block .block-content button{margin:10px auto 0;width:320px;}
+.landing-page.cold .form-tabs .tab-content-wrapper .left-side{width:460px;float:left;}
+.landing-page.cold .form-tabs .tab-content-wrapper .left-side p{line-height:24px;}
+.landing-page.cold .form-tabs .tab-content-wrapper .middle-side{width:1px;float:left;border-right:1px solid #D5D7D8;min-height:364px;padding-left:10px;}
+.landing-page.cold .form-tabs .tab-content-wrapper .right-side{width:464px;float:right;}
+.landing-page.cold .form-tabs .tab-content-wrapper .left-side form button{width:185px;}
+.landing-page.cold .form-tabs .tab-content-wrapper .right-side dd{width:100%;}
+.landing-page.cold .form-tabs .tab-content-wrapper .right-side img{margin:0 auto;display:block;}
+.landing-page.cold .form-tabs .tab-content-wrapper .right-side p{text-align:center;margin:15px 0 30px 0;}
+.landing-page.cold .form-tabs .tab-content-wrapper .left-side .notification{padding-left:60px;}
+.landing-page.cold .form-tabs .tab-content-wrapper .left-side .notification label p{padding-left:17px;}
+.landing-page .carousel .jcarousel-skin-mlts .jcarousel-clip.jcarousel-clip-horizontal{width:980px;}
+.landing-page .carousel .jcarousel-skin-mlts .jcarousel-clip.jcarousel-clip-horizontal li{width:980px;}
+.landing-page .carousel .jcarousel-skin-mlts .jcarousel-clip.jcarousel-clip-horizontal li a button{position:absolute;font-weight:bold;left:638px;top:187px;width:205px;font-size:16pt;line-height:30px;}
+.form-tabs .tab-container{z-index:999;}
+.form-tabs .tab-container .tab{background-color:#ECECEC;font-weight:normal;border-color:#A5A5A5!important;border-top:1px solid;border-left:1px solid;border-right:1px solid;border-top-left-radius:4px;border-top-right-radius:4px;margin-left:15px;height:36px;line-height:21px;position:relative;}
+.form-tabs .tab-container .tab span{padding:10px 20px;display:block;}
+.form-tabs .tab-container .tab.active{background-color:#FFF;color:#DC291E;border-color:#D5D7D8!important;}
+.form-tabs .tab-container .tab.active span{height:17px;background-color:#FFF;font-weight:700;}
+.form-tabs .tab-content-wrapper{background-color:#FFF;border:1px solid #D5D7D8;padding:30px 20px;}
+.form-tabs .tab-content-wrapper .form-label{width:150px;line-height:17px;padding:10px 6px 0 0;float:left;}
+.form-tabs .tab-content-wrapper .form-input{width:215px;float:left;padding-bottom:15px;}
+.form-tabs .tab-content-wrapper .form-input input[type="text"]{width:202px;padding-left:12px;height:35px;line-height:100%;float:left;}
+.form-tabs .tab-content-wrapper .form-input .form-short{width:63px!important;text-align:center;padding-left:0!important;margin-right:10px;}
+.form-tabs .tab-content-wrapper .form-input .form-med{width:63px!important;text-align:center;padding-left:0!important;}
+.form-tabs .tab-content-wrapper .error{padding-left:156px;width:250px;}
+.heading.f-3{font-size:22px;color:#414142;margin-bottom:25px;}
+.registration.step-3 .rdcrcl-content .left-col{width:727px;float:left;}
+.registration.step-3 .rdcrcl-content .right-col{width:176px;margin:0 34px 0 0;float:right;}
+.registration.step-3 fieldset.first{margin-top:0;padding-top:0;}
+.registration.step-3 .rdcrcl-content{font-size:14px;}
+.registration.step-3 legend.f-2{font-size:15px;margin-bottom:15px;}
+.registration.step-3 .required{margin-bottom:25px;}
+.registration.step-3 .activation-code-options{margin-bottom:30px;}
+.registration.step-3 .activation-code-option{position:relative;margin:0 0 20px;}
+.registration.step-3 .activation-code-option.last{margin-bottom:0;}
+.registration.step-3 .activation-code-option .c1{position:absolute;width:30px;min-height:35px;padding:0 0 0 5px;}
+.registration.step-3 .activation-code-option .c2{margin-left:35px;}
+.registration.step-3 .activation-code-option label{margin:0;padding:0;width:100%;font-size:15px;font-weight:bold;margin:0 0 5px;}
+.registration.step-4 .required{margin-bottom:10px;}
+.registration.step-3 .activation-code-option p{line-height:20px;}
+.registration.step-3 .activation-code-option .radio-list li{padding:9px 0 0 9px;}
+.registration.step-3 .activation-code-option .radio-list label{margin:0 0 0 10px;padding:0;display:block;width:auto;float:left;font-weight:normal;}
+.registration.step-3 .contract{padding:20px 25px;border:1px solid #414142;height:375px;overflow-x:hidden;overflow-y:auto;}
+.registration.step-3 .contract h1{font-size:18px;line-height:24px;margin-bottom:20px;}
+.registration.step-3 .contract h2{font-size:14px;line-height:22px;margin-bottom:30px;}
+.registration.step-3 .ihr-container{position:relative;margin:27px 0;}
+.registration.step-3 .step-controllers{margin-top:0;}
+.registration.step-3 .ihr-container input{width:20px;height:20px;position:absolute;left:0;top:0;}
+.registration.step-3 .ihr-container label{padding:0;margin:0;width:auto;margin-left:30px;font-size:14px;}
+.registration.step-3 .right-col .title{margin-bottom:20px;}
+.registration.step-3 .right-col .details{font-size:14px;}
+.cutomize-checkbox input[type="checkbox"] ~ label{background-position:0 0;background-repeat:no-repeat;cursor:pointer;padding-left:21px;width:0;line-height:21px;height:21px;display:block;}
+.cutomize-checkbox input.checked[type="checkbox"] ~ label{background-position:0 -24px;}
+.stepTwoBlock .refillable{width:380px;padding:0 100px 0 20px;line-height:25px;}
+.re-table .re-row .cutomize-checkbox input[type="checkbox"] ~ label{padding:0 0 0 21px;margin:11px 20px 0 19px;}
+#fromStore,#toStore{line-height:15px!important;font-size:13px!important;width:10px;display:inline;padding:0 0 12px 0;float:none;}
+#buttonToStore{width:10px;display:inline;padding:0 0 12px 0;float:none;font-size:18px!important;color:#8b8b8b;line-height:18px!important;}
+a.button{text-align:center;text-decoration:none;display:block;padding:0 10px;border-width:1px;border-style:solid;cursor:pointer;position:relative;border-radius:3px;}
+.nameForNotRX{display:none;}
+.showName{display:block;}
+.graybutton{color:#a9a9a9!important;border:1px solid #c7c7c7!important;background-color:#dfdfdf!important;cursor:text!important;}
+.prescriptionerr{padding-left:165px;}
+.yes-optn{width:95px!important;}
+input.button{text-align:center;text-decoration:none;display:block;padding:0 10px;border-width:1px;border-style:solid;height:43px;cursor:pointer;border-radius:3px;position:relative;width:185px;}
+a.trsButton{border-radius:3px;position:relative;border-style:solid;border-width:1px;color:#FFF;cursor:pointer;display:block;font-family:"GothamBold",Arial,"MS Trebuchet",sans-serif;font-size:18px;height:43px;line-height:43px;padding:0 10px;text-align:center;text-decoration:none;}
+form#setupAutoRefill{height:auto;}
+.transfer-rx .patient-info .right-block dt,.transfer-rx .patient-info .right-block dl{line-height:normal;padding-top:0;}
+.transfer-rx .patient-info .def-list dt,.transfer-rx .patient-info .def-list dl{line-height:normal;min-height:none;padding-top:0;}
+.map-container button.go{width:85px;line-height:38px;display:block;float:left;height:38px;margin:1px 0;}
+.map-container .help{color:#8B8B8B;margin-top:10px;font-size:13px;line-height:15px;}
+.map-container .textfield-search{width:188px!important;padding:11px 10px!important;margin-right:11px!important;font-family:"Helvetica",Arial,"MS Trebuchet",sans-serif!important;font-size:14px!important;line-height:14px!important;font-weight:normal!important;font-style:normal!important;color:#414142!important;height:auto!important;display:block!important;float:left!important;}
+.cross-button{padding-left:5px;padding-top:10px;}
+.errorZip{width:215px;margin-left:65px!important;font-size:15px;color:#dc291e;line-height:15px;padding:5px 0 0;margin:0 0 3px!important;}
+a.button.unselected{font-family:"Helvetica",Arial,"MS Trebuchet",sans-serif;font-size:16px;color:#414142;background-color:#fff;border-color:#c5c5c5;outline-color:#c5c5c5;outline-style:inherit;}
+.loadmore a.button{text-align:center;text-decoration:none;display:block;height:43px;line-height:43px;padding:0 10px;border-width:1px;border-style:solid;cursor:pointer;position:relative;border-radius:3px;}
+.manage-prescriptions .loadmore a{width:330px;margin-left:315px;font-weight:bold;}
+.errorColor{color:#dc291e;}
+.pcy-theme div.errorDependent{max-width:150px;// margin-left:265px!important;font-size:15px;color:#DC291E;padding:5px 0 0;margin:0 0 3px!important;}
+.pcy-theme div.errorDependentDOB{max-width:200px;// margin-left:265px!important;font-size:15px;color:#DC291E;padding:5px 0 0;margin:0 0 3px!important;}
+.errorContainer{max-height:70px;min-height:70px;}
+#profileMsgTxt{font-size:15px;line-height:24px;color:#B1B1B1;margin-bottom:25px;}
+.pcy-theme div.cardError{margin-left:0!important;}
+.f-1 .field div.left{padding:7px 40px 6px 0;}
+.transfer-rx .refill-notification .rows .row.last .requiredContainer{margin:10px 10px 10px 35px;}
+.transfer-rx .refill-notification sup.required{position:relative;top:4px;margin:0 2px;color:#dc291e;}
+.transfer-rx .refill-notification .requiredTxt{line-height:200%;font-size:12px;font-style:italic;}
+.transfer-rx sup.required{line-height:15px;}
+.state-dropdown{text-transform:capitalize;}
+.expressContainer .contentWrapper{line-height:21px;}
+.prescription-summary .header-row ul{border-right:1px solid #E5E5E5;}
+.rx-rewards-platinum.step.step-4 .pcy-theme .field{padding:11px 40px 11px 0;line-height:35px;}
+.manage-prescriptions .loadmore .text-link{font-size:18px;}

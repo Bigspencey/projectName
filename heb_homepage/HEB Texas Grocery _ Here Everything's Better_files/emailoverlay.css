@@ -1,0 +1,24 @@
+.emailtofriend{width:640px;min-height:524px;padding:45px 45px 26px 50px;background-color:#FFF;z-index:10000;}
+.emailtofriend .email-required{padding-bottom:9px;font-style:italic;font-size:14px;line-height:14px!important;}
+.emailtofriend em{color:#DC291E!important;}
+.emailtofriend .error-label{color:#DC291E;}
+.error-message{background:url("/img/common/oops.png") no-repeat scroll 25px center #F2DFDE;border:1px solid #DC291E;border-radius:10px 10px 10px 10px;color:#DC291E;font-size:14px;line-height:20px;margin:0;padding:5px 25px 8px 120px;}
+.error-message p{margin:0;padding-top:2px;}
+.emailtofriend .email-form{margin:10px 0 0 0;}
+.emailtofriend .email-form .field{margin:0 0 14px 0;}
+.emailtofriend .email-form label{display:block;float:left;font-size:14px;line-height:16px;padding:11px 15px 11px 0;text-align:right;width:150px;text-align:right;}
+.emailtofriend .email-form input,.emailtofriend .email-form textarea{font-family:Helvetica,sans-serif;font-size:14px;line-height:16px;width:395px;padding:0 10px;}
+.emailtofriend .email-form input[type='checkbox']{width:13px;margin-top:8px;}
+.emailtofriend .email-form .input_1{height:35px;resize:none;padding:10px 10px;}
+.emailtofriend .email-form .input_2{height:35px;}
+.emailtofriend .email-form .input_3{height:95px;padding:10px 10px;resize:none;}
+.emailtofriend .email-form .field p{margin:6px 0 0;}
+.emailtofriend .email-form .note_1{margin:0 0 0 185px;line-height:16px;}
+.emailtofriend .email-form .note_2{text-align:right;display:block;line-height:16px;padding:6px 65px 0 0;}
+.emailtofriend .step-controllers{padding:0 0 0 205px;}
+.emailtofriend .step-controllers button{float:left;width:160px;height:39px;line-height:37px;margin-top:3px;}
+.emailtofriend .step-controllers .cancel{float:left;font-size:18px;line-height:22px;background-color:transparent;font-family:Helvetica,sans-serif;margin-left:27px;cursor:pointer;text-align:left;}
+.emailtofriend .cutomize-checkbox{padding:15px 0 0 179px;}
+.emailtofriend .cutomize-checkbox div{display:inline-block;font-size:14px;margin-right:-4px;width:21px;}
+.emailtofriend .cutomize-checkbox input[type="checkbox"]+label,.emailtofriend .cutomize-checkbox input[type="checkbox"]+input[type="hidden"]+label{padding:0 11px;}
+.emailtofriend .cutomize-checkbox span{padding:4px 0 0 7px;vertical-align:top;display:inline-block;max-width:375px;}

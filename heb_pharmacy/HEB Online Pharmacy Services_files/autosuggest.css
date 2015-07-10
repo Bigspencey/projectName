@@ -1,0 +1,19 @@
+div.dimSearchSuggContainer{display:none;position:absolute;top:10px;left:10px;background-color:#e6e6e6;border:1px solid #cbcbcb;font-family:sans-serif;font-size:12px;z-index:9999;width:173px!important;padding:20px;}
+.searchGroups{float:left;max-width:469px;}
+div.dimSearchSuggContainer .title{color:#666;width:98%;padding-left:8px;padding-right:5px;display:none;}
+div.dimSearchSuggContainer .dimRoots{color:#898989;font-weight:bold;background:#e2e2e2;padding-left:8px;padding-right:5px;line-height:30px;text-transform:uppercase;}
+div.dimSearchSuggContainer .dimResult{width:98%;cursor:pointer;font-size:12px;}
+div.dimSearchSuggContainer .dimResult table{width:98%;border-collapse:separate;}
+div.dimSearchSuggContainer .dimResult table td{text-align:left;padding:0;}
+div.dimSearchSuggContainer .dimResult a{color:#898989;}
+div.dimSearchSuggContainer .dimResult .link{width:99%;padding-top:2px;padding-bottom:2px;padding-left:10px;}
+div.dimSearchSuggContainer .selected .link{background-color:#ececec;}
+div.dimSearchSuggContainer .dimResult img{width:36px;height:35px;border:#CCC thin solid;}
+div.dimSearchSuggContainer .dimResult .link span{color:#037aba;font-weight:bold;}
+.searchItems{float:left;min-height:180px;width:218px;}
+.productGroup{float:left;min-height:180px;width:218px;}
+.searchItems h3,.productGroup h3{text-transform:uppercase;margin:0;font-size:12px;color:#333;}
+.searchItems ul,.productGroup ul{padding:0 0 0 17px;margin:5px 0;}
+.searchItems ul,.searchItems ul li,.productGroup ul,.productGroup ul li{color:#2383b6;font-size:12px;list-style:square outside none;margin:5px 0 0 7px;padding:0;}
+.searchItems ul a,.productGroup ul a{color:#666;text-decoration:none;}
+.searchItems ul a:hover,.productGroup ul a:hover{color:#666;text-decoration:underline;}

@@ -1,0 +1,116 @@
+div#body.full-width{width:100%;}
+#body .body-content.full-width{width:100%;background-color:#FFF;}
+.full .footer-email-error{background-color:#FFF;}
+.content-block.full-width .top{padding-top:10px;}
+.content-block.full-width .box{width:980px;margin:0 auto;}
+.full-width .breadcrumb{width:980px;margin:0 auto;}
+.full-width .category-title{width:980px;margin:7px auto 11px;}
+.box.full-width{padding:5px 0 7px;}
+.sort-container{padding-left:0;}
+.dc-container .cat-load-container .cat-load-more,.dc-container .cat-load-container .cat-load-more a{font:bold 18px/20px Helvetica,sans-serif;text-transform:capitalize;}
+.redeem-text{padding-bottom:11px;line-height:23px;}
+.redeem-text .strong{font-size:18px;}
+.signup-action .btn-submit{float:left;margin-top:47px;width:157px!important;height:55px!important;line-height:53px;}
+.signup-action .btn-continue{height:40px!important;line-height:38px;float:left;margin-top:17px;width:118px!important;}
+.signup-action .system-link{float:left;line-height:40px;padding:17px 0 0 18px;}
+.signup-action .system-link.line-heigh{line-height:52px;padding-top:48px;background-color:transparent;cursor:pointer;}
+.register-title{font-family:"MarydaleRegular",Helvetica,sans-serif;font-size:21px;line-height:29px;color:#f36b21;padding-bottom:5px;}
+.register-account-form.signup-form dt{width:152px;padding:14px 10px 0 18px;font-weight:normal;}
+.register-account-form.signup-form .error{padding-left:180px;}
+.register-account-form.signup-form dd input.form-short,.register-account-form.signup-form dd input.form-med{margin-right:11px!important;width:50px;height:40px;min-height:40px;line-height:100%;}
+.register-account-form.signup-form dd input.form-med{width:75px;}
+.register-account-form.signup-form dd span{clear:both;color:#8B8B8B;display:block;font-size:12px;line-height:14px;padding-top:12px;font-style:italic;}
+.signup-mobile-container{border:1px solid #C5C5C5;padding:25px 17px 20px;background-color:#FFF;}
+.signup-mobile-container .cutomize-checkbox{padding-bottom:15px;white-space:nowrap;}
+.signup-mobile-container .cutomize-checkbox div.text{max-width:918px;white-space:normal;}
+.cutomize-checkbox div{vertical-align:top;}
+.cutomize-checkbox div.text.disabled{color:#8B8B8B;}
+.signup-message{font-size:12px;line-height:16px;padding-top:22px;}
+.signup-message .text-link{font-size:12px;}
+.signup-message .system-link{font-size:12px;line-height:16px;}
+.dc-banner{background:url('/img/common/dc-background.png') left top no-repeat transparent;width:744px;color:#FFF;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;font-size:15px;line-height:18px;padding:9px 8px;margin:25px 0 28px;}
+.dc-banner .left{width:296px;text-align:right;}
+.dc-banner .right{width:448px;text-align:center;}
+.dc-banner .right div{margin-top:9px;}
+.dc-banner a{font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;font-size:15px;text-decoration:underline;color:#FFF;}
+.dc-banner .dc-select-coupon{color:#9E1A12;font:normal 13px/25px 'ClarendonBT-Roman','times new roman',serif;background-color:#FFC82F;max-width:388px;margin:3px auto 0!important;}
+.dc-banner .dc-select-coupon a{font:normal 13px/25px 'ClarendonBT-Roman','times new roman',serif;color:#9E1A12;text-decoration:none;}
+.amount{background:url("/img/common/orange-circle.png") no-repeat center center transparent;height:72px;position:absolute;right:-17px;top:-22px;width:74px;z-index:99;}
+.amount .amount-in{color:#FFF;display:block;font-family:Helvetica,sans-serif;font-size:16px;line-height:18px;text-align:center;font-weight:bold;margin:0 6px;word-wrap:break-word;}
+ul.cat-grid li{margin:35px 31px 0 0;width:225px;padding:0 0 51px;min-height:322px;}
+ul.cat-grid li .cat-list-offer{padding:8px 0 6px;min-height:25px;text-align:left;}
+ul.cat-grid li.last{margin:35px 16px 0 0;padding:0 0 51px;}
+.cat-coupon-price{text-transform:uppercase;font-size:14px;line-height:16px;color:#414142;font-weight:normal;padding-top:11px;display:inline-block;}
+.cat-coupon-description{padding:4px 25px 8px;line-height:16px;}
+.cat-date{font-size:11px;line-height:14px;padding:4px 0;}
+.cat-select{background-color:#EBEBEB;bottom:0;left:0;position:absolute;width:225px;border-top:1px solid #D5D7D8;}
+.homepage .cat-select{border-radius:3px;}
+.cat-select a,.cat-select button{width:107px;height:27px;line-height:27px!important;margin:10px auto 13px;box-sizing:content-box;-moz-box-sizing:content-box;}
+.cat-select button::-moz-focus-inner{margin:-1px;padding:0;border-width:1px;}
+.dc-container .oops{margin:25px 0 20px;}
+.dc-container.full-width .oops{margin:25px 0 0;background-position:15px center;padding:0 15px 0 75px;}
+.email-print-div{float:right;}
+.email-print-div div{float:left;padding-right:18px;}
+.email-print-div a{display:inline-block;line-height:47px;}
+.email-print-div .email{background:url('/img/common/email.png') left center no-repeat transparent;padding-left:29px;}
+.email-print-div .print{background:url('/img/common/print.png') left center no-repeat transparent;padding-left:28px;}
+.email-print-div .last{padding-right:0;}
+.view-tab-small{width:140px!important;}
+.sort-container select.sort-select{min-width:174px;}
+.sort-container .css3 li a{width:125%!important;}
+.coupons-selected{padding:21px 0 41px;}
+.coupons-selected .title{background-color:#dc291e;color:#FFF;font-size:16px!important;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;line-height:48px!important;padding-top:0!important;padding-bottom:0!important;margin-bottom:16px;min-height:48px!important;}
+.coupons-selected .title a{font-size:16px;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;color:#FFF;background:url('/img/common/triangle-white-expanded.png') no-repeat right 19px transparent;padding-right:16px;display:inline-block;}
+.coupons-selected .second.title{padding:0 10px 0 25px!important;}
+.coupons-selected .first,.coupons-selected .second,.coupons-selected .third{padding:10px 0 7px;font-size:13px;line-height:16px;}
+.coupons-selected .first{width:103px;text-align:center;float:left;min-height:96px;}
+.coupons-selected .first img{width:96px;border:1px solid #d5d7d8;}
+.coupons-selected .third{width:102px;float:left;padding:40px 15px 0 0;text-align:right;}
+.coupons-selected .third.title{width:102px;padding:40px 15px 0 0;}
+.coupons-selected .second{width:505px;text-align:left;padding:40px 10px 7px 25px!important;float:left;}
+.dc-landing-title{font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;font-size:22px;line-height:25px;padding:14px 0 15px;background:url('/img/common/red-line.png') center bottom no-repeat transparent;}
+.dc-landing-title span{padding-left:12px;}
+.dc-content{padding-top:20px;}
+.dc-content .left{float:left;width:589px;}
+.dc-content .right{float:right;width:374px;margin-left:15px;}
+.dc-content .dc-coupon-container{background-color:#FFF;border:1px solid #D5D7D8;text-align:center;padding:20px 0 14px;margin-bottom:5px;}
+.dc-content .dc-coupon-container img{padding-bottom:11px;}
+.dc-content .dc-coupon-container .btn{margin:20px auto 16px;width:242px;height:55px;line-height:53px;}
+.dc-content .dc-coupon-container .btn.see-coupons{margin:20px auto 41px;}
+.dc-content .dc-coupon-container .top-dots{background:url('/img/common/large-orage-dots-line.png') top left repeat-x transparent;width:364px;margin:0 auto 25px;}
+.dc-content .dc-coupon{background-color:#F36B21;color:#FFF;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;font-size:11px;line-height:14px;position:relative;}
+.dc-content .dc-coupon img{padding:7px 0;}
+.dc-content .dc-coupon .dc-coupon-discount{font-size:34px;line-height:38px;float:left;text-align:right;width:129px;padding:0 0 3px 10px;font-weight:bold;}
+.dc-content .dc-coupon .dc-coupon-info-container{float:right;max-width:213px;padding:6px 10px 0;letter-spacing:-0.05px;}
+.dc-content .dc-coupon-info-container span{display:block;text-align:right;}
+.dc-content .dc-coupon-info-container .dc-coupon-info{font-size:18px;line-height:20px;}
+.dc-content .dc-coupon .dc-arrow{background:url('/img/common/orange-arrow.png') center bottom no-repeat transparent;position:absolute;bottom:-20px;left:0;height:27px;width:100%;}
+.dc-content .dc-bottom p{padding-bottom:14px;}
+.dc-content .dc-bottom p.info{color:#8B8B8B;padding-bottom:0;}
+.dc-bottom-container{background:url("/img/pdp/texturebottom.png") repeat-x scroll center top #FFF;padding:37px 0 91px;width:100%;}
+.dc-bottom-container .title{width:980px;margin:0 auto;font-size:23px;line-height:26px;text-align:center;font-weight:bold;}
+.dc-bottom-container .steps-container{width:980px;margin:0 auto;}
+.dc-bottom-container .steps-container .step{float:left;width:314px;text-align:center;font-size:17px;line-height:20px;position:relative;margin:29px 19px 0 0;}
+.dc-bottom-container .steps-container .step.last{margin-right:0;}
+.dc-bottom-container .steps-container .step .step-number{background:url("/img/common/red-circle.png") left center no-repeat transparent;width:42px;height:43px;position:absolute;top:-12px;left:-10px;font-family:'ClarendonBT-Roman','times new roman',serif;font-size:29px;line-height:43px;text-align:center;color:#FFF;}
+.dc-bottom-container .steps-container .step .step-title{color:#FFF;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;font-size:30px;line-height:35px;padding:4px 0 7px;background-color:#FAAA44;padding-bottom:7px;}
+.dc-bottom-container .steps-container .step .step-title p{background:url('/img/common/white-line.png') left bottom no-repeat #FAAA44;padding:0 0 10px 12px;text-shadow:1px 1px 1px #dc291e;}
+.dc-bottom-container .steps-container .step .step-title p strong{font-size:34px;font-family:Helvetica,sans-serif;font-weight:bold;}
+.dc-bottom-container .steps-container .step .step-info{border-bottom:1px solid #D5D7D8;border-left:1px solid #D5D7D8;border-right:1px solid #D5D7D8;background-color:#F9F9F9;min-height:188px;}
+.dc-bottom-container .steps-container .step .step-info p{padding:18px 0 0;}
+.dc-bottom-container .steps-container .step .step-info .step-img{position:absolute;bottom:16px;left:0;width:100%;}
+.dc-bottom-container .steps-container .step .step-info .step-img img{text-align:center;}
+.dc-bottom-container .dc-botton-action{width:980px;margin:40px auto 0;}
+.dc-bottom-container .dc-botton-action .button.ovallon{width:242px;height:55px;line-height:53px;margin:0 auto;}
+.doNotShow{display:none;}
+.doShow{display:"";}
+.sort-container-redeem{float:left;font:14px/16px Helvetica,sans-serif;color:#414142;padding-left:0;min-width:199px;}
+.sort-container-redeem span{display:inline-block;padding:9px 13px 0 0;}
+.emailtofriend .email-form .input_1,.emailtofriend .email-form .input_2,.emailtofriend .email-form .input_3{width:345px!important;}
+.emailtofriend .email-form label{text-align:left!important;}
+.emailtofriend .email-form .note_1{margin-left:165px!important;}
+.emailtofriend .step-controllers{padding-left:165px!important;}
+.emailtofriend .email-form .note_2{padding-right:108px!important;}
+.view-tabs-container .view-tab,.view-tabs-container .view-tab-highlight{width:208px;}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify;}
+.coupon-limit{font-family:"Helvetica",Arial,sans-serif;font-size:13px;color:#414142;padding-bottom:10px;}

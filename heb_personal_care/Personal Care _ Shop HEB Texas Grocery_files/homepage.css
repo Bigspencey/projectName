@@ -1,0 +1,77 @@
+#body{min-height:457px;}
+#body.homepage{width:auto;padding-top:50px;}
+.homepage .region-content{margin:0 auto;position:relative;max-width:100%;padding-bottom:95px;}
+.homepage .region-content .background-image{position:absolute;top:-112px;width:100%;height:550px;background-image:url('/img/homepage/mainimagebg1.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;}
+.homepage .content-block{width:980px;margin-top:25px;margin-left:auto;margin-right:auto;position:relative;}
+.homepage .region-content .title-text{position:relative;margin:0 auto;width:980px;text-align:center;padding-top:155px;}
+.homepage .region-content .title-text a{max-width:980px;}
+.homepage .content-block-2 .simple-circular-carousel{height:303px;}
+.block-style-sbd{position:relative;}
+.block-style-sbd .title{width:60%;}
+.block-style-sbd .aside{width:20%;float:left;}
+.block-style-sbd{background:url('/img/homepage/dotsh80.png') top left repeat-x;}
+.block-style-sbd .aside{height:80px;font:normal 14px/16px 'ClarendonBT-Roman','times new roman',serif;color:#545353;text-align:center;position:relative;}
+.block-style-sbd .aside .in{display:inline;}
+.block-style-sbd .title{float:left;margin:0 auto;text-align:center;color:#414142;font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:700;font-style:normal;line-height:80px;font-size:40px;display:block;text-shadow:-2px -1px 0 #EEE,-2px -1px 2px #DC291E;}
+.block-style-sbd .title span.in{display:inline-block;}
+.block-style-sbd .title .de-em{font-family:'ClarendonBT-Roman','times new roman',serif;font-style:italic;line-height:80px;font-size:20px;margin:0 10px;display:block;}
+.homepage .content-block-3 .simple-circular-carousel{margin-top:25px;min-height:230px;}
+.homepage .content-block-3 .simple-circular-carousel .jcarousel-item{width:193px;}
+.homepage .content-block-3 .simple-circular-carousel .jcarousel-item .thumb{height:190px;text-align:center;}
+.homepage .content-block-3 .simple-circular-carousel .jcarousel-item div{min-height:40px;text-align:center;width:100%;}
+.homepage .content-block-3 .jcarousel-skin-mlts .jcarousel-prev-horizontal,.homepage .content-block-3 .jcarousel-skin-mlts .jcarousel-next-horizontal{top:115px;}
+.homepage .content-block-3 .jcarousel-skin-mlts #thecarousel .jcarousel-prev.hidden,.homepage .content-block-3 .jcarousel-skin-mlts #thecarousel .jcarousel-next.hidden{display:none!important;}
+.homepage .content-block-3 .simple-circular-carousel .jcarousel-item div a{font-family:'Gotham A','Gotham B',Arial,Helvetica,sans-serif;font-weight:500;font-style:normal;font-size:18px;line-height:25px;color:#3e3e3e;text-decoration:none;display:inline;}
+.homepage .content-block-3 .shop-all-departments{margin-right:35px;}
+.homepage .content-block.content-block-3{margin-bottom:48px;}
+.homepage .content-block.content-block-3 .block-style-sbd .title{text-transform:lowercase;}
+.homepage .content-block.content-block-4 .title{margin-bottom:30px;position:relative;}
+.homepage .content-block.content-block-4 .title .want-to-learn-more{position:absolute;display:block;top:15px;left:707px;}
+.homepage .content-block.content-block-4 .title .want-to-learn-more .label{line-height:30px;text-decoration:none;margin-right:12px;}
+.homepage .content-block.content-block-4{position:relative;background:#FFF;width:auto;margin-top:-23px;}
+.homepage .content-block-4 .wrapper{width:980px;padding:28px 0 34px;margin:0 auto;}
+.homepage .content-block-4 .wrapper .jcarousel-item{width:219px;height:340px;margin:37px 40px 3px 0;padding:0 0 80px;border:1px solid #cac9c9;border-radius:2px;-webkit-box-shadow:1px 1px 1px 1px #e9e9e9;box-shadow:1px 1px 1px 1px #e9e9e9;position:relative;background:url('/img/homepage/wall-pattern.png') top center repeat;}
+.homepage .content-block-4 .wrapper .jcarousel-item .thumb{margin:24px auto 12px;margin-top:24px!important;}
+.homepage .content-block-4 .wrapper .jcarousel-item .thumb img{border:1px solid #BFBFBF;}
+.homepage .content-block-4 .wrapper .jcarousel-item .date{font-size:13px;text-align:center;margin:0 auto 10px;padding:15px 10px 0;font-weight:normal;}
+.homepage .content-block-4 .wrapper .jcarousel-item .limit-one{background:url('/img/homepage/limit-one-line.png') center center no-repeat;position:absolute;bottom:64px;width:100%;}
+.homepage .content-block-4 .wrapper .jcarousel-item .title{text-align:center;padding:0 10px;margin:0 auto 0;padding:0 10px;}
+.homepage .content-block-4 .wrapper .jcarousel-item .details{margin:0 auto 22px;padding:0 10px;}
+.homepage .content-block-4 .wrapper .jcarousel-item .details a{display:inline;}
+.homepage .content-block-4 .wrapper .jcarousel-item .limit-one{font-style:italic;}
+.homepage .content-block-4 .wrapper .jcarousel-item .select{font-weight:bold;color:#FFF;display:block;width:107px;height:37px;line-height:37px;background-color:#dc291e;margin:0 auto;-webkit-border-radius:5px;border-radius:5px;position:absolute;bottom:16px;left:56px;}
+.homepage .content-block-4 .wrapper .shop-all-departments{margin:34px 35px 0 0;}
+.homepage .content-block-4 .wrapper .jcarousel-item .amount{background:url('/img/common/orange-circle.png') no-repeat center center;display:block;width:74px;height:74px;position:absolute;top:-36px;right:-37px;z-index:+99;}
+.hot .thumb{margin-top:10px!important;}
+.hot .details{margin-bottom:10px!important;}
+.hot .amount{top:-20px!important;}
+.homepage .content-block-4 .wrapper .jcarousel-item .amount .amount-in{font-family:Helvetica,sans-serif;display:block;font-size:16px;font-weight:bold;line-height:18px;text-align:center;color:#FFF;margin:0 6px;word-wrap:break-word;}
+.hot .coupon-offer{margin-top:5px;border-top:1px solid;border-bottom:1px solid;font-size:12px;font-weight:bold;padding:5px 0;}
+.hot .coupon-offer.featured{background-color:#DCEAF4;border-color:#4DAAED;color:#4DAAED;}
+.hot .coupon-offer.special{background-color:#F7DBD9;border-color:#DF4C44;color:#DF4C44;}
+.homepage .content-block-5{margin-top:13px;padding-bottom:20px;}
+.homepage .content-block-5 .block-style-sbd{padding-bottom:30px;}
+.homepage .content-block-5 .block-style-sbd .title{width:50%;}
+.homepage .content-block-5 .aside-right{position:relative;width:30%;}
+.homepage .content-block-5 .aside-right .sign-up-now{position:absolute;z-index:99;display:block;width:116px;height:20px;bottom:-2px;left:41px;}
+.homepage .content-block-5 .tabs{margin:10px 0;}
+.homepage .content-block-5 .tabs li{float:left;margin-right:16px;width:233px;}
+.homepage .content-block-5 .tabs li button{width:100%;}
+.homepage .content-block-5 .tabs li.last{margin-right:0;float:right;}
+.homepage .content-block-5 .content-lists ul.list li.item{width:290px;height:370px;margin:0 24px 20px 0;padding:10px;background-color:#FFF;position:relative;float:left;}
+.homepage .content-block-5 .content-lists ul.list li.item-in{position:relative;}
+.homepage .content-block-5 .content-lists ul.list li.item.last{float:left;margin:0;}
+.homepage .content-block-5 .content-lists ul.list li.item div.recipe-title{font-size:16px;line-height:21px;height:60px;text-align:center;width:260px;}
+.homepage .content-block-5 .content-lists ul.list li.item .make-it{position:absolute;bottom:84px;width:94%;z-index:99;}
+.homepage .content-block-5 .content-lists ul.list li.item .make-it a{display:block;width:178px;height:33px;margin:0 auto;}
+.homepage .content-block-5 .content-lists ul.list li.item div a{font-size:20px;}
+.homepage .content-block-5 .content-lists ul.list li.item div .recipe-title a{display:block;margin-top:10px;}
+.homepage .content-block-5 .content-lists ul.list li.item .img-window{float:left;width:290px;height:280px;overflow:hidden;}
+.homepage .content-block-5 .content-lists ul.list li.item .line-bottom{height:74px;width:270px;padding:16px 10px 0;background-color:#fff;position:relative;float:left;}
+.homepage .content-block-5 .content-lists ul.list li.item .stars{width:94%;text-align:center;position:absolute;bottom:0;}
+.homepage .content-block-5 .content-lists ul.list li.item .stars .star{margin-right:5px;}
+.homepage .content-block-5 .load-more-recipes{margin:0 auto 0;width:220px;}
+.homepage .oops{margin:25px auto;width:980px;}
+.orderImage{position:relative;margin-top:30px;}
+.homepage .content-block-4 .jcarousel-skin-mlts .jcarousel-prev-horizontal,.homepage .content-block-4 .jcarousel-skin-mlts .jcarousel-next-horizontal{margin-top:-3px;}
+#header .ghost{font-family:'Georgia','Times New Roman',serif!important;}

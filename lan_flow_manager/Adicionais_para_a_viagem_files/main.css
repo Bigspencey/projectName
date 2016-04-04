@@ -840,10 +840,10 @@ header.main label.fl {
 header.caption4,
 caption.caption4 {
     border-radius: 0 24px 0 0;
-    background-image: url(../img/sprites_bg.png), -moz-linear-gradient(#059, #09c);
-    background-image: url(../img/sprites_bg.png), -webkit-linear-gradient(#059, #09c);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites_bg.png), -moz-linear-gradient(#059, #09c);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites_bg.png), -webkit-linear-gradient(#059, #09c);
     background-repeat: no-repeat;
-    background-image: url(../img/sprites_bg.png), linear-gradient(#059, #09c);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites_bg.png), linear-gradient(#059, #09c);
     clear: right
 }
 
@@ -5382,7 +5382,7 @@ div.close-separator hr {
 .footer-image {
     width: 631px;
     height: 78px;
-    background-image: url(../img/footer-airport.png);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/footer-airport.png);
     background-repeat: no-repeat;
     position: absolute;
     top: -74px;
@@ -5466,7 +5466,7 @@ div.close-separator hr {
     height: 3px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    background-image: url(../img/color-bar.jpg);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/color-bar.jpg);
     background-repeat: repeat
 }
 
@@ -5542,7 +5542,7 @@ div.footer-col-3 p.footer-cols:last-child {
 }
 
 .footer-logo {
-    background-image: url(../img/footer-logo.png);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/footer-logo.png);
     width: 87px;
     height: 39px;
     margin-top: 20px;
@@ -5560,21 +5560,21 @@ footer.home div.red-bar nav div p.footer-text-lower {
 }
 
 .footer-secure-logo-1 {
-    background-image: url(../img/secure-logo-1.png);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/secure-logo-1.png);
     width: 67px;
     height: 73px;
     float: right
 }
 
 .footer-secure-logo-2 {
-    background-image: url(../img/secure-logo-2.png);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/secure-logo-2.png);
     width: 121px;
     height: 73px;
     float: right
 }
 
 .footer-secure-logo-3 {
-    background-image: url(../img/secure-logo-3.png);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/secure-logo-3.png);
     width: 138px;
     height: 73px;
     float: right

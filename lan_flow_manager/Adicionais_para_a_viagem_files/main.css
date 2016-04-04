@@ -633,7 +633,7 @@ h4.toggle:focus,
     display: inline-block;
     width: 16px;
     height: 16px;
-    background: url(../img/sprites.png)
+    background: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png)
 }
 
 .select:after,
@@ -704,7 +704,7 @@ button.main.right {
 button.left:before,
 button.right:after {
     content: "";
-    background: url(../img/sprites.png);
+    background: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png);
     width: 17px;
     height: 11px;
     display: inline-block;
@@ -714,7 +714,7 @@ button.right:after {
 button.left:after,
 button.right:before {
     content: "";
-    background: url(../img/sprites.png);
+    background: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png);
     width: 14px;
     height: 30px;
     position: absolute;
@@ -970,7 +970,7 @@ img[alt="feedback"] {
     right: -16px;
     width: 16px;
     height: 35px;
-    background: url(../img/sprites.png);
+    background: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png);
     top: 0
 }
 
@@ -3570,7 +3570,7 @@ fieldset.disabled label {
 
 .sticker:before,
 .sticker:after {
-    background: url(../img/sprites.png) -523px -273px no-repeat;
+    background: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png) -523px -273px no-repeat;
     content: "";
     height: 38px;
     left: -16px;
@@ -3602,7 +3602,7 @@ fieldset.disabled label {
 
 .star-rating li:hover,
 .star-rating li:focus {
-    background: url(../img/sprites.png) -460px -210px no-repeat;
+    background: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png) -460px -210px no-repeat;
     cursor: pointer;
     outline: 0;
     border: 0
@@ -3653,7 +3653,7 @@ fieldset.disabled label {
 }
 
 .slider-control button:hover {
-    background-image: url(../img/sprites.png);
+    background-image: url(https://book.tam.com.br/TAM/cui-tam_28.85_150316/air/skin/tam/desktop/img/sprites.png);
     background-color: transparent
 }
 

@@ -1,0 +1,285 @@
+.msax-PromotionCodeText {
+    color: #007095;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+#toPopup1 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid rgb(0, 88, 147);
+    border-radius: 1px 1px 1px 1px;
+    color: #333333;
+    display: none;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -402px;
+    position: fixed;
+    top: 20%;
+    width: 400px;
+    min-height: 200px;
+    z-index: 9999;
+}
+
+.msax-ShoppingCartSummaryContent .msax-Control button.msax-Edit19 {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    background: #007095;
+    color: #fff;
+    text-decoration: none;
+    top: 0;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    left: 3px;
+    outline: none;
+    border: 0;
+    padding: 0;
+}
+
+.msax-ShoppingCartSummaryContent .msax-Control button.msax-Plus16 {
+    display: inline-block;
+    content: "\f058";
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    background: none;
+    color: #007095;
+    text-decoration: none;
+    top: 3px;
+    font-size: 25px;
+    left: 3px;
+    outline: none;
+    border: 0;
+    padding: 0;
+}
+
+.msax-ShoppingCartSummaryContent .msax-PromotionCodeStatus > * {
+    cursor: pointer;
+}
+
+.msax-ShoppingCartSummaryContent .msax-PromotionCodeStatus > *:hover {
+    opacity: 0.5;
+}
+
+.msax-ShoppingCartSummaryContent .msax-Control button.msax-Edit19:before {
+    content: "\f040";
+}
+
+.msax-ShoppingCartSummaryContent .msax-Control button.msax-Plus16:before {
+    content: "\f055";
+}
+
+.msax-PromotionCodeWrapper .msax-PromotionCodesEmpty.msax-Row label span {
+    margin: 10px 0 0 0;
+    font-weight: 500;
+    color: #333333;
+    font-size: 1.5625rem;
+}
+
+.msax-PromotionCodeWrapper  label {
+    color: #333333;
+    padding: 5px 0;
+}
+
+.msax-ShoppingCartSummaryContent .msax-Error {
+    background-color: transparent;
+    color: #dd0000;
+    font-weight: bold;
+}
+
+.msax-ShoppingCartSummaryContent #toPopup1 {
+    border: 0;
+    padding: 10px 20px;
+}
+
+.msax-ShoppingCartSummaryContent #toPopup1 .close {
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    color: #a0a0a0;
+    text-decoration: none;
+    top: 10px;
+    font-size: 30px;
+    right: 10px;
+    left: auto;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    z-index:1;
+}
+
+.msax-ShoppingCartSummaryContent  #toPopup1 .close:hover {
+    opacity: 0.5;
+}
+
+.msax-ShoppingCartSummaryContent  #toPopup1 .close:before {
+    content: "\f057";
+}
+
+#toPopup1 .msax-ApplyPromotionCodeBlock button {
+    background: #f99a53;
+    outline: none;
+}
+
+#toPopup1 .msax-ApplyPromotionCodeBlock button:hover {
+    opacity: 0.5;
+}
+
+#toPopup1 .msax-UpdateZipErrorPanel {
+    clear: both;
+    padding: 0;
+}
+
+#toPopup1 .msax-UpdateZipErrorPanel label {
+    color: #dd0000;
+    font-weight: bold;
+}
+
+.promo-code-wrap {
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 9998;
+    width: 100%;
+    height: 100%; 
+}
+
+.msax-Promocodeitem .msax-PromotionCodeText {
+    padding-left: 2px;
+}
+
+.msax-Promocodeitem button {
+    height: auto;
+}
+
+.msax-Promocodeitem .msax-applyPromoCodeImg {
+    background: none;
+    outline: none;
+    margin: -5px 0 0 1px;
+    padding: 0!important;
+    cursor: auto;
+}
+
+.msax-Promocodeitem .msax-applyPromoCodeImg:focus,
+.msax-Promocodeitem .msax-applyPromoCodeImg:hover {
+    background: transparent;
+}
+
+.msax-Promocodeitem .msax-applyPromoCodeImg:before {
+    color: #67cc5c;
+    content: "\f058";
+    font: 20px FontAwesome;
+    padding-right: 5px;
+}
+
+#toPopup1 .msax-ApplyPromotionCodeBlock {
+    height: 40px;
+    margin-bottom: 0;
+}
+
+#toPopup1 .msax-PromotionCodeWrapper {
+    margin-bottom: 0;
+    position:relative;
+    float:left;
+    width:100%;
+}
+
+    .msax-ApplyPromotionCodeBlock li {
+        display: block;
+    }
+
+.msax-Promocodeitem > * {
+    color: #666;
+    float: left;
+    font-size: 0.7em;
+}
+
+.msax-Promocodeitem .msax-Remove {
+    color: #188bb5!important;
+    padding: 0.1rem 0 0 0.25rem!important;
+    display: none;
+}
+
+#popup_content .msax-promoError label {
+    color: #f04124!important;
+    padding:5px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 40em) {
+
+    #toPopup1 {
+        left: auto!important;
+        margin: 0 10% 0!important;
+        right: 0;
+        width: 80%;
+    }
+
+    .msax-Promocodeitem > * {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 30em) {
+
+    #toPopup1 {
+        left: auto!important;
+        margin: 0 10% 0!important;
+        padding: 5px 10px!important;
+        right: 0;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 25em) {
+
+    #toPopup1 {
+        height: 100%;
+        left: auto!important;
+        margin: 0!important;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .msax-ShoppingCartSummaryContent #toPopup1 .close {
+        background: #9a938e;
+        box-sizing: border-box;
+        color: #eee;
+        font: 1rem 'Proxima Nova', sans-serif;
+        height: 2em;
+        left: 0;
+        line-height: 2rem;
+        top: 0;
+        width: 100%;
+    }
+
+    .msax-ShoppingCartSummaryContent #toPopup1 .close:before {
+        content: ''!important;
+    }
+
+    .msax-ShoppingCartSummaryContent #toPopup1 .close:after {
+        content: '\003C \00a0 Back To Cart';
+        padding-left: 14px;
+    }
+
+    .msax-ShoppingCartSummaryContent .msax-Control .msax-Row label {
+        padding-top: 2.2rem!important;
+    }
+
+    .msax-Promocodeitem > * {
+        font-size: 0.7em;
+    }
+}

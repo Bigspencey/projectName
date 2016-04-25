@@ -1,0 +1,1195 @@
+/*
+    NS by muthait dated 11Sep2014
+*/
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.msax-QuantityContent > li:first-child select {
+    padding: 0px 0.25em;
+    width: 3rem;
+    margin-right: .25rem;
+}
+
+.msax-QuantityContent li + li + li {
+    width: 100%;
+}
+
+    .msax-QuantityContent li + li + li label {
+        display: inline;
+        cursor: default;
+    }
+
+.msax-ShoppingCart {
+    width: 100%;
+}
+
+    .msax-ShoppingCart .msax-ButtonSection {
+        text-align: center;
+        margin-top: 20px;
+        clear: both;
+        text-align: right;
+    }
+
+
+    .msax-ShoppingCart table {
+        color: #666;
+        border-spacing: 0;
+        border-collapse: collapse;
+        border: 0;
+        font-size: 15px;
+        width: 100%;
+    }
+
+        .msax-ShoppingCart table th,
+        .msax-ShoppingCart table td {
+            color: #666;
+            padding: 0;
+            margin: 0;
+        }
+
+        .msax-ShoppingCart table tr,
+        .msax-ShoppingCart table td {
+            background-color: transparent!important;
+        }
+
+
+.msax-ShoppingCart .msax-ItemsGrid > thead > tr > th, .msax-PromotionCodeWrapper thead > tr > th {
+    background-color: hsl(204, 100%, 29%);
+    text-transform: capitalize;
+    vertical-align: middle;
+    font-size: 0.813em;
+    padding: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 0.95rem;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.msax-PromotionCodeWrapper thead > tr > th {
+    padding: 0;
+}
+
+.msax-DisableOnPayment{
+            opacity: 0.3 !important;
+            color:grey !important;
+}
+
+.msax-DisableOnPayment:hover{
+            text-decoration: none !important;
+            cursor: default !important;
+}
+
+
+.msax-ShoppingCart .msax-ItemsGrid > tbody > tr > td {
+    vertical-align: top;
+    padding: 10px 2px!important;
+    background-color: white;
+}
+
+.msax-ShoppingCart .msax-ItemsGrid tr > *:first-child {
+    padding-left: 10px;
+}
+
+.msax-ShoppingCart .msax-ItemsGrid tr > *:last-child {
+    padding-right: 12px;
+}
+
+.msax-ShoppingCart .msax-ItemsGrid tr.msax-ProductDetails {
+    border-top: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+}
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-ProductDetails {
+    width: 45%;
+}
+
+.msax-ShoppingCart div:nth-child(2) div:last-child {
+    /*  font-size: 0.8em !important;*/
+}
+
+    .msax-ShoppingCart div:nth-child(2) div:last-child img {
+        width: 10px;
+    }
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-ProductDetails .msax-ProductImage {
+    display: block;
+    /*background-image: url('/<%=WebResource("AFM.Ecommerce.Controls.Common.Images.product_sm_cart_placeholder.png")%>');*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ProductDetails .msax-ProductImage img {
+        max-width: 80px;
+    }
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-Price {
+    width: 20%;
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Price .msax-ItemPriceData {
+        position: relative;
+    }
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-ShippingInfo {
+    width: 22%;
+    text-align: left;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ShippingInfo .msax-ShippingMode {
+        color: #666666;
+        font-family: 'Proxima Nova', sans-serif;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ShippingInfo .msax-ShippingModeValue {
+        font-family: 'Proxima Nova', sans-serif;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ShippingInfo .msax-ShippingSpan {
+        color: #666666;
+        font-family: 'Proxima Nova', sans-serif;
+    }
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-Quantity {
+    padding-top: 10px;
+}
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Quantity input {
+        margin: 0 auto;
+        min-width: 2em;
+        text-align: center;
+        max-width: 2.9em;
+        border-radius: 0;
+        height: 2rem;
+        font-size: 0.875rem;
+        padding: 0.4rem 0.2rem;
+        line-height: normal;
+        background-color: white;
+        position: relative;
+        margin-bottom: 0 !important;
+        margin-left: 0!important;
+        color: #666666;
+        -moz-appearance: textfield;
+    }
+
+    /*Confirm*/
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Quantity button {
+        line-height: normal;
+    }
+
+.msax-ProductNameWrapper {
+    padding: 0 1em 0 0;
+}
+
+.msax-ProductNameWrapper a {
+    font-size: 1.1em;
+}
+
+.msax-ProductNameWrapper + br {
+    display: none!important;
+}
+
+tr:not(.msax-KitComponents) .msax-ProductNameWrapper ~ div span[data-bind*=text]:last-of-type {
+    color: #555;
+    font-weight: bold;
+}
+
+tr:not(.msax-KitComponents) .msax-ProductNameWrapper ~ div:last-of-type img ~ strong {
+    display: block;
+}
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-Total {
+    width: 20%;
+    text-align: right;
+}
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Total .msax-LineTotal {
+        position: relative;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 0 0 5px 0;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Total .msax-LineDiscount {
+        color: #ff0000;
+    }
+
+.msax-ShoppingCart .msax-PromotionCodeWrapper .msax-PromotionCodes *, .msax-ApplyPromotionCodeBlock *, .msax-PromotionCodesEmpty * {
+    padding: 10px 0 10px 0;
+    margin-bottom: 0px;
+}
+
+.msax-ShoppingCart .msax-PromotionCodeWrapper .msax-PromotionCodes tr > td > *:first-child {
+    padding-left: 50px;
+}
+
+.msax-ShoppingCart .msax-PromotionCodeWrapper .msax-ApplyPromotionCodeBlock {
+    padding-top: 10px;
+}
+
+    .msax-ShoppingCart .msax-PromotionCodeWrapper .msax-ApplyPromotionCodeBlock > *:first-child {
+        margin-left: 20px;
+    }
+
+.msax-ShoppingCart .msax-PromotionCodeWrapper .msax-PromotionCodesEmpty * {
+    padding-left: 20px;
+}
+
+.msax-ShoppingCart .msax-PromotionCodeWrapper .msax-PromotionCodes .msax-Remove {
+    background: url('/<%=WebResource("AFM.Ecommerce.Controls.Common.Images.i_Delete_16_on.png")%>') no-repeat center;
+}
+
+.msax-ShoppingCart .msax-Review .msax-ItemsGrid .msax-ProductDetails {
+    width: 45%;
+}
+
+.msax-ShoppingCart .msax-Review .msax-ItemsGrid .msax-ShippingMethod {
+    width: 15%;
+    text-align: center;
+}
+
+.msax-ShoppingCart .msax-ShoppingCartSummary {
+    width: 260px;
+    float: right;
+}
+
+    .msax-ShoppingCart .msax-ShoppingCartSummary div {
+        text-align: right;
+    }
+
+    .msax-ShoppingCart .msax-ShoppingCartSummary > div > div > div:first-child {
+        width: 160px;
+        padding-bottom: 15px;
+    }
+
+    .msax-ShoppingCart .msax-ShoppingCartSummary > div > div > div:last-child {
+        width: 80px;
+    }
+
+    .msax-ShoppingCart .msax-ShoppingCartSummary .msax-GrandTotal div {
+        margin-top: 15px;
+    }
+
+/* NS by muthait */
+
+.msax-ShoppingCart .msax-OrderSummary {
+    border: 1px solid #ebebeb;
+}
+
+.msax-ShoppingCart .msax-CartArea h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.msax-ShoppingCart .msax-CartButtonFloat {
+    position: relative;
+    float: right;
+}
+
+.msax-ShoppingCart .msax-zipcodestatus {
+    background-color: rgb(242, 250, 252);
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+}
+
+.msax-ShoppingCart .msax-ProductQuickLink {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+}
+
+.msax-ShoppingCart .msax-DiscountTotal {
+    margin-top: -10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.msax-ShoppingCart .msax-ItemPrice {
+    text-decoration: line-through;
+    display:inline-block;
+    color: #ccc;
+}
+
+.msax-ApplyPromotionCodeBlock li input.msax-PromotionCodeTextBox {
+    /*background: none;*/
+}
+
+.msax-PromotionCodeTextBox {
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(236, 236, 236);
+}
+
+.msax-ApplyPromotionCodeBlock button {
+    background-color: #8e8e8e;
+    height: 2rem;
+    line-height: 2.1875rem;
+}
+
+.msax-ApplyPromotionCodeBlock, .msax-QuantityContent {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align:left;
+}
+.msax-ApplyPromotionCodeBlock, .msax-QuantityContent li{
+    position:relative;
+    float:none;
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+
+.msax-QuantityContent li br {display:none;}
+.msax-Quantity .msax-QuantityContent li:nth-child(2){margin-left: 3px; vertical-align:top; margin-top: 25px;}
+.msax-Quantity .msax-QuantityContent li:nth-child(3) label {font-style:italic;font-size: 12px; font-weight:normal; color: #4d4d4d;}
+.msax-Quantity .msax-QuantityContent li:nth-child(3) span {font-style:italic;font-size: 12px; font-weight:normal; color: #4d4d4d;}
+
+.msax-Quantity .msax-QuantityContent li:first-child label {
+display:block;
+}
+.msax-Quantity .msax-QuantityContent:last-child label,
+.msax-Quantity .msax-QuantityContent:last-child span {
+    display: inline-block;
+    color: hsl(0, 0%, 30%);
+    line-height: 1.5;
+    font-weight:bold;
+    vertical-align: top;
+}
+
+.msax-Quantity .msax-QuantityContent:last-child span {
+    width: 10%;
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    padding-left: 3px;
+}
+
+.msax-ApplyPromotionCodeBlock {
+    position: relative;
+}
+
+    .msax-ApplyPromotionCodeBlock li {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        float: left;
+    }
+
+span.msax-AFMVendorName,
+.msax-Row > div:nth-child(2) > div > div > span:nth-child(2) {
+    color: #666;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#toPopup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #bbb;
+    border-radius: 0px;
+    color: #333333;
+    display: none;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -402px;
+    position: fixed;
+    top: 20%;
+    min-height: 100px;
+    z-index: 2;
+    padding: 1em;
+}
+
+    #toPopup > .close-reveal-modal {
+        font-family: arial;
+        line-height: 23px;
+        cursor: pointer;
+    }
+
+    #toPopup ul.msax-UpdateZipCode {
+        height: 40px;
+        margin-top: 1em;
+    }
+
+        #toPopup ul.msax-UpdateZipCode li input.msax-UpdateZipCodeTextBox {
+            height: 100%;
+            font-size: 80%;
+            width: 53%;
+            float: left;
+            margin-right: 2%;
+            margin-bottom: 0px;
+            padding: 0.7em;
+        }
+
+/*Browser Hacks: Internet Explorer >= 11*/
+_:-ms-fullscreen, :root #toPopup ul.msax-UpdateZipCode li input.msax-UpdateZipCodeTextBox {
+    width: 49%;
+    margin-right: 2%;
+}
+
+_:-ms-fullscreen, :root #toPopup .msax-UpdateZipCode li button {
+    padding: 0.71em !important;
+}
+
+_:-ms-fullscreen, :root .msax-UpdateZipCode li:last-child {
+    width: 72%;
+}
+
+_:-ms-fullscreen, :root .msax-UpdateZipCode li:first-child {
+    width: 23%;
+    margin-right: 5%;
+    font-size: 0.9em;
+}
+/*End: Browser Hacks: Internet Explorer >= 11*/
+
+.msax-UpdateZipCode li:last-child {
+    width: 70%;
+}
+
+.msax-UpdateZipCode li:first-child {
+    width: 30%;
+    line-height: 2.125em;
+}
+
+#toPopup .msax-UpdateZipCode li button {
+    background: #f48120 !important;
+    border: 1px solid #f48120 !important;
+    color: hsl(0, 100%, 100%) !important;
+    width: auto;
+    height: 100%;
+    padding: 0.78em !important;
+    text-decoration: none;
+    float: left;
+}
+
+    #toPopup .msax-UpdateZipCode li button:hover {
+        background: #f48120 !important;
+        border: 1px solid #f48120 !important;
+        color: hsl(0, 100%, 100%) !important;
+        text-decoration: none;
+    }
+
+#toPopup #popup_content h3 {
+    font-size: 1.2em;
+}
+
+div.close {
+    background: url('/<%=WebResource("AFM.Ecommerce.Controls.Common.Images.closebox.png")%>') no-repeat scroll 0 0 transparent;
+    bottom: 15px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
+
+span.ecs_tooltip {
+    background: none;
+    border-radius: 1px 1px 1px 1px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 0 5px;
+    position: absolute;
+    right: -20px;
+    text-align: center;
+    top: -40px;
+    width: 70px;
+    opacity: 0;
+}
+
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 0;
+    width: 1px;
+}
+
+div#popup_content {
+    margin: 4px 7px;
+    max-height: 600px;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.msax-UpdateZipCode {
+    list-style: none;
+}
+
+    .msax-UpdateZipCode li {
+        float: left;
+        height: 100%;
+        padding-left: 5px;
+    }
+
+table.msax-ItemsGrid tbody > tr.msax-KitComponents:last-of-type {
+    border-bottom-width: 1px;
+}
+
+.msax-KitComponents .msax-KitChild br {
+    display: none;
+}
+
+.msax-KitComponents .msax-KitChild hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ebebeb;
+    margin: 0 0 15px 0px;
+    padding: 0;
+}
+
+.msax-KitComponents .msax-KitChild .msax-KitComponentQtyReview
+{
+    width: 28%;
+    padding-top:30px;
+    float: left;
+    text-align: left;
+    padding-left:40px;
+}
+
+.msax-KitComponents .msax-KitChild .msax-ProductNameWrapper {
+    width: 40%;
+    float: left;
+}
+
+.msax-KitComponents .msax-KitChild .msax-KitComponentPrice {
+    width: 22%;
+    float: right;
+    font-family: 'Proxima Nova', sans-serif;
+    text-align: right;
+    color: #666666;
+}
+
+    .msax-KitComponents .msax-KitChild .msax-KitComponentPrice > div,
+    .msax-KitComponents .msax-KitChild .msax-KitComponentQuantity > div {
+        display: block;
+    }
+
+.msax-KitComponents .msax-KitChild .msax-KitComponentQuantity {
+    width: 9%;
+    float: left;
+    text-align: center;
+}
+
+/*Hack Firefox*/
+_::-moz-range-track, body:last-child #mainwrapper input[type="text"] {
+    clear: both;
+}
+
+_::-moz-range-track, body:last-child #mainwrapper textarea {
+    clear: both;
+}
+
+
+_::-moz-range-track, body:last-child #scphbody_0_ShoppingCart {
+    width: 100%;
+}
+
+    _::-moz-range-track, body:last-child #scphbody_0_ShoppingCart .msax-ShoppingCart .msax-ShoppingCartWrapper {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+
+_::-moz-range-track, body:last-child #msax-ShoppingCartControl .msax-ShoppingCartSummaryContent {
+    float: left;
+}
+
+/*End: Hack Firefox*/
+
+/*Kits*/
+tr:nth-of-type(even).msax-KitComponents {
+    background: none;
+}
+
+.msax-ShoppingCart .msax-ItemsGrid .msax-BorderTop1 {
+    border-top: solid 1px #ebebeb;
+}
+
+.msax-ShoppingCart td.msax-Quantity.quantity-not-editable span {
+    display: inline;
+    padding-left: 0;
+}
+
+/*.msax-ShoppingCart td.msax-Quantity.quantity-not-editable li:last-of-type {
+    margin-top: 0;
+}*/
+
+.msax-ShoppingCart td.msax-Quantity.quantity-not-editable li:last-of-type span {
+    padding-left: 0.3em;
+}
+
+.msax-ShoppingCart td.msax-Quantity.advantage-card-type li {
+    margin-top: 0;
+}
+
+/*Mobile*/
+
+@media only screen and (min-width: 40.063em) {
+
+    .msax-ShoppingCart {
+        padding-bottom: 2em;
+    }
+
+    td.msax-ProductDetails .msax-Row > div:nth-of-type(1) {
+        width: 30%;
+    }
+
+    td.msax-ProductDetails .msax-Row > div:nth-of-type(2) {
+        width: 60%;
+    }
+
+    td.msax-ProductDetails .msax-Row > div:last-of-type {
+        width:100%!important;
+        display: table-cell !important;
+        padding: 0 40px 0 0;
+    }
+
+    .msax-KitComponents .msax-KitChild .msax-ProductNameWrapper {
+        width: 29%;
+    }
+    .checkout-confirm .msax-KitComponents .msax-KitChild .msax-ProductNameWrapper {
+        width: 43%;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid th.msax-Quantity {
+        padding-left: 0;
+    }
+
+    /*#scphbody_0_ShoppingCartView .msax-ShoppingCart td.msax-Quantity.quantity-not-editable > .msax-QuantityContent > li:last-child {
+        display: block;
+    }*/
+
+}
+
+.checkout-confirm .msax-ShoppingCart .msax-ItemsGrid .msax-ProductDetails {width: 55%;}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+    .msax-ShoppingCart .msax-ProductQuickLink {
+        width: auto!important;
+    }
+
+    .msax-KitComponents .msax-KitChild {
+        padding-left: 19%;
+    }
+
+    .msax-ShoppingCart table {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .view-cart-content .msax-ShoppingCart .msax-KitComponentQtyReview.show-for-large-up {
+        display: none!important;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid > tbody > tr > td {
+        padding: 0.65em 0.4em!important;
+    }
+
+}
+
+@media only screen and (max-width: 64em) {
+
+    .msax-KitComponents .show-for-small-only {
+        width: auto!important;
+    }
+
+    .msax-KitComponents .msax-KitChild .msax-KitComponentQuantity,
+    .msax-KitComponents .msax-ProductDetails .show-for-small-only {
+        margin-top: 0!important;
+        padding-top: 0!important;
+    }
+}
+
+.view-cart-content .msax-ShoppingCart div.msax-ItemPriceData{float:none; display:inline-block; vertical-align:top}
+.view-cart-content .msax-ShoppingCart .msax-LabelEach{float:none; display:inline-block; vertical-align:top}
+.checkout-confirm .msax-ShoppingCart div.msax-ItemPriceData{float:none; display:inline-block; vertical-align:top}
+.checkout-confirm .msax-ShoppingCart .msax-LabelEach{float:none; display:inline-block; vertical-align:top}
+.order-confirmation-page .msax-ShoppingCart div.msax-ItemPriceData{float:none; display:inline-block; vertical-align:top}
+.order-confirmation-page .msax-ShoppingCart .msax-LabelEach{float:none; display:inline-block; vertical-align:top}
+
+.checkout-confirm .msax-KitComponents .msax-KitChild .msax-KitComponentQtyReview {padding-top:0;}
+
+@media only screen and (max-width: 40em) {
+    .checkout-confirm .msax-KitComponents .msax-KitChild .msax-ProductNameWrapper { width: 100%!important; }
+    .checkout-confirm .msax-KitComponents .msax-KitChild .msax-KitComponentQtyReview {
+        padding-left:5px;
+        width:23%;
+    }
+    .checkout-confirm .msax-KitComponents .msax-KitChild .msax-KitComponentQuantity {clear: none!important;}
+    checkout-confirm .msax-KitComponents .msax-KitChild .msax-KitComponentPrice {        width:35%;    }
+    .msax-ProductQuickLink > .msax-Delete16.msax-WithText:first-child {
+        float: left;
+        padding-left: 0;
+        width: 50%;
+        padding: 0;
+        height: 50px;
+        margin-top: 0;
+    }
+
+    .msax-ProductQuickLink > button:nth-of-type(2) {
+        border-left: 1px solid #ebebeb;
+    }
+
+    .msax-ProductQuickLink > .msax-Delete16.msax-WithText:last-child {
+        float: right;
+        padding-left: 0px;
+        width: 50%;
+        height: 50px;
+    }
+
+    tr.msax-BorderTop1 + tr.msax-KitComponents {
+        margin-bottom: 0em;
+    }
+
+    .msax-ShoppingCart > .msax-ItemsGrid > thead {
+        display: none;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid td {
+        display: inline-block !important;
+        text-align: left !important;
+        width: 100% !important;
+        color: #666;
+        padding-bottom: 0;
+    }
+
+    .msax-Control .msax-ApplyPromotionCodeBlock {
+        padding-right: 0;
+    }
+
+    .msax-ApplyPromotionCodeBlock li {
+        width: 70%;
+    }
+
+        .msax-ApplyPromotionCodeBlock li + li {
+            width: 30%;
+        }
+
+        .msax-QuantityContent li + li + li {
+            width: 100% !important;
+        }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Quantity input {
+        margin-right: .5em;
+        margin-bottom: 0 !important;
+        float: none;
+        display: block;
+        text-align: center !important;
+    }
+
+    .msax-Control .msax-Row {
+        margin-bottom: 0;
+    }
+
+    /*Table*/
+    .msax-ShoppingCartWrapper.msax-ClearBoth {
+        clear: both;
+    }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > table,
+    .msax-ShoppingCartWrapper > table.msax-ItemsGrid thead,
+    .msax-ShoppingCartWrapper > table.msax-ItemsGrid thead tr,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody tr.msax-BorderTop1,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-ProductDetails,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-ProductDetails > div.msax-Row {
+        display: block;
+    }
+
+    /*----ProductDetail*/
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-ProductDetails {
+        width: 100%;
+    }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-ProductDetails {
+        width: 100%;
+        padding-top: 2em;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid td.msax-ProductDetails a.msax-ProductImage div {
+        text-align: center;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid td.msax-ProductDetails a.msax-ProductImage div img {
+        min-width: 40%;
+        width: auto;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ProductDetails .msax-Row > div:last-child {
+        width: 60%;
+    }
+
+    /*----Sgipping Info*/
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-ShippingInfo > span,
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ShippingInfo span.msax-ShippingModeValue,
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ShippingInfo .msax-ShippingMode {
+        font-size: 0.9em;
+    }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid .msax-Price,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid .msax-Quantity,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid .msax-Total {
+        padding: .5rem .625rem;
+    }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid span.msax-Quantity {
+        padding-left: 0px !important;
+    }
+
+    /*---msax Price*/
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-Price {
+        display: block;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .msax-ItemsGrid .msax-Price > div {
+        text-align: right;
+    }
+
+    /*msax-Quantity*/
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody tr.msax-BorderTop1 .msax-Quantity {
+        width: 45%!important;
+    }
+
+    #scphbody_0_ShoppingCartView .msax-ShoppingCart td.msax-Quantity > .msax-QuantityContent > li:last-child {
+        width: auto;
+    }
+
+    /*----msax-Total*/
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-Total {
+        float: right;
+        text-align: right!important;
+        width: 50%!important;
+    }
+
+    /*--View Cart Page*/
+    #msax-ShoppingCartControl div.paddingMobile > .medium-6.column #scphbody_0_CartButton1 {
+        display: none;
+    }
+
+    .column .msax-ZipCode .msax-zipcodestatus {
+        padding-top: 0.5em;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid tr.msax-KitComponents > td:last-child {
+        width: 100%;
+        display: inline-block;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid tr.msax-KitComponents:first-of-type > td:first-of-type {
+        border-top: 1px solid #ebebeb;
+    }
+
+    #scphbody_0_ShoppingCart .show-for-small-only div > span.msax-AFMUnit {
+        color: hsl(0, 0%, 67%);
+    }
+
+    #scphbody_0_ShoppingCart .msax-ShoppingCart .msax-ItemsGrid .msax-KitComponents:nth-last-of-type(2) > td:last-child {
+        border-bottom: none;
+    }
+
+    .msax-KitComponents .msax-KitChild {
+        border: 0;
+        padding-left: 0px !important;
+    }
+
+        .msax-KitComponents .msax-KitChild hr,
+        .msax-KitComponents .msax-KitChild .msax-ProductNameWrapper br {
+            display: none!important;
+        }
+
+    .msax-ShoppingCart .msax-ItemsGrid tr.msax-KitComponents > *:first-child, .msax-Checkout .msax-ItemsGrid tr.msax-NoOfComponentsInKit > *:first-child {
+        padding-left: 15px;
+    }
+
+    .msax-Control .msax-PaddingLeft250 {
+        height: auto;
+    }
+
+    table.msax-ItemsGrid tbody > tr.msax-KitComponents {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .msax-KitComponents .msax-KitChild .msax-KitComponentPrice {
+        float: right;
+        text-align: right;
+        width: 45%;
+    }
+
+    .msax-KitComponents .msax-KitChild .msax-KitComponentQuantity {
+        width: 100%;
+        text-align: left;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        color: hsl(0, 0%, 67%);
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ProductQuickLink {
+        width: 100%;
+        border-top: 0px;
+        height: 50px;
+        margin-top: -11px;
+    }
+
+    .msax-EditAddress > .msax-AddressView > div:last-child {
+        border-bottom: none;
+        margin-bottom: 2em;
+    }
+
+    table.msax-ItemsGrid tbody > tr + tr {
+        display: block;
+        border: 1px solid #ebebeb;
+        border-top: 0;
+        padding-bottom: 0px;
+    }
+
+    .msax-ShoppingCartSummaryContent .msax-OrderSummary {
+        border-left: none;
+    }
+
+    table.msax-ShoppingCartSummaryContent > tbody tr {
+        display: block;
+    }
+
+    table.msax-ShoppingCartSummaryContent > tbody > tr > td {
+        display: block;
+        width: 100% !important;
+        position: relative;
+        float: left;
+    }
+
+    .msax-ShoppingCartSummaryContent .msax-OrderSummary div:last-child span table {
+        width: 1% !important;
+    }
+
+    .msax-ShoppingCartSummaryContent .msax-OrderSummary tr.msax-Shipping td:first-of-type,
+    .msax-ShoppingCartSummaryContent .msax-OrderSummary tr.msax-Total + tr td:first-of-type {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .msax-ShoppingCartSummaryContent .msax-OrderSummary .msax-DiscountTotal {
+        padding-top: 1em;
+    }
+    .msax-OrderSummary div:last-child span table .msax-Total td {
+        border: none !important;
+    }
+
+    #scphbody_0_OrderSummary .msax-OrderSummary div span table,
+    #scphbody_0_OrderSummary .msax-OrderSummary div span table tbody {
+        display: block;
+        margin: 0;
+    }
+
+    #scphbody_0_CartButton2 .msax-ButtonControls .msax-FloatRight {
+        text-align: center;
+        margin: 0px auto !important;
+        float: none !Important;
+        padding-right: 0px !important;
+        border-top: 1px solid #ebebeb;
+        padding-top: 1.6em;
+    }
+
+    #scphbody_0_CartButton2 .msax-ButtonControls .msax-ButtonSection.msax-ProceedtoCartButtons button,
+    .msax-SubmitOrderButtons button.msax-Previous,
+    button.msax-SubmitOrder.msax-PaddingLeft20 {
+        min-width: 15em;
+        width: 100%;
+        font-size: 0.9em;
+        height: 2.4em;
+    }
+
+    .msax-ButtonSection.msax-SubmitOrderButtons {
+        width: 100%;
+    }
+    /*----End*/
+
+    .msax-ShoppingCartWrapper table.msax-ItemsGrid thead tr th {
+        display: none;
+    }
+
+        .msax-ShoppingCartWrapper table.msax-ItemsGrid thead tr th:first-child {
+            display: none;
+            width: 100%;
+        }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody tr.msax-BorderTop1 {
+        border: 1px solid #ebebeb;
+        padding:8px 0 8px 8px;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Total .msax-LineTotal {
+        font-size: 1rem !important;
+        top: 0;
+        display: inline-block;
+    }
+
+    .thank-you-content {
+        padding-bottom: 2rem;
+    }
+
+    .msax-ShoppingCart .msax-KitComponents div.msax-ItemPriceData:before {
+        content: none;
+    }
+
+    /* START Hack: Bug 80757 */
+    .msax-KitComponents .show-for-large-up {
+        display: block!important;
+    }
+
+    .msax-KitComponents .show-for-small-only {
+        display: none!important;
+    }
+    /* END Hack (the shame...) */
+    
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ProductDetails {
+        position: relative;
+    }
+
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ProductNameWrapper {
+        display: block;
+    }
+
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ProductImage {
+        margin-right: 0.4em;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ProductNameWrapper > *:not(.msax-ProductImage),
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ProductDetails > div > *:not(.msax-ProductNameWrapper) {
+        display: block;
+        max-width: 60%;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-ProductDetails .msax-ProductImage img {
+        max-width: inherit;
+    }
+
+    .msax-ShoppingCart .msax-ProductQuickLink {
+        margin: 0!important;
+        padding: 0!important;
+        width: 100%!important;
+    }
+
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ItemPrice
+    .msax-ShoppingCart tr:not(.msax-KitComponents) .msax-ItemPriceData {
+        margin-top: 0.5em;
+    }
+
+    .msax-ShoppingCart tr:not(.msax-KitComponents) td.msax-Price,
+    .msax-ShoppingCart tr:not(.msax-KitComponents) td.msax-Quantity {
+        padding-top: 0!important;
+    } 
+
+    .msax-ShoppingCart tr:not(.msax-KitComponents) td.msax-Price {
+        padding-bottom: 17px!important;
+        width: 100%!important;
+    }
+
+    table.msax-ItemsGrid tr:not(.msax-KitComponents) > td:last-of-type {
+        padding-bottom: 0!important;
+        padding-top: 0!important;
+    }
+
+    .msax-ProductNameWrapper {
+        padding: 0!important;
+    }
+
+        .msax-ProductNameWrapper a {
+            font-size: 1.4em;
+        }
+
+        .msax-ProductNameWrapper .msax-ProductId {
+            font-size: 1.1em;
+        }
+
+    .msax-KitComponents .msax-KitChild hr { 
+        display: none;
+    }
+
+    .msax-KitComponents .msax-KitChild .msax-KitComponentQuantity {
+        margin-bottom: 0.5em;
+    }
+
+     .msax-ShoppingCart .msax-ItemsGrid {
+        border: 1px solid #ebebeb;
+    }
+
+    .msax-ShoppingCart .msax-ItemsGrid .msax-Quantity button {
+        font-size: .875rem !important;
+    }
+
+    .msax-KitComponents .msax-KitChild .msax-KitComponentQuantity {
+        width: 21% !important;
+        padding-top: 0px !important;
+        clear: both !important;
+        text-align: left !important;
+    }
+
+        .msax-ShoppingCart .msax-ItemsGrid .msax-BorderTop1 {
+        border-top: solid 4px #ebebeb;
+    }
+
+    #msax-OrderConfirmation .tableinfo {
+        border-bottom: solid 4px #ebebeb !important;
+    }
+
+    #msax-OrderConfirmation .tableinfo:last-child {
+        border-bottom: none !important;
+    }
+
+    .msax-ItemsGrid td.msax-Total.hide-for-mobile {
+        display: none;
+    }
+
+    .msax-KitComponents .msax-KitChild .msax-ProductNameWrapper {
+        width: 50%!important;
+    }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody tr.msax-BorderTop1 .msax-Quantity,
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody tr.msax-BorderTop1 .msax-Total {
+        float: none;
+    }
+
+    .msax-ShoppingCartWrapper > .msax-ItemsGrid > tbody td.msax-ProductDetails {
+        padding-bottom: 0;
+    }
+}

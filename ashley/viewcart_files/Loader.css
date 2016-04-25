@@ -1,0 +1,38 @@
+﻿/*
+    NS by muthait dated 11Sep2014
+
+*/
+ /* Styles for jqueryUI dialog */
+
+ .msax-Loader
+ {     
+         z-index:2;
+ }
+.msax-Control.ui-dialog {
+    padding: 0px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.msax-Control .ui-widget-header {
+    display: none;
+}
+
+.msax-Control .ui-widget-content {
+    background-color: white;
+}
+
+    .msax-Control .msax-Loading {
+        text-align: center;
+        margin: auto auto auto auto;
+    }
+
+ .msax-Control .msax-Loading .msax-LoaderBackground
+{
+    background:rgba(255,255,255,0.2);
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+}

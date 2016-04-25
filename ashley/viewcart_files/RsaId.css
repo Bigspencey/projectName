@@ -1,0 +1,102 @@
+﻿.msax-ShoppingCartSummaryContent.rsaid > tbody > tr:first-child > td:first-child {
+    border-bottom: solid 1px #ebebeb;
+}
+
+.msax-ShoppingCartSummaryContent.rsaid > tbody tr {
+    display:table;
+}
+
+.msax-ShoppingCartSummaryContent.rsaid .msax-OrderSummary div:last-child span table {
+    width: 100%!important;
+}
+
+.msax-ShoppingCartSummaryContent.rsaid .msax-OrderSummary tr.msax-Total + tr td:first-of-type span {
+  /*  float:right; */
+}
+
+.msax-ShoppingCartSummaryContent button.msax-ApplyRsaId {
+    background-color: #8e8e8e;
+    height: 2rem;
+    line-height: 2.1875rem;
+    outline:none;
+}
+
+.msax-ShoppingCartSummaryContent button.msax-ApplyRsaId:focus,
+.msax-ShoppingCartSummaryContent button.msax-ApplyRsaId:hover {
+    background: #c1c1c1;
+}
+
+.msax-ShoppingCartSummaryContent input.msax-RsaIdTextBox {
+    height: 2rem;
+}
+
+.msax-ShoppingCartSummaryContent .msax-ApplyRsaIdBlock li {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.msax-ShoppingCartSummaryContent.rsaid .msax-RsaIdBlock div {
+    clear:both;
+}
+
+.msax-ShoppingCartSummaryContent.rsaid .msax-RsaIdBlock div:last-child {
+    font-size: 0.875rem;
+    color: #4d4d4d!important;
+    font-weight: normal;
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaIdBlock #lblError2 {
+    color:#dd0000;
+    font-weight:bold;
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaIdBlock {
+    color: rgb(101,101,101);
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaCodeItem button.msax-applyPromoCodeImg {
+    display:none;
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaCodeItem div {
+    display:none;
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaCodeItem .msax-RsaCodeText {
+    position:relative;
+    padding-left:25px;
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaCodeItem .msax-RsaCodeText:before {
+    content:"\f058";
+    position:absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    background:none;
+    color:#67cc5c;
+    text-decoration: none;
+    top: -2px;
+    font-size: 20px;
+    left: 0px;
+    outline:none;
+    border:0;
+    padding:0;
+}
+
+.msax-ShoppingCartSummaryContent .msax-RsaCodeItem button.msax-WithText {
+    padding-left:0;
+    color: #007095;    
+}
+
+@media only screen and (max-width: 40em) {
+
+    .msax-ShoppingCartSummaryContent.rsaid > tbody > tr:first-child > td:first-child {
+        border: 0;
+    }
+
+}

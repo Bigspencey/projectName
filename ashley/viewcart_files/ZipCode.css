@@ -1,0 +1,108 @@
+.msax-ZipCode .msax-zipcodestatus {
+    background: hsl(192, 63%, 97%);
+    padding: 4px 12px;
+    /* border-left: 3px solid hsl(193, 12%, 85%); */
+    margin: .5em 0 6px 0;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 0.875rem;
+}
+
+@media only screen and (max-width: 40.063em) {
+    .msax-ZipCode .msax-zipcodestatus {
+  border:1px solid #d1d1d1;
+}
+}
+
+/*Popup Styles by muthait dated 07/16/2014 */
+
+#toPopup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid rgb(0, 88, 147);
+    border-radius: 1px 1px 1px 1px;
+    color: #333333;
+    display: none;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -402px;
+    position: fixed;
+    top: 20%;
+    min-height: 200px;
+    z-index: 2;
+}
+
+
+@media only screen and (max-width: 340px) {
+    #toPopup {
+        width: 98%!important;
+        margin-left: 0px !important;
+        left: 0px !Important;
+    }
+
+    .msax-UpdateZipCode li:last-child {
+        width: 100%!important;
+        margin-top: 0.3em;
+    }
+
+    .msax-UpdateZipCode li:first-child {
+               width: 100%!important;
+    }
+}
+
+div.close {
+    background: url('/images/closebox.png') no-repeat scroll 0 0 transparent;
+    bottom: 15px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
+
+span.ecs_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 1px 1px 1px 1px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 0 5px;
+    position: absolute;
+    right: -20px;
+    text-align: center;
+    top: -40px;
+    width: 70px;
+}
+
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 0;
+    width: 1px;
+}
+
+div#popup_content {
+    margin: 4px 7px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.msax-UpdateZipCode {
+    list-style: none;
+}
+
+    .msax-UpdateZipCode li {
+        float: left;
+        padding-left: 5px;
+    }
+
+
+/*
+//NE Developed by muthait for AFM_TFS_40686 dated 07/02/2014
+*/

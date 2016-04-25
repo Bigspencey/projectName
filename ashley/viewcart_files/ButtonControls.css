@@ -1,0 +1,15 @@
+﻿/*
+    NS by muthait dated 11Sep2014
+
+*/
+.msax-ButtonControls
+{
+    
+    width: 100%;
+}
+
+
+.msax-ButtonControls .disableButton {
+    background-color: lightgray;
+    color: #666666;
+}

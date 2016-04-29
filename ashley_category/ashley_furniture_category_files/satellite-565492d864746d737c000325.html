@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- saved from url=(0116)https://assets.adobedtm.com/fe874cc7085707c4a0be228d2edac4d34f9691dd/scripts/satellite-565492d864746d737c000325.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css"></style></head><body>
+    <script>
+      (function(){
+        function escapeForHtml(str){
+          if (!str) return str
+          return str
+            .replace(/\&/g, '&amp;')
+            .replace(/\</g, '&lt;')
+            .replace(/\>/g, '&gt;')
+            .replace(/\"/g, '&quot;')
+            .replace(/\'/g, '&#x27;')
+            .replace(/\//g, '&#x2F;')
+        }
+
+        var regexChars = /[.*+?^${}()|[\]\\]/g;
+        function escapeForRegex(str) {
+          return str.replace(regexChars, "\\$&");
+        }
+
+        function parseQueryString(){
+          var ret = {}, parts = location.search.substring(1).split('&');
+          for (var i = parts.length; i--;) {
+            var vardef = parts[i].split('='), varname = vardef[0], value = vardef[1];
+            ret[varname] = unescape(value);
+          }
+          return ret;
+        }
+
+        var queryParams = parseQueryString();
+
+        var markup = "<script type=\"text/javascript\" src=\"https://7000628.collect.igodigital.com/collect.js\"></scr"+"ipt> \n<script type=\"text/javascript\"> \n  try{\n  _etmc.push([\"setOrgId\", \"7000628\"]); _etmc.push([\"trackPageView\"]); \n  }catch(err){}\n</scr"+"ipt> ";
+
+        for (var name in queryParams){
+          var regex = new RegExp('%' + escapeForRegex(name) + '%', 'ig');
+          markup = markup.replace(regex, 
+            escapeForHtml(queryParams[name]));
+        }
+
+        document.write(markup)
+      })();
+    </script><script type="text/javascript" src="./collect.js"></script> 
+<script type="text/javascript"> 
+  try{
+  _etmc.push(["setOrgId", "7000628"]); _etmc.push(["trackPageView"]); 
+  }catch(err){}
+</script><div style="display: none;"><img src="./track_page_view" style="display:none" width="0" height="0"></div> 
+  
+
+</body></html>

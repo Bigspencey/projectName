@@ -143,11 +143,11 @@ function changeSelectBoxes(visibility){
 
 
 
-var usi_img_dir = '//upsellit.turbobytes.net';
+var usi_img_dir = 'http://upsellit.turbobytes.net';
 var usi_useSecondOpeners = false;
 
 var usi_messageArray = new Array();
-var link1 = "", link2 = "", link3 = "", chatID = "5544466389374597697664", usi_country = "us", agentName = "Jenny", usi_remoteIP = "198.151.206.196";
+var link1 = "", link2 = "", link3 = "", chatID = "1905640368247733534300", usi_country = "us", agentName = "Jenny", usi_remoteIP = "198.151.206.196";
 
 window_left = 10;
 window_top = 20;
@@ -164,7 +164,7 @@ function usi_LoadDynamics(theURL) {
 		var USI_dynScript = document.createElement("script");
 		USI_dynScript.setAttribute("id","usi_AJAXScript"+usi_scriptID);
 		USI_dynScript.setAttribute("type","text/javascript");
-		USI_dynScript.setAttribute("src","//www.upsellit.com/"+theURL+"&bustCache="+Math.random());
+		USI_dynScript.setAttribute("src","http://www.upsellit.com/"+theURL+"&bustCache="+Math.random());
 		USI_headID.appendChild(USI_dynScript);
 		setTimeout('usi_removeScript('+usi_scriptID+')', 10000);
 	} catch(e) {}
@@ -176,7 +176,7 @@ function usi_removeScript(usi_scriptRemoveID) {
 	}
 }
 var usi_chatDisplayerID = -1, usi_updateCheckerID = -1, usi_agentIsTypingID = -1, usi_BeenIdleID = -1, usi_lastTalker = 0, usi_customerHasTyped = 0, usi_isTyping = 0;
-var usi_updateFrequencyRate = 500, usi_idleTime=0.0, usi_currentlyTypingMsg = "", usi_session_id="A2003BA8D9A4D835847BFFA8E3F29CFF";
+var usi_updateFrequencyRate = 500, usi_idleTime=0.0, usi_currentlyTypingMsg = "", usi_session_id="A9B634E2C607A2E2354C1BC03D9A2D7F";
 
 var usi_aname = '', usi_hybrid_invite="null";
 var usi_idleMsg='', usi_extraHybridInfo = '';
@@ -545,7 +545,7 @@ function usi_offScreenPreload(usi_src) {
 
 
 function USI_includeFlash() {
-	document.getElementById('USIflashContentDiv').innerHTML = '<div id="usi_chatDisplay" style="position:absolute;width:337px;height:217px;top:53px;left:60px;margin:5px;padding:0px;text-align:left;color:#000000;font-size:12px;line-height:14px;text-indent:0;overflow-x:hidden; overflow-y:scroll;border-width:0px;font-family:Verdana;background-color:transparent;z-index:9002; word-wrap:break-word;"><b>Jenny Says:</b> </div><div id="usi_agentIsTypingMsgDiv" style="position:absolute;width:139px;height:18px;top:259px;left:60px;z-index:9007;padding:0px;margin:0px;visibility:hidden;"><img width="139" height="18" src="//upsellit.turbobytes.net/images/agent-typing-animation.gif" id="usi_agentIsTypingImg" style="float:left;border:0" border="0"/></div><div id="usi_chatInputDiv" style="position:absolute;width:230px;height:34px;top:287px;left:61px;background-color:transparent;z-index:9005;"><textarea id="usi_chatInput" style="overflow:auto;display:block;position:absolute;width:227px;height:34px;top:0px;left:5px;border-width:0px;border-style:none;outline:none; padding:0px; margin:0px; line-height:normal;border:none;font-family:Arial;line-height:15px;font-size: 15px;resize: none;background-color: rgba(255,255,255,1);color: rgba(0,0,0,1);background:url(\'//upsellit.turbobytes.net/images/spacer.gif\'); "></textarea></div><div id="usi_chatSendDiv" style="cursor:pointer;position:absolute;z-index:9002;width:98px;height:42px;top:284px;left:300px;"><img width="98" height="46" src="//upsellit.turbobytes.net/images/spacer.gif" onclick="usi_sendCustomerInput();" id="usi_chatSend" border="0" style="width:98px;height:42px;border-style:none;border-width:0px;MARGIN:0px;display:inline;"/></div><div id="usi_chatHelperDiv" style="cursor:pointer;position:absolute;z-index:9008;width:120px;height:260px;top:50px;left:420px;"><img  width="120" height="260"  src="//upsellit.turbobytes.net/images/spacer.gif" onclick="followClickHereLink(1);" id="usi_agentHelper" border="0" style="width:120px;height:260px;border-style:none;border-width:0px;MARGIN:0px;display:inline;"/></div>';
+	document.getElementById('USIflashContentDiv').innerHTML = '<div id="usi_chatDisplay" style="position:absolute;width:337px;height:217px;top:53px;left:60px;margin:5px;padding:0px;text-align:left;color:#000000;font-size:12px;line-height:14px;text-indent:0;overflow-x:hidden; overflow-y:scroll;border-width:0px;font-family:Verdana;background-color:transparent;z-index:9002; word-wrap:break-word;"><b>Jenny Says:</b> </div><div id="usi_agentIsTypingMsgDiv" style="position:absolute;width:139px;height:18px;top:259px;left:60px;z-index:9007;padding:0px;margin:0px;visibility:hidden;"><img width="139" height="18" src="http://upsellit.turbobytes.net/images/agent-typing-animation.gif" id="usi_agentIsTypingImg" style="float:left;border:0" border="0"/></div><div id="usi_chatInputDiv" style="position:absolute;width:230px;height:34px;top:287px;left:61px;background-color:transparent;z-index:9005;"><textarea id="usi_chatInput" style="overflow:auto;display:block;position:absolute;width:227px;height:34px;top:0px;left:5px;border-width:0px;border-style:none;outline:none; padding:0px; margin:0px; line-height:normal;border:none;font-family:Arial;line-height:15px;font-size: 15px;resize: none;background-color: rgba(255,255,255,1);color: rgba(0,0,0,1);background:url(\'//upsellit.turbobytes.net/images/spacer.gif\'); "></textarea></div><div id="usi_chatSendDiv" style="cursor:pointer;position:absolute;z-index:9002;width:98px;height:42px;top:284px;left:300px;"><img width="98" height="46" src="http://upsellit.turbobytes.net/images/spacer.gif" onclick="usi_sendCustomerInput();" id="usi_chatSend" border="0" style="width:98px;height:42px;border-style:none;border-width:0px;MARGIN:0px;display:inline;"/></div><div id="usi_chatHelperDiv" style="cursor:pointer;position:absolute;z-index:9008;width:120px;height:260px;top:50px;left:420px;"><img  width="120" height="260"  src="http://upsellit.turbobytes.net/images/spacer.gif" onclick="followClickHereLink(1);" id="usi_agentHelper" border="0" style="width:120px;height:260px;border-style:none;border-width:0px;MARGIN:0px;display:inline;"/></div>';
 	
 	//No chat elements
 	document.getElementById("usi_chatHelperDiv").style.visibility="hidden";
@@ -591,7 +591,7 @@ function USI_placeChat() {
 			USI_dd.style.visibility = 'hidden';
 			USI_dd.style.display = 'none';
 			USI_dd.style.fontWeight = 'normal';
-			USI_dd.innerHTML = '<div id="USIchatskinDiv" style="position:absolute;left:0px;top:0px;Z-INDEX:9000;"><img src="//upsellit.turbobytes.net/chatskins/_Invisibile.gif" id="imgChatTop" border="0" style="MARGIN:0px;display:inline;max-width:none"/><img id="usi_agentImage" src="//upsellit.turbobytes.net/images/spacer.gif" style="display:none; position:absolute; left:425px; top:65px; " /></div><div id="USIflashContentDiv" style="position:absolute;top:0px;left:0px;Z-INDEX:9001;"></div><div id="USItopToolBarDiv" style="position:absolute;width:450px;height:42px;top:0px;left:0px;Z-INDEX:9994;"><div id="USIDragBarDiv" style="position:absolute;width:450px;height:42px;top:0px;left:0px;Z-INDEX:9995;margin-right:0px;margin-left:0px;"><img width="453" height="40" src="//upsellit.turbobytes.net/images/spacer.gif" onmousedown="dragStart(event, \'flashChatDiv\');return false;" id="imgChatDrag" border="0" style="MARGIN: 0px;display:inline;cursor: move;height:42px !important;width:450px !important"/></div><div id="closeButton" style="cursor:pointer;position:absolute;width:60px;height:45px;top:0px;left:450px;Z-INDEX:9998;margin-right:0px;margin-left:0px;border:0;" ><img id="imgChatTop2"  width="60" height="45"  style="MARGIN:0px;display:inline;max-width:none;width:60px;height:45px;" src="//upsellit.turbobytes.net/images/spacer.gif" onclick="shutDown();" border="0"/></div></div><div id="USI_poweredBy" style="text-align:left;position:absolute;width:1px;height:1px;top:1px;left:1px;Z-INDEX:9994;"></div>';
+			USI_dd.innerHTML = '<div id="USIchatskinDiv" style="position:absolute;left:0px;top:0px;Z-INDEX:9000;"><img src="http://upsellit.turbobytes.net/chatskins/_Invisibile.gif" id="imgChatTop" border="0" style="MARGIN:0px;display:inline;max-width:none"/><img id="usi_agentImage" src="http://upsellit.turbobytes.net/images/spacer.gif" style="display:none; position:absolute; left:425px; top:65px; " /></div><div id="USIflashContentDiv" style="position:absolute;top:0px;left:0px;Z-INDEX:9001;"></div><div id="USItopToolBarDiv" style="position:absolute;width:450px;height:42px;top:0px;left:0px;Z-INDEX:9994;"><div id="USIDragBarDiv" style="position:absolute;width:450px;height:42px;top:0px;left:0px;Z-INDEX:9995;margin-right:0px;margin-left:0px;"><img width="453" height="40" src="http://upsellit.turbobytes.net/images/spacer.gif" onmousedown="dragStart(event, \'flashChatDiv\');return false;" id="imgChatDrag" border="0" style="MARGIN: 0px;display:inline;cursor: move;height:42px !important;width:450px !important"/></div><div id="closeButton" style="cursor:pointer;position:absolute;width:60px;height:45px;top:0px;left:450px;Z-INDEX:9998;margin-right:0px;margin-left:0px;border:0;" ><img id="imgChatTop2"  width="60" height="45"  style="MARGIN:0px;display:inline;max-width:none;width:60px;height:45px;" src="http://upsellit.turbobytes.net/images/spacer.gif" onclick="shutDown();" border="0"/></div></div><div id="USI_poweredBy" style="text-align:left;position:absolute;width:1px;height:1px;top:1px;left:1px;Z-INDEX:9994;"></div>';
 			document.getElementsByTagName('body')[0].appendChild(USI_dd);
 			
 			USI_includeFlash();
@@ -659,11 +659,11 @@ function registerDisplayAttempt() {
 	
 }
 function usi_followDynamicLink(dynURL) {
-	top.location.href = '//www.upsellit.com/follow.jsp?companyid=3510&sid=13676&cid=5544466389374597697664&duration=1209600&dbupdate=1&url=' + escape(dynURL);
+	top.location.href = '//www.upsellit.com/follow.jsp?companyid=3510&sid=13676&cid=1905640368247733534300&duration=1209600&dbupdate=1&url=' + escape(dynURL);
 }
 function usi_linkFollowed() {
 	try {
-		usi_LoadDynamics("follow.jsp?companyid=3510&sid=13676&cid=5544466389374597697664&duration=1209600&dbupdate=1&url=");
+		usi_LoadDynamics("follow.jsp?companyid=3510&sid=13676&cid=1905640368247733534300&duration=1209600&dbupdate=1&url=");
 		usi_LoadDynamics("httpPost_js.jsp?command=LINKFOLLOWED&chatID="+encodeURIComponent(chatID));
 	} catch (e) {}
 }
@@ -783,7 +783,7 @@ USI_DirectDHPost = function (USI_value, USI_name, USI_siteID) {
 		var USI_headID = document.getElementsByTagName("head")[0];
 		var USI_dynScript = document.createElement("script");
 		USI_dynScript.setAttribute("type", "text/javascript");
-		USI_dynScript.setAttribute("src", "//www.upsellit.com/hound/saveData.jsp?siteID=" + USI_siteID + "&USI_value=" + escape(USI_value) + "&USI_name=" + encodeURIComponent(USI_name) + "&USI_Session=" + dh_email_capture + "&bustCache=" + (new Date()).getTime());
+		USI_dynScript.setAttribute("src", "http://www.upsellit.com/hound/saveData.jsp?siteID=" + USI_siteID + "&USI_value=" + escape(USI_value) + "&USI_name=" + encodeURIComponent(USI_name) + "&USI_Session=" + dh_email_capture + "&bustCache=" + (new Date()).getTime());
 		USI_headID.appendChild(USI_dynScript);
 	} catch (e) {}
 }
@@ -829,9 +829,9 @@ function usi_checkFocusDefault(elmt) {
 	}
 }
 
-if (typeof(usi_email_grabbed) != "undefined") {
+if (USI_getSessionValue("usi_email_grabbed") != null && USI_getSessionValue("usi_email_grabbed").indexOf("@") != -1) {
 	usi_verifyValidEmail = function() {}
-	USI_DirectDHPost(usi_email_grabbed, 'usi_email', 13675);
+	USI_DirectDHPost(USI_getSessionValue("usi_email_grabbed"), 'usi_email', 13675);
 	document.getElementById("usi_signupform").innerHTML = usi_Form2;
 }
 

@@ -7,7 +7,11 @@
 
 
 // <script>
-var usi_currentDate = "2016-04-29";
+
+
+
+
+var usi_currentDate = "2016-05-03";
 var usi_error_submits = 0;
 function usi_stopError(usi_msg, usi_url, usi_linenumber) {
 	if (usi_url.indexOf("upsellit.com") != -1 && usi_url.indexOf("err.jsp") == -1 && usi_error_submits < 5) {
@@ -15,7 +19,7 @@ function usi_stopError(usi_msg, usi_url, usi_linenumber) {
 		var USI_headID = document.getElementsByTagName("head")[0];
 		var USI_errorScript = document.createElement('script');
 		USI_errorScript.type = 'text/javascript';
-		USI_errorScript.src = 'https://www.upsellit.com/err.jsp?oops='+escape(usi_msg)+'-'+escape(usi_url)+'-'+escape(usi_linenumber);
+		USI_errorScript.src = 'http://www.upsellit.com/err.jsp?oops='+escape(usi_msg)+'-'+escape(usi_url)+'-'+escape(usi_linenumber);
 		USI_headID.appendChild(USI_errorScript);
 	}
 	return true;
@@ -193,17 +197,32 @@ if (location.href.indexOf("/cart/viewcart") != -1 && USI_getSessionValue("usi_co
 	USI_updateASession("usi_couponcode", "0", 24 * 60 * 60);
 }
 if (location.href.indexOf("/cart/orderconfirmation?confirmationId=") != -1) {
-	var USI_orderID = usi_gup("confirmationId");
-	var USI_orderAmt = '';
-	var USI_headID = document.getElementsByTagName("head")[0];
-	var USI_dynScript = document.createElement("script");
-	USI_dynScript.setAttribute('type', 'text/javascript');
-	USI_dynScript.src = 'http' + (document.location.protocol == 'https:' ? 's://www' : '://www') + '.upsellit.com/upsellitReporting.jsp?command=REPORT&siteID=11835&productID=77&position=1&orderID=' + escape(USI_orderID) + '&orderAmt=' + escape(USI_orderAmt);
-	USI_headID.appendChild(USI_dynScript);
-	var USI_dynScript2 = document.createElement("script");
-	USI_dynScript2.setAttribute('type', 'text/javascript');
-	USI_dynScript2.src = 'http' + (document.location.protocol == 'https:' ? 's://www' : '://www') + '.upsellit.com/hound/sale.jsp?orderID=' + escape(USI_orderID) + '&orderAmt=' + escape(USI_orderAmt);
-	USI_headID.appendChild(USI_dynScript2);
+	usi_delayRead = function() {
+		var USI_orderID = usi_gup("confirmationId");
+		var USI_orderAmt = '';
+		try {
+				if (document.getElementById("scphbody_0_OrderSummary") != null && document.getElementById("scphbody_0_OrderSummary").innerHTML.indexOf("$") != -1 && document.getElementById("scphbody_0_OrderSummary").innerHTML.indexOf("SubtotalWithCurrency") != -1) {
+				USI_orderAmt = document.getElementById("scphbody_0_OrderSummary").innerHTML;
+				USI_orderAmt = USI_orderAmt.substring(USI_orderAmt.indexOf("SubtotalWithCurrency"), USI_orderAmt.length);
+				USI_orderAmt = USI_orderAmt.substring(USI_orderAmt.indexOf("$")+1, USI_orderAmt.length);
+				USI_orderAmt = USI_orderAmt.substring(0, USI_orderAmt.indexOf("<"));
+			}
+		} catch(e2){}
+		if (!isNaN(USI_orderAmt) && Number(USI_orderAmt) > 0) {
+			var USI_headID = document.getElementsByTagName("head")[0];
+			var USI_dynScript = document.createElement("script");
+			USI_dynScript.setAttribute('type', 'text/javascript');
+			USI_dynScript.src = 'http' + (document.location.protocol == 'https:' ? 's://www' : '://www') + '.upsellit.com/upsellitReporting.jsp?command=REPORT&siteID=11835&productID=77&position=1&orderID=' + escape(USI_orderID) + '&orderAmt=' + escape(USI_orderAmt);
+			USI_headID.appendChild(USI_dynScript);
+			var USI_dynScript2 = document.createElement("script");
+			USI_dynScript2.setAttribute('type', 'text/javascript');
+			USI_dynScript2.src = 'http' + (document.location.protocol == 'https:' ? 's://www' : '://www') + '.upsellit.com/hound/sale.jsp?orderID=' + escape(USI_orderID) + '&orderAmt=' + escape(USI_orderAmt);
+			USI_headID.appendChild(USI_dynScript2);
+		} else {
+			setTimeout("usi_delayRead()", 2000);
+		}
+	}
+	setTimeout("usi_delayRead()", 2000);
 } else {
 	var usi_cacheBuster = "";//&rand=" + Math.random();
 
@@ -213,7 +232,7 @@ if (location.href.indexOf("/cart/orderconfirmation?confirmationId=") != -1) {
 		var usiLaunchScript = document.createElement("script");
 		if (top.location != location) usiDocHead = parent.document.getElementsByTagName('head')[0];
 		usiLaunchScript.type = "text/javascript";
-		usiLaunchScript.src = ("https://www.upsellit.com/launch.jsp?qs=" + usiQS + "&siteID=" + usiSiteID + "&keys=" + usiKey + usi_cacheBuster);
+		usiLaunchScript.src = ("http://hybrid.upsellit.com/launch.jsp?qs=" + usiQS + "&siteID=" + usiSiteID + "&keys=" + usiKey + usi_cacheBuster);
 		usiDocHead.appendChild(usiLaunchScript);
 		usiLoadDisplay = function() {
 			usiLog("Display already loaded")
@@ -257,12 +276,15 @@ if (location.href.indexOf("/cart/orderconfirmation?confirmationId=") != -1) {
 					usi_loadBoostBars();
 				} else {
 					usi_checkForUnassistedSignup = function() {
-						if (document.getElementById("signUpSuccess") != null && document.getElementById("signUpSuccess").style.visibility == "visible" && document.getElementById("signUpTxtEmail") != null && document.getElementById("signUpTxtEmail").value.indexOf("@") != -1) {
+						if (document.getElementById("signUpTxtEmail") != null && document.getElementById("signUpTxtEmail").value.indexOf("@") != -1) {
 							if (usi_validateEmail(document.getElementById("signUpTxtEmail").value)) {
 								clearInterval(usi_checkForUnassistedSignupID);
 								usi_email_grabbed = document.getElementById("signUpTxtEmail").value;
-								usi_loadBoostBars();
+                                USI_updateASession("usi_email_grabbed", usi_email_grabbed, 24*60*60);
 							}
+                            if (document.getElementById("signUpSuccess") != null && document.getElementById("signUpSuccess").style.visibility == "visible") {
+                                usi_loadBoostBars();
+                            }
 						} else if (document.getElementById("websiteOverlay") != null && document.getElementById("websiteOverlay").style.visibility == "hidden") {
 							clearInterval(usi_checkForUnassistedSignupID);
 							usi_loadBoostBars();
@@ -274,6 +296,7 @@ if (location.href.indexOf("/cart/orderconfirmation?confirmationId=") != -1) {
 		}
 	}
 	if (location.href.indexOf("/loginpage") != -1 || location.href.toLowerCase().indexOf("/cart/checkout") != -1) {
-		usi_includeDH();
 	}
 }
+//US ONLY
+

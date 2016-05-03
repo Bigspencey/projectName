@@ -145,7 +145,7 @@ function resetThumbNavs() {
 };
 
 function postSecureCrossSiteAjax(relativeUrl, methodName, data, successCallBack, failureCallBack) {
-    var url = "//" + window.location.hostname + relativeUrl + methodName;
+    var url = "http://" + window.location.hostname + relativeUrl + methodName;
 
     $.ajax({
         url: url,
@@ -6425,5 +6425,5 @@ var externalResources = {
         scripts.parentNode.insertBefore(script, scripts);
     }
 
-    load('https://apis.google.com/js/platform.js');
+    load('http://apis.google.com/js/platform.js');
 }());;

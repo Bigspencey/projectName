@@ -1173,63 +1173,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 <!-- mp_trans_remove_end -->
     </div>
 
-<script>
-    var PromoCardsJson = [];
 
-    var urlVar = "";
-    if (urlVar == "") {
-        $("#urlBanner").removeAttr('href');
-    }
-
-    var AFHS = AFHS || {};
-    AFHS.Search = AFHS.Search || {};
-
-    AFHS.Search = (function () {
-        var classificationId = 'ad0c8c46-3774-d2ac-76f4-45eb8d2826f6';
-        var productsPerPage = '12';
-        var mode = '';
-        var afmZipCodeFromCookie = '94109';
-        var searchUri = 'http://www.ashleyfurniturehomestore.com/api/thumbnails/classifications/';
-        var searchType = 'subcategory';
-        var swatchImgNotFoundUrl = 'http://www.ashleyfurniturehomestore.com/-/media/images/Default-Swatch-25.jpg';
-        var productImgNotFoundUrl = 'http://www.ashleyfurniturehomestore.com/-/media/images/notfoundimage_500x500.png';
-        var bazaarVoiceEnabled = true;
-		var currentContext = "web";
-
-        // image load error handler
-        var swatchImgError = function (image, src) {
-            image.onerror = "";
-            image.src = swatchImgNotFoundUrl;
-            return true;
-        };
-
-        var productImgError = function (image, src) {
-            image.onerror = "";
-            image.src = productImgNotFoundUrl;
-            return true;
-        };
-
-        return {
-            classificationId: classificationId,
-            productsPerPage: productsPerPage,
-            mode: mode,
-            afmZipCodeFromCookie: afmZipCodeFromCookie,
-            searchUri: searchUri,
-            searchType: searchType,
-            swatchImgError: swatchImgError,
-            productImgError : productImgError,
-            productImgNotFoundUrl : productImgNotFoundUrl,
-            bazaarVoiceEnabled: bazaarVoiceEnabled,
-            currentContext: currentContext
-        }
-    })();
-
-    $(document).ready(function () {
-        AddKeyPressEvents();
-        CancelBackspaceEvents();
-        var firstSearch = true;
-    });
-</script>
 <input type="hidden" id="availabilityReturnUrl" value="/c/furniture/living-room/sofas/?sortby=featured&amp;icid=meganav-furniture-menu-sofas">
 
 

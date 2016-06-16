@@ -3192,8 +3192,8 @@ $.fn.dropdown = function(options, callback) {
 		coreMetricsCategory : 'blank',
 		coreMetricsCategoryNameId : ['coreMetricsCategory','promo_coremetrics'],
 		touch : (typeof document.ontouchstart != "undefined") ? true : false, //check if on touch device
-		baseJS : '/combine?type=js&files=shared/wishlist/wl_addToWishlist.js,shared/inlineAddToCart/miniAddToCart.js,shared/tellafriend/tellafriend.js,shared/gLightBox/gLightBox.js,shared/wishlist/wl_sharedWishList.js,shared/myAccount/login.js',
-		baseCSS : '/combine?type=css&files=shared/tipped/tipped.css,/css/typography.css,/css/style.css,/css/default_template.css,shared/quickview/quickview.css,shared/quickview/quickviewPDP.css,shared/wishlist/wl_addToWishlist.css,shared/inlineAddToCart/miniAddToCart.css,shared/tellafriend/tellafriend.css,shared/gLightBox/gLightBox.css,shared/wishlist/wl_sharedWishList.css,shared/myAccount/login.css,shared/endeca/css/autosuggest_inquisitor.css,/endeca/autosuggest.css',
+		baseJS : 'http://www.footlocker.com/combine?type=js&files=shared/wishlist/wl_addToWishlist.js,shared/inlineAddToCart/miniAddToCart.js,shared/tellafriend/tellafriend.js,shared/gLightBox/gLightBox.js,shared/wishlist/wl_sharedWishList.js,shared/myAccount/login.js',
+		baseCSS : 'http://www.footlocker.com/combine?type=css&files=shared/tipped/tipped.css,/css/typography.css,/css/style.css,/css/default_template.css,shared/quickview/quickview.css,shared/quickview/quickviewPDP.css,shared/wishlist/wl_addToWishlist.css,shared/inlineAddToCart/miniAddToCart.css,shared/tellafriend/tellafriend.css,shared/gLightBox/gLightBox.css,shared/wishlist/wl_sharedWishList.css,shared/myAccount/login.css,shared/endeca/css/autosuggest_inquisitor.css,/endeca/autosuggest.css',
 		wishlistType : 'Promo'
 	};
 	var methods = {

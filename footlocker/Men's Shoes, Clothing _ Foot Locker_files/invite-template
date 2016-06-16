@@ -1,0 +1,93 @@
+(function (define) {
+define('template', ['event', 'invite', 'multi', 'params', 'util'], function (Event, Invite, Multi, Params, Util) {
+  var params = {
+    addBizrateLogoLinkFlag: "1",
+    altImageText: "Tell Us What You Think!",
+    modalType: "vex-theme-default",
+    barCloseStyle: { cursor: 'pointer',float: 'right',height: '100%',fontSize: '9px',color: '#FFF',fontFamily: 'Arial, Helvetica, sans-serif',textDecoration: 'underline',lineHeight: '26px' },
+    barCloseText: "[Close]",
+    barStyle: { backgroundColor: '#000080',height: '26px',cursor: 'default',lineHeight: '26px',color: '#FFF',fontSize: '12px',paddingLeft: '10px',paddingRight: '10px',fontFamily: 'Arial, Helvetica, sans-serif' },
+    barTitleStyle: { whiteSpace:'nowrap', width: '180px', float: 'left',height: '100%',fontWeight: 'bold',fontFamily: 'Arial, Helvetica, sans-serif',fontSize: '12px',color: '#FFF',lineHeight: '26px',textAlign:'left' },
+    brandStyle: {  },
+    brandText: "",
+    bodyStyle: { backgroundColor: '#FFF',cursor: 'pointer, height:270px' },
+    bounce: "true",
+    buttonImageUrl: "",
+    buttonStyle: {  },
+    buttonHeight: "",
+    buttonWidth: "",
+    buttonX: "",
+    buttonY: "",
+    cdnResourcePathHttp: "http://images.bizrate.com/s2static/us/ins/1a3bd6a2",
+    cdnResourcePathHttps: "https://images.bizrate.com/s2static/us/ins/1a3bd6a2",
+    closeWindowText: "[Close]",
+    declineText: "",
+    deviceType: "DESKTOP",
+    frequency: "2592000",
+    headerStyle: { width: '300px', textDecoration: 'none', position: 'absolute', top: '65px', left: '0px', fontFamily: 'arial,sans-serif', textAlign: 'center', fontSize: '12px', fontVariant: 'normal', lineHeight: '16px', textAlign: 'center', overflow: 'visible', color: 'rgb(0, 0, 130)', fontWeight: 'bold', height: '10px', maxWidth: 'none' },
+    headerText: "Your feedback for Foot Locker<\/br>qualifies you to win<span style=\"color:#fdd937;\">&nbsp;$25 today!<\/span>",
+    incentiveStyle: { width:'288px',textDecoration: 'none',position: 'absolute',top: '96px',left: '6px', textAlign: 'center',color: '#7e7e7e',fontFamily: 'Arial, sans-serif',fontSize: '14px',fontVariant: 'normal',fontWeight: 'normal',lineHeight: '1.15' },
+    incentiveText: "Take a few minutes to answer<\/br>some simple questions<\/br>for a chance to win $25. <span style=\"color:#0072D0;font-weight:bold;\">20 winners daily!<\/span>",
+    invite: "1",
+    inviteImageUrl: "https://images.bizrate.com/eval/survey/invite_template/non-buyer/template_multi_105.gif",
+    inviteImageUrlNoLogo: "https://images.bizrate.com/eval/survey/invite_template/non-buyer/template_multi_105.gif",
+    inviteHeight: "250",
+    inviteWidth: "300",
+    latitude: "38.0",
+    longitude: "-97.0",
+    logoResourcePathHttp: "http://images.bizrate.com/merchant/",
+    logoResourcePathHttps: "https://images.bizrate.com/merchant/",
+    merLogoStyle: { top:'15px', left:'10px', position:'absolute', border:'0px none', display:'inline' },
+    mid: 17345,
+    originMerchantName: "Foot Locker",
+    pageId: "",
+    pageScrollPercentage: "",
+    pageTitle: "Tell Us What You Think!",
+    pageViews: "",
+    percentage: "100",
+    pitchType: "23",
+    posX: "",
+    posY: "",
+    respondentId: "1466035154320502801",
+    sessionId: "120132924561270747",
+    surveyIframeEnabled: "1",
+    surveyIframeHeight: "large",
+    surveyIframeOpacity: "0.80",
+    surveyIframePosition: "center",
+    surveyIframeWidth: "large",
+    surveyTypeId: "7",
+    surveyType: "multi",
+    surveyUrl: "https://survey.bizrate.com/jfe/form/SV_0quxhvhbDjmcKVf?br=14660351470364126689102010302015150&sessionId=120132924561270747&rid=1466035154320502801&mid=17345&merchantName=Foot+Locker&flow=104&rf_code=sur&testIds=SIP,S17831_SA_TEST_INVITE_INCENTIVES,S17831_SA_TEST_SURVEY_INCENTIVES&browserLanguage=en_US&C1p=2&osAndVersion=OS X 10.10 Yosemite&C102003=1&Q_JFE=1&browserAndVersion=Chrome 51.0.2704.84&browserType=Browser&lat=38.0&lon=-97.0",
+    timeOnPage: "",
+    timeOnSite: "",
+    touchpointURL: "https://insights.bizrate.com/inviteLog?id=17345&product_id=7&flow=104&respondentId=1466035154320502801&testIds=SIP,S17831_SA_TEST_INVITE_INCENTIVES,S17831_SA_TEST_SURVEY_INCENTIVES",
+    userId: "",
+    zIndex: "1000000",
+    zipCode: ""
+  };
+
+  Multi.setParams(params);
+  Multi.processParams();
+
+  var settings = Multi.getWinSettings();
+  Params.winStyle = { zIndex: settings.z.toString(10),width: settings.width.toString(10) + 'px',position: 'absolute',left: settings.x.toString(10) + 'px',top: settings.y.toString(10) + 'px',border: '1px solid #ccc' };
+
+  var template = {
+
+    init: function () {
+      if (Params.pitchType === 24) {
+        Multi.init();
+      } else {
+        Event.bindEvents({
+          callback: Multi.init
+        });
+        Event.monitorEvents();
+      }
+    }
+
+  };
+
+  return template;
+
+});
+}(_cnx.define));

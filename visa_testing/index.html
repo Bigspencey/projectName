@@ -3,15 +3,20 @@
 	<head>
 		<title>Example Page</title>
 		<script type="text/javascript">
-			window['optimizely'] = window['optimizely'] || [];
-			// window['optimizely'].push(["disable"]);
-			// window['optimizely'].push("optOut");
-
+			function setCookie(c_name,value,exdays,c_domain) {
+			    c_domain = (typeof c_domain === "undefined") ? "" : "domain=" + c_domain + ";";
+			    var exdate=new Date();
+			    exdate.setDate(exdate.getDate() + exdays);
+			    var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+			    document.cookie=c_name + "=" + c_value + ";" + c_domain + "path=/";
+			}
+			setCookie('optimizelyOptOut', 'true', 3650, ".bigspencey.github.io");
 		</script>
 		<script src="https://cdn.optimizely.com/js/6444573170.js"></script>
 	</head>
 	<body>
 		<h1>Hello World</h1>
 		<p>This is a sample page to troubleshoot issues with Optimizely.</p>
+		<a href="http://bigspencey.github.io/projectName/visa_testing/other_page/index.html">Click Here!</a>
 	</body>
 </html>

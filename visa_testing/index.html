@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Example Page</title>
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			function setCookie(c_name,value,exdays,c_domain) {
 			    c_domain = (typeof c_domain === "undefined") ? "" : "domain=" + c_domain + ";";
@@ -17,6 +18,11 @@
 	<body>
 		<h1>Hello World</h1>
 		<p>This is a sample page to troubleshoot issues with Optimizely.</p>
-		<a href="http://bigspencey.github.io/projectName/visa_testing/other_page/index.html">Click Here!</a>
+		<a id="button" href="">Click Here!</a>
+		<script type="text/javascript">
+			$("#button").on("click", function() {
+				$("body").append("<script src='https://cdn.optimizely.com/js/6444573170.js'>\</script>");
+			});
+		</script>
 	</body>
 </html>

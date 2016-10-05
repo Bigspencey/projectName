@@ -6,55 +6,55 @@
   var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
   debugger;
 
-  var request_payload = {
+  // var request_payload = {
 
-    "accountId": ,
+  //   "accountId": ,
 
-    "activationId": ,
+  //   "activationId": ,
 
-    "activeViews": ,
+  //   "activeViews": ,
 
-    "clientEngine": ,
+  //   "clientEngine": ,
 
-    "clientVersion": ,
+  //   "clientVersion": ,
 
-    "eventEntityId": ,
+  //   "eventEntityId": ,
 
-    "eventFeatures": [{
-      "id": null,
-      "shouldIndex": true,
-      "type": "view_category",
-      "name": "",
-      "value": "other"
-    }],
+  //   "eventFeatures": [{
+  //     "id": null,
+  //     "shouldIndex": true,
+  //     "type": "view_category",
+  //     "name": "",
+  //     "value": "other"
+  //   }],
 
-    "eventId": eventId,
+  //   "eventId": eventId,
 
-    "eventMetrics": ,
+  //   "eventMetrics": ,
 
-    "eventName": ,
+  //   "eventName": ,
 
-    "eventType": ,
+  //   "eventType": ,
 
-    "isGlobalHoldback": ,
+  //   "isGlobalHoldback": ,
 
-    "layerStates": ,
+  //   "layerStates": ,
 
-    "projectId": ,
+  //   "projectId": ,
 
-    "relatedEvents": ,
+  //   "relatedEvents": ,
 
-    "revision": ,
+  //   "revision": ,
 
-    "sessionId": "036f5538-4cc4-4db9-b59e-f8e41e59ea7e",
+  //   "sessionId": "036f5538-4cc4-4db9-b59e-f8e41e59ea7e",
 
-    "timestamp": Date.now(),
+  //   "timestamp": Date.now(),
 
-    "userFeatures": ,
+  //   "userFeatures": ,
 
-    "visitorId": 
+  //   "visitorId": 
    
-  }
+  // }
 
 
 })();

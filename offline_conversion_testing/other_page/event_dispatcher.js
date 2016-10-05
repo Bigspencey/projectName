@@ -1,60 +1,67 @@
 (function() {
-  var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData"));
-  // This needs to be configured based on the custom event created in Optimizely.
+
+  // -------------------------------------- //
+  // Author: Spencer Smitherman (spencer@optimizely.com)
+  //
+  // 1. Configure custom event in Optimizely under "Implementation" > "Events".
+  // 2. Take the API Name and assign it as a string to the `eventName` variable.
+  // 3. Add the custom event to any campaign on the dashboard.
+  // 4. Go to the campaign, select "API Names" in the right rail.
+  // 5. Assign the metric ID to the eventEntityId variable.
+  //
+  // -------------------------------------- //
+
+  var eventName = "converted";
   var eventEntityId = "7582971455"; // "Converted" for 6444573170
+
   var eventFeatures = [];
   var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
+  var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData"));
   debugger;
 
-  // var request_payload = {
+  var request_payload = {
 
-  //   "accountId": ,
+    "accountId": optimizelyObject.accountId,
 
-  //   "activationId": ,
+    "activationId": optimizelyObject.activationId,
 
-  //   "activeViews": ,
+    "activeViews": optimizelyObject.activeViews,
 
-  //   "clientEngine": ,
+    "clientEngine": optimizelyObject.clientEngine,
 
-  //   "clientVersion": ,
+    "clientVersion": optimizelyObject.clientVersion,
 
-  //   "eventEntityId": ,
+    "eventEntityId": eventEntityId,
 
-  //   "eventFeatures": [{
-  //     "id": null,
-  //     "shouldIndex": true,
-  //     "type": "view_category",
-  //     "name": "",
-  //     "value": "other"
-  //   }],
+    "eventFeatures": eventFeatures,
 
-  //   "eventId": eventId,
+    "eventId": eventId,
 
-  //   "eventMetrics": ,
+    "eventMetrics": optimizelyObject.eventMetrics,
 
-  //   "eventName": ,
+    "eventName": eventName,
 
-  //   "eventType": ,
+    "eventType": optimizelyObject.eventType,
 
-  //   "isGlobalHoldback": ,
+    "isGlobalHoldback": optimizelyObject.isGlobalHoldback,
+    // fix this.
+    "layerStates": [optimizelyObject.layerStatesArray],
 
-  //   "layerStates": ,
+    "projectId": optimizelyObject.projectId,
 
-  //   "projectId": ,
+    "relatedEvents": optimizelyObject.relatedEvents,
 
-  //   "relatedEvents": ,
+    "revision": optimizelyObject.revision,
 
-  //   "revision": ,
+    "sessionId": optimizelyObject.sessionId,
 
-  //   "sessionId": "036f5538-4cc4-4db9-b59e-f8e41e59ea7e",
+    "timestamp": Date.now(),
 
-  //   "timestamp": Date.now(),
+    "userFeatures": optimizelyObject.userFeatures,
 
-  //   "userFeatures": ,
-
-  //   "visitorId": 
+    "visitorId": optimizelyObject.visitorId
    
-  // }
+  }
 
 
 })();

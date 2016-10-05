@@ -6,46 +6,45 @@
 
 window.optimizely = window.optimizely || [];
 
-function collectDynamicData(layerState, commitToLocalStorage) {
+function collectDynamicData(layerState, retrieveUserFeatures, commitToLocalStorage) {
   var dynamicData = {};
   dynamicData.projectId = window.optimizely.get('data').projectId;
   dynamicData.accountId = window.optimizely.get('data').accountId;
   dynamicData.sessionId = window.optimizely.get('session').sessionId;
   dynamicData.visitorId = window.optimizely.get('visitor_id').randomId;
   dynamicData.revision = window.optimizely.get('data').revision;
-  dynamicData.activationId = "ActivationID_" + Math.random();
-  dynamicData.userFeatures = retrieveUserFeatures();
+  dynamicData.activationId = "ActivationID_" + Math.random().toString().substring(2);
   dynamicData.layerStatesArray = { actionActivationId: null,
                         actionSessionId: null,
                         actionTimestamp: null,
                         actionTriggered: false,
                         decision: { experimentId: layerState.data.decision.experimentId,
-                                    isLayerHoldback: layerState.data.decision.isLayerHoldback,
+                                    isLayerHoldback: layerState.data.decision.isCampaignHoldback,
                                     variationId: layerState.data.decision.variationId
                                   },
-                        decisionActivationId: activationId,
-                        decisionSessionId: sessionId,
+                        decisionActivationId: dynamicData.activationId,
+                        decisionSessionId: dynamicData.sessionId,
                         decisionTicket: { audiences: layerState.data.decisionTicket.audienceIds,
                                           bucketingId: layerState.data.decisionTicket.bucketingId
                                         },
                         decisionTimestamp: Date.now(),
-                        layerId: layerState.data.layer.id,
-                        revision: revision
+                        layerId: layerState.data.campaign.id,
+                        revision: dynamicData.revision
                       };
-  commitToLocalStorage(dynamicData);
+  retrieveUserFeatures(dynamicData, commitToLocalStorage);
 }
 
-function retrieveUserFeatures() {
+function retrieveUserFeatures(dynamicData, commitToLocalStorage) {
   var visitor = optimizely.get('visitor');
-  var featuresArray = [];
+  dynamicData.userFeatures = [];
   for (var behavior in visitor.defaultBehavior) {
-    featuresArray.push({ type: "defaultBehavior",
-                         name: behavior, id: null,
-                         value: visitor.defaultBehavior[behavior],
-                         shouldIndex: true
-                       });
+    dynamicData.userFeatures.push({ type: "defaultBehavior",
+                                     name: behavior, id: null,
+                                     value: visitor.defaultBehavior[behavior],
+                                     shouldIndex: true
+                                   });
   }
-  return featuresArray;
+  commitToLocalStorage(dynamicData);
 }
 
 function collectStaticData() {
@@ -60,18 +59,30 @@ function collectStaticData() {
   return staticData;
 }
 
+function merge_objects(staticData, dynamicData){
+    var optimizelyObject = {};
+    for (var name in staticData) {
+      optimizelyObject[name] = staticData[name];
+    }
+    for (var name in dynamicData) {
+      optimizelyObject[name] = dynamicData[name];
+    }
+    return optimizelyObject;
+}
+
 function commitToLocalStorage(dynamicData) {
   var staticData = collectStaticData();
-  return localStorage.setItem("optimizelyOfflineData", "test");
+  var optimizelyObject = merge_objects(staticData, dynamicData);
+  return localStorage.setItem("optimizelyOfflineData", JSON.stringify(optimizelyObject));
 }
 
 window.optimizely.push({
   type: 'addListener',
   filter: {
     type: 'lifecycle',
-    name: "layerDecided"
+    name: "campaignDecided"
   },
   handler: function(layerState) {
-    collectDynamicData(layerState, commitToLocalStorage);
+    collectDynamicData(layerState, retrieveUserFeatures, commitToLocalStorage);
   },
 });

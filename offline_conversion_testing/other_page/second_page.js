@@ -1,8 +1,11 @@
 (function() {
   // This needs to be configured based on the custom event created in Optimizely.
   var eventEntityId = "7582971455"; // "Converted" for 6444573170
-  var eventId = "event_" + eventEntityId + Math.random();
+  var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
+  var eventFeatures = [];
   var timestamp = Date.now();
+
+
 
 })();
 

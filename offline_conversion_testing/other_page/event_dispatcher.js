@@ -1,4 +1,4 @@
-(function() {
+
 
   // -------------------------------------- //
   // Author: Spencer Smitherman (spencer@optimizely.com)
@@ -17,7 +17,7 @@
   var eventFeatures = [];
   var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
   var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData"));
-  debugger;
+  var request_url = 'https://p13nlog.dz.optimizely.com/log/event';
 
   var request_payload = {
 
@@ -62,9 +62,10 @@
     "visitorId": optimizelyObject.visitorId
    
   }
-
-
-})();
+  
+  $.post(request_url, request_payload, function(data) {
+    debugger;
+  });
 
 // var request_url = 'https://p13nlog.dz.optimizely.com/log/event';
 

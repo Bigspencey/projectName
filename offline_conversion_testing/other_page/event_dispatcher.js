@@ -1,4 +1,4 @@
-
+(function() {
 
   // -------------------------------------- //
   // Author: Spencer Smitherman (spencer@optimizely.com)
@@ -18,6 +18,7 @@
   var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
   var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData"));
   var request_url = 'https://p13nlog.dz.optimizely.com/log/event';
+  var contentType = 'application/json';
 
   var request_payload = {
 
@@ -62,16 +63,13 @@
     "visitorId": optimizelyObject.visitorId
    
   }
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", request_url, true);
+  xhr.setRequestHeader('Content-Type', contentType);
+  xhr.send(JSON.stringify(request_payload));
   
-  $.post(request_url, request_payload, function(data) {
-    debugger;
-  });
-
-// var request_url = 'https://p13nlog.dz.optimizely.com/log/event';
-
-// var method = 'POST';
-
-// var contentType = 'application/json';
+})();
 
 // var request_payload = {
 //   // Used by backend: yes
@@ -163,12 +161,3 @@
 //   // Used by backend: no
 //   "activationId": "c397f042-c231-4b1b-993e-5d4530e274ba"
 // };
-
-// var params = "lorem=ipsum&name=alpha";
-// var xhr = new XMLHttpRequest();
-// xhr.open(method, request_url, true);
-
-// //Send the proper header information along with the request
-// xhr.setRequestHeader("Content-type", contentType);
-
-// xhr.send(params);

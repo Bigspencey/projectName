@@ -45,8 +45,8 @@
     "eventType": optimizelyObject.eventType,
 
     "isGlobalHoldback": optimizelyObject.isGlobalHoldback,
-    // fix this.
-    "layerStates": [optimizelyObject.layerStatesArray],
+
+    "layerStates": optimizelyObject.layerStatesArray,
 
     "projectId": optimizelyObject.projectId,
 
@@ -68,7 +68,7 @@
   xhr.open("POST", request_url, true);
   xhr.setRequestHeader('Content-Type', contentType);
   xhr.send(JSON.stringify(request_payload));
-  
+
 })();
 
 // var request_payload = {

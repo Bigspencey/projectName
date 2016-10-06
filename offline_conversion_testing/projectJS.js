@@ -5,16 +5,17 @@
 */
 
 window.optimizely = window.optimizely || [];
+var dynamicData = {};
+dynamicData.layerStatesArray = [];
 
 function collectDynamicData(layerState, retrieveUserFeatures, commitToLocalStorage) {
-  var dynamicData = {};
   dynamicData.projectId = window.optimizely.get('data').projectId;
   dynamicData.accountId = window.optimizely.get('data').accountId;
   dynamicData.sessionId = window.optimizely.get('session').sessionId;
   dynamicData.visitorId = window.optimizely.get('visitor_id').randomId;
   dynamicData.revision = window.optimizely.get('data').revision;
   dynamicData.activationId = "ActivationID_" + Math.random().toString().substring(2);
-  dynamicData.layerStatesArray = { actionActivationId: null,
+  dynamicData.layerStatesArray.push({ actionActivationId: null,
                         actionSessionId: null,
                         actionTimestamp: null,
                         actionTriggered: false,
@@ -30,7 +31,7 @@ function collectDynamicData(layerState, retrieveUserFeatures, commitToLocalStora
                         decisionTimestamp: Date.now(),
                         layerId: layerState.data.campaign.id,
                         revision: dynamicData.revision
-                      };
+                      });
   retrieveUserFeatures(dynamicData, commitToLocalStorage);
 }
 

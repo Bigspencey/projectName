@@ -34,11 +34,12 @@
   /**
    * @param {string} Event Name
    * @param {string} Event ID
+   * Usage Example: trackOptimizelyEvent("converted", "7582971455");
   **/
   
   window.trackOptimizelyEvent = function(eventName, eventId) {
-    var eventName = eventName; // "converted"
-    var eventEntityId = eventId; // "7582971455" - "Converted" for 6444573170
+    var eventName = eventName;
+    var eventEntityId = eventId;
     var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
     var request_payload = {
 

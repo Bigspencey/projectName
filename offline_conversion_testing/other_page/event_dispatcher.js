@@ -23,6 +23,7 @@
   optimizelyObject.userFeatures = retrieveUserFeatures(optimizelyObject);
 
   function retrieveUserFeatures(optimizelyObject) {
+    debugger;
     var visitor = optimizelyObject.visitor;
     optimizelyObject.userFeatures = [];
     for (var behavior in visitor.defaultBehavior) {
@@ -33,7 +34,7 @@
                                      });
     }
   }
-  
+
   var request_payload = {
 
     // Used by backend: yes

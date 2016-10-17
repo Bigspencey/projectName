@@ -13,7 +13,6 @@
   // -------------------------------------- //
 
   var eventFeatures = [];
-  var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
   var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData_" + getCookie("optimizelyEndUserId")));
   var request_url = 'https://logx.optimizely.com/log/event';
   var contentType = 'application/json';
@@ -40,6 +39,7 @@
   window.trackOptimizelyEvent = function(eventName, eventId) {
     var eventName = eventName; // "converted"
     var eventEntityId = eventId; // "7582971455" - "Converted" for 6444573170
+    var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
     var request_payload = {
 
       "accountId": optimizelyObject.accountId,

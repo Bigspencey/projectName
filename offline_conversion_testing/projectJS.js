@@ -5,16 +5,16 @@
 */
 
 window.optimizely = window.optimizely || [];
+var optimizelyObject = {};
+optimizelyObject.layerStatesArray = [];
 
 function collectVisitorData(layerState, commitToLocalStorage) {
-  var optimizelyObject = {};
   optimizelyObject.projectId = window.optimizely.get('data').projectId;
   optimizelyObject.accountId = window.optimizely.get('data').accountId;
   optimizelyObject.sessionId = window.optimizely.get('session').sessionId;
   optimizelyObject.visitorId = window.optimizely.get('visitor_id').randomId;
   optimizelyObject.revision = window.optimizely.get('data').revision;
   optimizelyObject.visitor = window.optimizely.get('visitor');
-  optimizelyObject.layerStatesArray = [];
   optimizelyObject.layerStatesArray.push({ actionActivationId: null,
                         actionSessionId: null,
                         actionTimestamp: null,

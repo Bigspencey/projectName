@@ -18,7 +18,7 @@
   var eventFeatures = [];
   var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
   var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData_" + getCookie("optimizelyEndUserId")));
-  var request_url = 'https://p13nlog.dz.optimizely.com/log/event';
+  var request_url = 'https://logx.optimizely.com/log/event';
   var contentType = 'application/json';
   optimizelyObject.userFeatures = retrieveUserFeatures(optimizelyObject);
 
@@ -53,7 +53,7 @@
 
     "clientEngine": "js",
 
-    "clientVersion": "0.30.0",
+    "clientVersion": "0.32.0",
 
     // Used by backend: yes
     // Description: The entity key can be a View.id or a UserEvent.id (page id or event id). All conversions happen based on these ids.

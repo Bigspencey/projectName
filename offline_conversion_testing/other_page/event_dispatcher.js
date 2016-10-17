@@ -17,13 +17,17 @@
 
   var eventFeatures = [];
   var eventId = "eventId" + eventEntityId + Math.random().toString().substring(2);
-  var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData"));
+  var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData_" + getCookie("optimizelyEndUserId")));
   var request_url = 'https://p13nlog.dz.optimizely.com/log/event';
   var contentType = 'application/json';
   optimizelyObject.userFeatures = retrieveUserFeatures(optimizelyObject);
 
+  function getCookie(name) {
+    var match = document.cookie.match(name+'=([^;]*)');
+    return match ? match[1] : undefined;
+  }
+
   function retrieveUserFeatures(optimizelyObject) {
-    debugger;
     var visitor = optimizelyObject.visitor;
     optimizelyObject.userFeatures = [];
     for (var behavior in visitor.defaultBehavior) {

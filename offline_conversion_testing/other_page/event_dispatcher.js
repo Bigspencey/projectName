@@ -32,51 +32,6 @@
     var match = document.cookie.match(name+'=([^;]*)');
     return match ? match[1] : undefined;
   }
-
-  var request_payload = {
-
-    "accountId": optimizelyObject.accountId,
-
-    "activationId": "ActivationID_" + Math.random().toString().substring(2),
-
-    "activeViews": [],
-
-    "clientEngine": "js",
-
-    "clientVersion": "0.32.0",
-
-    "eventEntityId": eventEntityId,
-
-    "eventFeatures": eventFeatures,
-
-    "eventId": eventId,
-
-    "eventMetrics": [],
-
-    "eventName": eventName,
-
-    "eventType": "other",
-
-    "isGlobalHoldback": false,
-
-    "layerStates": optimizelyObject.layerStatesArray,
-
-    "projectId": optimizelyObject.projectId,
-
-    "relatedEvents": [],
-
-    "revision": optimizelyObject.revision,
-
-    "sessionId": optimizelyObject.sessionId,
-
-    "timestamp": Date.now(),
-
-    "userFeatures": optimizelyObject.userFeatures,
-
-    "visitorId": optimizelyObject.visitorId
-   
-  }
-
   /**
    * @param {string} Event Name
    * @param {string} Event ID
@@ -85,6 +40,49 @@
   window.trackOptimizelyEvent = function(eventName, eventId) {
     var eventName = eventName; // "converted"
     var eventEntityId = eventId; // "7582971455" - "Converted" for 6444573170
+    var request_payload = {
+
+      "accountId": optimizelyObject.accountId,
+
+      "activationId": "ActivationID_" + Math.random().toString().substring(2),
+
+      "activeViews": [],
+
+      "clientEngine": "js",
+
+      "clientVersion": "0.32.0",
+
+      "eventEntityId": eventEntityId,
+
+      "eventFeatures": eventFeatures,
+
+      "eventId": eventId,
+
+      "eventMetrics": [],
+
+      "eventName": eventName,
+
+      "eventType": "other",
+
+      "isGlobalHoldback": false,
+
+      "layerStates": optimizelyObject.layerStatesArray,
+
+      "projectId": optimizelyObject.projectId,
+
+      "relatedEvents": [],
+
+      "revision": optimizelyObject.revision,
+
+      "sessionId": optimizelyObject.sessionId,
+
+      "timestamp": Date.now(),
+
+      "userFeatures": optimizelyObject.userFeatures,
+
+      "visitorId": optimizelyObject.visitorId
+     
+    }
     
     var xhr = new XMLHttpRequest();
     xhr.open("POST", request_url, true);

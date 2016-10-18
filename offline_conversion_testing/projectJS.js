@@ -1,6 +1,6 @@
 /*
  * This code should live in Project JavaScript. It compiles all necessary information about the visitor and commits the data to its own namespace in localStorage.
- * 10/7/16
+ * 10/17/16
  * Author: Spencer Smitherman (spencer@optimizely.com)
 */
 

@@ -1,24 +1,29 @@
 (function() {
 
-  // -------------------------------------- //
-  // Author: Spencer Smitherman (spencer@optimizely.com)
-  // 10/7/16
-  //
-  // 1. Configure custom event in Optimizely under "Implementation" > "Events".
-  // 2. Take the API Name and assign it as a string to the `eventName` variable.
-  // 3. Add the custom event to any campaign on the dashboard.
-  // 4. Go to the campaign, select "API Names" in the right rail.
-  // 5. Assign the metric ID to the eventEntityId variable.
-  //
-  // -------------------------------------- //
+  /*
+   * This code should live on any page where we want to track Optimizely events without Optimizely's snippet being present.
+   * It can be added to the page natively or delivered via a tag manager. The event_dispatcher.js code must be initialized before optimizelyTrackEvent() can be called.
+   *
+   * Author: Spencer Smitherman (spencer@optimizely.com)
+   * 10/17/16
+   *
+   * 1. Configure custom event in Optimizely under "Implementation" > "Events".
+   * 2. Take the API Name and pass it as a string to the `eventName` parameter.
+   * 3. Add the custom event to any campaign on the dashboard.
+   * 4. Go to the campaign, select "API Names" on the right rail.
+   * 5. Use the Metric ID as the `eventId` parameter when making the trackOptimizelyEvent() call.
+   *
+   * Usage Example: trackOptimizelyEvent("converted", "7582971455");
+  */
 
-  var eventFeatures = [];
   var optimizelyObject = JSON.parse(localStorage.getItem("optimizelyOfflineData_" + getCookie("optimizelyEndUserId")));
   var request_url = 'https://logx.optimizely.com/log/event';
+  var eventFeatures = [];
   var contentType = 'application/json';
   var visitor = optimizelyObject.visitor;
   optimizelyObject.userFeatures = [];
 
+  // Populate userFeatures array
   for (var behavior in visitor.defaultBehavior) {
     optimizelyObject.userFeatures.push({ type: "defaultBehavior",
                                          name: behavior, id: null,
@@ -31,10 +36,10 @@
     var match = document.cookie.match(name+'=([^;]*)');
     return match ? match[1] : undefined;
   }
+
   /**
    * @param {string} Event Name
    * @param {string} Event ID
-   * Usage Example: trackOptimizelyEvent("converted", "7582971455");
   **/
   
   window.trackOptimizelyEvent = function(eventName, eventId) {

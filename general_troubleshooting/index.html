@@ -12,11 +12,22 @@
 			//     document.cookie=c_name + "=" + c_value + ";" + c_domain + "path=/";
 			// }
 			// setCookie('optimizelyOptOut', 'true', 1, ".bigspencey.github.io");
+
+			// This didn't work. Optimizely never re-activates despite calling activate.
+			// window["optimizely"] = window["optimizely"] || [];
+			// window["optimizely"].push({
+			//   "type": "optOut",
+			//   "isOptOut": true
+			// });
+
+
 			window["optimizely"] = window["optimizely"] || [];
 			window["optimizely"].push({
-			  "type": "optOut",
-			  "isOptOut": true
+			  "type": "disable",
+			  "scope": "tracking"
 			});
+  
+
 		</script>
 		<script src="https://cdn.optimizely.com/js/7786562119.js"></script>
 	</head>

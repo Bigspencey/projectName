@@ -30,7 +30,6 @@
 		<script type="text/javascript">
 			$("button").on("click", function() {
 				delete optimizely;
-				document.cookie = "optimizelyOptOut" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 				var script = document.createElement('script');
 				script.type = 'text/javascript';
 				script.src = "https://cdn.optimizely.com/js/7786562119.js";

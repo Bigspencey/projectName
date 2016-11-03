@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Example Page</title>
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			// function setCookie(c_name,value,exdays,c_domain) {
+			//     c_domain = (typeof c_domain === "undefined") ? "" : "domain=" + c_domain + ";";
+			//     var exdate=new Date();
+			//     exdate.setDate(exdate.getDate() + exdays);
+			//     var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+			//     document.cookie=c_name + "=" + c_value + ";" + c_domain + "path=/";
+			// }
+			// setCookie('optimizelyOptOut', 'true', 1, ".bigspencey.github.io");
+			window["optimizely"] = window["optimizely"] || [];
+			window["optimizely"].push({
+			  "type": "optOut",
+			  "isOptOut": false
+			});
+		</script>
+		<script src="https://cdn.optimizely.com/js/7786562119.js"></script>
+	</head>
+	<body>
+		<h1>Hello World</h1>
+		<p>This is a sample page to troubleshoot issues with Optimizely.</p>
+		<button>This is a button</button>
+
+		<p>This is a paragraph tag.</p>
+		<p>You're in the Control/Original</p>
+	</body>
+</html>

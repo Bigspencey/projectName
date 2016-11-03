@@ -13,20 +13,18 @@
 			// }
 			// setCookie('optimizelyOptOut', 'true', 1, ".bigspencey.github.io");
 
-			// This didn't work. Optimizely never re-activates despite calling activate.
-			// window["optimizely"] = window["optimizely"] || [];
-			// window["optimizely"].push({
-			//   "type": "optOut",
-			//   "isOptOut": true
-			// });
-
-
 			window["optimizely"] = window["optimizely"] || [];
 			window["optimizely"].push({
-			  "type": "disable",
-			  "scope": "tracking"
+			  "type": "optOut",
+			  "isOptOut": true
 			});
-  
+
+			// This doesn't work. You can't re-enable tracking after this call.
+			// window["optimizely"] = window["optimizely"] || [];
+			// window["optimizely"].push({
+			//   "type": "disable",
+			//   "scope": "tracking"
+			// });
 
 		</script>
 		<script src="https://cdn.optimizely.com/js/7786562119.js"></script>
@@ -34,9 +32,17 @@
 	<body>
 		<h1>Hello World</h1>
 		<p>This is a sample page to troubleshoot issues with Optimizely.</p>
-		<button>This is a button</button>
+		<button>This is a button to re-activate Optimizely.</button>
 
 		<p>This is a paragraph tag.</p>
 		<p>You're not in the experiment.</p>
+		<script type="text/javascript">
+			$("button").on("click", function() {
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.src = "https://cdn.optimizely.com/js/7786562119.js";
+				$("body").append(script);
+			});
+		</script>
 	</body>
 </html>

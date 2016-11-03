@@ -29,7 +29,18 @@
 		<p>You're not in the experiment.</p>
 		<script type="text/javascript">
 			$("button").on("click", function() {
+				// Delete optimizely object
 				delete optimizely;
+
+				// Delete optimizleyOptOut cookie.
+				function delete_cookie( name, path, domain ) {
+				    document.cookie = name + "=" +
+				      ((path) ? ";path="+path:"")+
+				      ((domain)?";domain="+domain:"") +
+				      ";expires=Thu, 01 Jan 1970 00:00:01 GMT";
+				}
+				delete_cookie("optimizelyOptOut", "/", ".bigspencey.github.io");
+
 				var script = document.createElement('script');
 				script.type = 'text/javascript';
 				script.src = "https://cdn.optimizely.com/js/7786562119.js";

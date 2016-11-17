@@ -54,7 +54,7 @@
 
       "activeViews": [],
 
-      "clientEngine": "js",
+      "clientEngine": "offline",
 
       "clientVersion": "0.32.0",
 

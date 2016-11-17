@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Other Page</title>
-		<!-- <script src="https://cdn.optimizely.com/js/6444573170.js"></script> -->
-		<script   src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<title>Example Page</title>
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			function setCookie(c_name,value,exdays,c_domain) {
+			    c_domain = (typeof c_domain === "undefined") ? "" : "domain=" + c_domain + ";";
+			    var exdate=new Date();
+			    exdate.setDate(exdate.getDate() + exdays);
+			    var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+			    document.cookie=c_name + "=" + c_value + ";" + c_domain + "path=/";
+			}
+			// setCookie('optimizelyOptOut', 'true', 3650, ".bigspencey.github.io");
+		</script>
+		<script src="https://cdn.optimizely.com/js/6444573170.js"></script>
 	</head>
 	<body>
-		<h1>Hey World</h1>
-		<p>This is an another sample page to troubleshoot issues with Optimizely. There is no snippet included on this page.</p>
-		<script type="text/javascript" src="./event_dispatcher.js"></script>
+		<h1>Hello World</h1>
+		<p>This is a sample page to troubleshoot issues with Optimizely.</p>
+		<a href="http://bigspencey.github.io/projectName/offline_conversion_testing/other_page/index.html"><button id="button">Click Here to go to the next page!</button></a>
+		<button>Click here to send an event!</button>
+		<button>Send a second event!</button>
+
+		<p>SpencerTestingTag</p>
+		<p>AnotherGreatTagValue</p>
+<!-- 		<script type="text/javascript">
+			$("#button").on("click", function() {
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.src = "https://cdn.optimizely.com/js/6444573170.js";
+				$("body").append(script);
+			});
+		</script> -->
 	</body>
 </html>
